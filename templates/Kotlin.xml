@@ -1,0 +1,10 @@
+<templateSet group="Kotlin">
+  <template name="log" value="val log = LoggerFactory.getLogger(this.javaClass)" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
+      <option name="KOTLIN_OBJECT_DECLARATION" value="true" />
+      <option name="KOTLIN_STATEMENT" value="true" />
+      <option name="KOTLIN_TOPLEVEL" value="true" />
+    </context>
+  </template>
+</templateSet>
