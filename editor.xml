@@ -17,6 +17,8 @@
   <component name="EditorSettings">
     <option name="languageBreadcrumbsMap">
       <map>
+        <entry key="CSS" value="false" />
+        <entry key="Groovy" value="true" />
         <entry key="HTML" value="false" />
         <entry key="Haml" value="false" />
         <entry key="JAVA" value="true" />
