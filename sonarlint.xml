@@ -4,6 +4,7 @@
     <rules>
       <Rule active="false" key="java:S1172" />
       <Rule active="false" key="java:S117" />
+      <Rule active="false" key="java:S2094" />
       <Rule active="false" key="java:S1854" />
     </rules>
   </component>
