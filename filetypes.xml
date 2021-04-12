@@ -1,6 +1,7 @@
 <application>
-  <component name="FileTypeManager" version="17">
+  <component name="FileTypeManager" version="18">
     <extensionMap>
+      <mapping ext="space.kts" type="Kotlin" />
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="main.kts" type="Kotlin" />
       <mapping pattern="test" type="PLAIN_TEXT" />
@@ -10,6 +11,10 @@
       <mapping pattern="V65_1_1__add_field_to_asset_portfolio" type="SQL" />
       <mapping pattern="fund_view_permission" type="SQL" />
       <mapping pattern="V70_1_3__add_field_asset_factor" type="SQL" />
+      <removed_mapping ext="yml" type="YAML" />
+      <removed_mapping ext="yaml" type="YAML" />
+      <mapping ext="yaml" type="YAML_EX" />
+      <mapping ext="yml" type="YAML_EX" />
     </extensionMap>
   </component>
 </application>
