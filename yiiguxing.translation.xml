@@ -3,6 +3,10 @@
     <option name="newTranslationDialogX" value="568" />
     <option name="newTranslationDialogY" value="396" />
     <histories>
+      <item value="combiner" />
+      <item value="Collectors" />
+      <item value="unmodifiable Set" />
+      <item value="unmodifiable" />
       <item value="public" />
       <item value="relinquish" />
     </histories>
