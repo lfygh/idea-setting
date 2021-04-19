@@ -11,10 +11,8 @@
       <mapping pattern="V65_1_1__add_field_to_asset_portfolio" type="SQL" />
       <mapping pattern="fund_view_permission" type="SQL" />
       <mapping pattern="V70_1_3__add_field_asset_factor" type="SQL" />
-      <mapping ext="yaml" type="YAML" />
-      <mapping ext="yml" type="YAML" />
-      <removed_mapping ext="yml" type="YAML_EX" />
       <removed_mapping ext="yaml" type="YAML_EX" />
+      <removed_mapping ext="yml" type="YAML_EX" />
     </extensionMap>
   </component>
 </application>
