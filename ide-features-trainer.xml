@@ -34,7 +34,7 @@
         <entry key="search everywhere" value="NOT_PASSED" />
         <entry key="select" value="NOT_PASSED" />
         <entry key="smart type completion" value="NOT_PASSED" />
-        <entry key="statement completion" value="NOT_PASSED" />
+        <entry key="statement completion" value="PASSED" />
         <entry key="surround and unwrap" value="NOT_PASSED" />
       </map>
     </option>
