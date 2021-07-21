@@ -1,6 +1,17 @@
 <application>
+  <component name="AppStorage">
+    <histories>
+      <item value="PARTIAL" />
+    </histories>
+    <option name="languageScores">
+      <map>
+        <entry key="CHINESE" value="1" />
+        <entry key="ENGLISH" value="1" />
+      </map>
+    </option>
+  </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1626418052450" />
+    <option name="lastTrimTime" value="1626868900441" />
   </component>
   <component name="Settings">
     <option name="keepFormat" value="true" />
