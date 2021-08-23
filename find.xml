@@ -1,10 +1,10 @@
 <application>
   <component name="FindSettings">
     <option name="caseSensitive" value="true" />
-    <option name="customScope" value="File '.../bar-svc-task/src/main/java/com/betalpha/asset/allocation/service/AssetStrategyBackTestingService.java [parent.bar-svc-task.main]'" />
-    <option name="defaultScopeName" value="File '.../bar-svc-task/src/main/java/com/betalpha/asset/allocation/service/AssetStrategyBackTestingService.java [parent.bar-svc-task.main]'" />
+    <option name="customScope" value="Project 'parent'" />
+    <option name="defaultScopeName" value="Project 'parent'" />
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
-    <option name="SEARCH_SCOPE" value="File '.../bar-svc-task/src/main/java/com/betalpha/asset/allocation/service/AssetStrategyBackTestingService.java [parent.bar-svc-task.main]'" />
+    <option name="SEARCH_SCOPE" value="Project 'parent'" />
     <mask>*.sql</mask>
   </component>
 </application>
