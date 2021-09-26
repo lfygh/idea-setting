@@ -58,6 +58,10 @@
           <option name="url" value="ssh://git@121.42.167.118:4022/chenyouguo/bar-engine-x.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/sofastack/sofa-jraft.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="$USER_HOME$/IdeaProjects" />
