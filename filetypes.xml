@@ -6,6 +6,7 @@
       <mapping ext="space.kts" type="Kotlin" />
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="main.kts" type="Kotlin" />
+      <mapping ext="pro" type="PLAIN_TEXT" />
       <mapping ext="property" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
