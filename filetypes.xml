@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="18">
     <extensionMap>
       <mapping pattern="V79_1_0__alter_sale_proxy_of_fund_of_info" type="AUTO_DETECTED" />
+      <mapping pattern="brinson_data_set" type="AUTO_DETECTED" />
       <mapping pattern="RepositoryDelegte" type="JAVA" />
       <mapping ext="space.kts" type="Kotlin" />
       <mapping ext="gradle.kts" type="Kotlin" />
