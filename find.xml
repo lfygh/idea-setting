@@ -3,8 +3,10 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.grad" />
     <mask>*.sql</mask>
     <mask>*.py</mask>
     <mask>*.java</mask>
+    <mask>*.grad</mask>
   </component>
 </application>
