@@ -47,6 +47,11 @@
                       <FeaturePluginData displayName="BSP test" pluginName="Scala" pluginId="org.intellij.scala" />
                     </value>
                   </entry>
+                  <entry key="CargoCommandRunConfiguration">
+                    <value>
+                      <FeaturePluginData displayName="Cargo" pluginName="Rust" pluginId="org.rust.lang" />
+                    </value>
+                  </entry>
                   <entry key="CompoundRunConfigurationType">
                     <value>
                       <FeaturePluginData displayName="Compound" pluginName="IDEA CORE" pluginId="com.intellij" bundled="true" />
@@ -260,6 +265,11 @@
                   <entry key="UtPlSqlConfigurationType">
                     <value>
                       <FeaturePluginData displayName="utPLSQL Test" pluginName="Database Tools and SQL" pluginId="com.intellij.database" bundled="true" />
+                    </value>
+                  </entry>
+                  <entry key="WasmPackCommandRunConfiguration">
+                    <value>
+                      <FeaturePluginData displayName="wasm-pack" pluginName="Rust" pluginId="org.rust.lang" />
                     </value>
                   </entry>
                   <entry key="WebSphereRunConfigurationType">
