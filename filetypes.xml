@@ -1,12 +1,27 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
-      <mapping pattern="V79_1_0__alter_sale_proxy_of_fund_of_info" type="AUTO_DETECTED" />
       <mapping pattern="brinson_data_set" type="AUTO_DETECTED" />
+      <mapping pattern="V79_1_0__alter_sale_proxy_of_fund_of_info" type="AUTO_DETECTED" />
       <mapping pattern="RepositoryDelegte" type="JAVA" />
+      <mapping pattern="jest.config" type="JSON" />
+      <mapping pattern=".eslintrc" type="JSON" />
+      <mapping pattern="bowerrc" type="JSON" />
+      <mapping pattern=".stylelintrc" type="JSON" />
+      <mapping pattern=".babelrc" type="JSON" />
+      <mapping ext="jsb3" type="JSON" />
+      <mapping ext="jsb2" type="JSON" />
       <mapping ext="space.kts" type="Kotlin" />
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="main.kts" type="Kotlin" />
+      <mapping pattern=".stylelintignore" type="PLAIN_TEXT" />
+      <mapping pattern=".jshintignore" type="PLAIN_TEXT" />
+      <mapping pattern=".nvmrc" type="PLAIN_TEXT" />
+      <mapping pattern=".yarnrc" type="PLAIN_TEXT" />
+      <mapping pattern=".npmignore" type="PLAIN_TEXT" />
+      <mapping pattern=".npmrc" type="PLAIN_TEXT" />
+      <mapping pattern=".node-version" type="PLAIN_TEXT" />
+      <mapping pattern=".eslintignore" type="PLAIN_TEXT" />
       <mapping ext="pro" type="PLAIN_TEXT" />
       <mapping ext="property" type="PLAIN_TEXT" />
     </extensionMap>
