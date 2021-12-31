@@ -2,9 +2,6 @@
   <component name="ShowUsagesSettings">
     <option name="GROUP_BY_FILE_STRUCTURE" value="true" />
   </component>
-  <component name="UsageInGeneratedCodeFilteringSetting">
-    <option name="enabled" value="false" />
-  </component>
   <component name="UsageViewSettings">
     <option name="PREVIEW_USAGES_SPLITTER_PROPORTIONS" value="0.27203894" />
   </component>
