@@ -66,6 +66,14 @@
           <option name="url" value="https://github.com/qos-ch/slf4j.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://code.betalpha.com/betalpha/barbeyond-doc-site.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://code.betalpha.com" />
+          <option name="userName" value="yanguanghui@betalpha.com" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="$USER_HOME$/IdeaProjects" />
