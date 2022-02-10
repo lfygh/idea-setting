@@ -1,18 +1,20 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="he identifier of the encoding used to encode the bytes in value. The supported values in this implementation are LATIN1 UTF16&#10;Implementation Note:&#10;This field is trusted by the VM, and is a subject to constant folding if String instance is constant. Overwriting this field after construction will cause problems." />
+      <item value="This field is trusted by the VM, and is a subject to constant folding if String instance is constant. Overwriting this field after construction will cause problems. Additionally, it is marked with Stable to trust the contents of the array. No other facility in JDK provides this functionality (yet). Stable is safe here, because value is never null." />
       <item value="conduct" />
       <item value="PARTIAL" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="3" />
-        <entry key="ENGLISH" value="4" />
+        <entry key="CHINESE" value="5" />
+        <entry key="ENGLISH" value="6" />
       </map>
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1643012713309" />
+    <option name="lastTrimTime" value="1644504898436" />
   </component>
   <component name="Settings">
     <option name="keepFormat" value="true" />
