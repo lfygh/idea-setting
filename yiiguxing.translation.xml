@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Hedging Plan" />
       <item value="he identifier of the encoding used to encode the bytes in value. The supported values in this implementation are LATIN1 UTF16&#10;Implementation Note:&#10;This field is trusted by the VM, and is a subject to constant folding if String instance is constant. Overwriting this field after construction will cause problems." />
       <item value="This field is trusted by the VM, and is a subject to constant folding if String instance is constant. Overwriting this field after construction will cause problems. Additionally, it is marked with Stable to trust the contents of the array. No other facility in JDK provides this functionality (yet). Stable is safe here, because value is never null." />
       <item value="conduct" />
@@ -8,8 +9,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="5" />
-        <entry key="ENGLISH" value="6" />
+        <entry key="CHINESE" value="6" />
+        <entry key="ENGLISH" value="7" />
       </map>
     </option>
   </component>
