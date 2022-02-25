@@ -1,6 +1,16 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value=" it has no bearing on the permitted operations on ClientCall (but it may impact whether they do anything)" />
+      <item value="Methods are guaranteed to be non-blocking. Not thread-safe except for request, which may be called from any thread.&#10;" />
+      <item value="No generic method for determining message receipt or providing acknowledgement is provided. Applications are expected to utilize normal payload messages for such signals, as a response naturally acknowledges its request.&#10;" />
+      <item value=", with the exception of " />
+      <item value="exception" />
+      <item value="start must be called prior to calling any other methods, with the exception of cancel. Whereas cancel must not be followed by any other methods, but can be called more than once, while only the first one has effect." />
+      <item value=". Common reasons for doing so would be the need to interact with flow-control or when acting as a generic proxy for arbitrary operations." />
+      <item value="consume" />
+      <item value="opposed" />
+      <item value="More advanced usages may consume this interface directly as opposed to using a stub" />
       <item value="trailer" />
       <item value="Hedging Plan" />
       <item value="he identifier of the encoding used to encode the bytes in value. The supported values in this implementation are LATIN1 UTF16&#10;Implementation Note:&#10;This field is trusted by the VM, and is a subject to constant folding if String instance is constant. Overwriting this field after construction will cause problems." />
@@ -10,8 +20,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="7" />
-        <entry key="ENGLISH" value="8" />
+        <entry key="CHINESE" value="17" />
+        <entry key="ENGLISH" value="18" />
       </map>
     </option>
   </component>
