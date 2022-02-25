@@ -1,6 +1,16 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="spurious" />
+      <item value="excessive" />
+      <item value="This indicates that the ClientCall may now be capable of sending additional messages (via sendMessage) without requiring excessive buffering internally" />
+      <item value="trailers" />
+      <item value="The ClientCall has been closed. Any additional calls to the ClientCall will not be processed by the server. No further receiving will occur and no further notifications will be made." />
+      <item value="Since Metadata is not thread-safe, the caller must not access (read or write) headers after this point." />
+      <item value="Headers always precede messages." />
+      <item value=" thread-hostile" />
+      <item value="The following snippet demonstrates a bi-directional streaming case, where the client sends requests produced by a fictional makeNextRequest() in a flow-control-compliant manner, and notifies gRPC library to receive additional response after one is consumed by a fictional processResponse()" />
+      <item value="There is a race between cancel and the completionfailure of the RPC in other ways. If cancel won the race, Listener.onClose() is called with CANCELLED. Otherwise, Listener.onClose() is called with whatever status the RPC was finished. We ensure that at most one is called." />
       <item value=" it has no bearing on the permitted operations on ClientCall (but it may impact whether they do anything)" />
       <item value="Methods are guaranteed to be non-blocking. Not thread-safe except for request, which may be called from any thread.&#10;" />
       <item value="No generic method for determining message receipt or providing acknowledgement is provided. Applications are expected to utilize normal payload messages for such signals, as a response naturally acknowledges its request.&#10;" />
@@ -20,8 +30,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="17" />
-        <entry key="ENGLISH" value="18" />
+        <entry key="CHINESE" value="27" />
+        <entry key="ENGLISH" value="28" />
       </map>
     </option>
   </component>
