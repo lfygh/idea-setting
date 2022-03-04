@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value=" &#10;The combine function is used to compose the materialized values of this flow and that flow into the materialized value of the resulting Flow." />
       <item value="afterwards" />
       <item value="Initiates" />
       <item value="A context propagation mechanism which can carry scoped-values across API boundaries and between threads." />
@@ -45,8 +46,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="43" />
-        <entry key="ENGLISH" value="44" />
+        <entry key="CHINESE" value="44" />
+        <entry key="ENGLISH" value="45" />
       </map>
     </option>
   </component>
