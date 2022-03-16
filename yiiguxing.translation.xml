@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="if the computation detectably attempts a recursive update to this map that would otherwise never complete" />
       <item value="lmdbjava.disable.extract" />
       <item value=" &#10;The combine function is used to compose the materialized values of this flow and that flow into the materialized value of the resulting Flow." />
       <item value="afterwards" />
@@ -47,8 +48,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="44" />
-        <entry key="ENGLISH" value="45" />
+        <entry key="CHINESE" value="45" />
+        <entry key="ENGLISH" value="46" />
       </map>
     </option>
   </component>
