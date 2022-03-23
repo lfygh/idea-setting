@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="This method is potentially much more efficient than a simple loop that reads from this channel and writes to the target channel. Many operating systems can transfer bytes directly from the filesystem cache to the target channel without actually copying them.&#10;Params:&#10;" />
+      <item value=" If the target channel has a position then bytes are written starting at that position and then the position is incremented by the number of bytes written." />
       <item value="        Double" />
       <item value="if the computation detectably attempts a recursive update to this map that would otherwise never complete" />
       <item value="lmdbjava.disable.extract" />
@@ -49,8 +51,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="45" />
-        <entry key="ENGLISH" value="46" />
+        <entry key="CHINESE" value="47" />
+        <entry key="ENGLISH" value="48" />
       </map>
     </option>
   </component>
