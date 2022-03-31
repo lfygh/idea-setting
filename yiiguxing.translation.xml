@@ -1,6 +1,10 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="It is therefore strongly recommended that appropriate precautions be taken to avoid the manipulation of a mapped file by this program, or by a concurrently running program, except to read or write the file's content" />
+      <item value="An attempt to access an inaccessible region of a mapped byte buffer will not change the buffer's content and will cause an unspecified exception to be thrown either at the time of the access or at some later time" />
+      <item value="All or part of a mapped byte buffer may become inaccessible at any time," />
+      <item value="Whether or not such changes occur, and when they occur, is operating-system dependent and therefore unspecified. " />
       <item value="A mapped byte buffer and the file mapping that it represents remain valid until the buffer itself is garbage-collected." />
       <item value="This method is potentially much more efficient than a simple loop that reads from this channel and writes to the target channel. Many operating systems can transfer bytes directly from the filesystem cache to the target channel without actually copying them.&#10;Params:&#10;" />
       <item value=" If the target channel has a position then bytes are written starting at that position and then the position is incremented by the number of bytes written." />
@@ -47,13 +51,11 @@
       <item value="Hedging Plan" />
       <item value="he identifier of the encoding used to encode the bytes in value. The supported values in this implementation are LATIN1 UTF16&#10;Implementation Note:&#10;This field is trusted by the VM, and is a subject to constant folding if String instance is constant. Overwriting this field after construction will cause problems." />
       <item value="This field is trusted by the VM, and is a subject to constant folding if String instance is constant. Overwriting this field after construction will cause problems. Additionally, it is marked with Stable to trust the contents of the array. No other facility in JDK provides this functionality (yet). Stable is safe here, because value is never null." />
-      <item value="conduct" />
-      <item value="PARTIAL" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="48" />
-        <entry key="ENGLISH" value="49" />
+        <entry key="CHINESE" value="52" />
+        <entry key="ENGLISH" value="53" />
       </map>
     </option>
   </component>
