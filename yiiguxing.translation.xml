@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Returns the byte array that backs this buffer  (optional operation)." />
+      <item value="backs" />
       <item value="It is therefore strongly recommended that appropriate precautions be taken to avoid the manipulation of a mapped file by this program, or by a concurrently running program, except to read or write the file's content" />
       <item value="An attempt to access an inaccessible region of a mapped byte buffer will not change the buffer's content and will cause an unspecified exception to be thrown either at the time of the access or at some later time" />
       <item value="All or part of a mapped byte buffer may become inaccessible at any time," />
@@ -49,13 +51,11 @@
       <item value="More advanced usages may consume this interface directly as opposed to using a stub" />
       <item value="trailer" />
       <item value="Hedging Plan" />
-      <item value="he identifier of the encoding used to encode the bytes in value. The supported values in this implementation are LATIN1 UTF16&#10;Implementation Note:&#10;This field is trusted by the VM, and is a subject to constant folding if String instance is constant. Overwriting this field after construction will cause problems." />
-      <item value="This field is trusted by the VM, and is a subject to constant folding if String instance is constant. Overwriting this field after construction will cause problems. Additionally, it is marked with Stable to trust the contents of the array. No other facility in JDK provides this functionality (yet). Stable is safe here, because value is never null." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="52" />
-        <entry key="ENGLISH" value="53" />
+        <entry key="CHINESE" value="54" />
+        <entry key="ENGLISH" value="55" />
       </map>
     </option>
   </component>
