@@ -1,6 +1,12 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="&#10;For most operating systems, mapping a file into memory is more expensive than reading or writing a few tens of kilobytes of data via the usual read and write methods. From the standpoint of performance it is generally only worth mapping relatively large files into memory." />
+      <item value="Many of the details of memory-mapped files are inherently dependent upon the underlying operating system and are therefore unspecified. The behavior of this method when the requested region is not completely contained within this channel's file is unspecified. Whether changes made to the content or size of the underlying file, by this program or another, are propagated to the buffer is unspecified. The rate at which changes to the buffer are propagated to the file is unspecified." />
+      <item value="A mapping, once established, is not dependent upon the file channel that was used to create it. Closing the channel, in particular, has no effect upon the validity of the mapping." />
+      <item value="The mapped byte buffer returned by this method will have a position of zero and a limit and capacity of size; its mark will be undefined. The buffer and the mapping that it represents will remain valid until the buffer itself is garbage-collected.&#10;" />
+      <item value="&#10;Private: Changes made to the resulting buffer will not be propagated to the file and will not be visible to other programs that have mapped the same file; instead, they will cause private copies of the modified portions of the buffer to be created. (MapMode.PRIVATE)" />
+      <item value="Readwrite: Changes made to the resulting buffer will eventually be propagated to the file; they may or may not be made visible to other programs that have mapped the same file. (MapMode.READ_WRITE)" />
       <item value="Returns the byte array that backs this buffer  (optional operation)." />
       <item value="backs" />
       <item value="It is therefore strongly recommended that appropriate precautions be taken to avoid the manipulation of a mapped file by this program, or by a concurrently running program, except to read or write the file's content" />
@@ -45,17 +51,11 @@
       <item value=", with the exception of " />
       <item value="exception" />
       <item value="start must be called prior to calling any other methods, with the exception of cancel. Whereas cancel must not be followed by any other methods, but can be called more than once, while only the first one has effect." />
-      <item value=". Common reasons for doing so would be the need to interact with flow-control or when acting as a generic proxy for arbitrary operations." />
-      <item value="consume" />
-      <item value="opposed" />
-      <item value="More advanced usages may consume this interface directly as opposed to using a stub" />
-      <item value="trailer" />
-      <item value="Hedging Plan" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="54" />
-        <entry key="ENGLISH" value="55" />
+        <entry key="CHINESE" value="60" />
+        <entry key="ENGLISH" value="61" />
       </map>
     </option>
   </component>
