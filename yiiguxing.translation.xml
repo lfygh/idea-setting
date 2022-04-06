@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="robust" />
+      <item value="Cleaners are a lightweight and more robust alternative to finalization" />
       <item value="&#10;For most operating systems, mapping a file into memory is more expensive than reading or writing a few tens of kilobytes of data via the usual read and write methods. From the standpoint of performance it is generally only worth mapping relatively large files into memory." />
       <item value="Many of the details of memory-mapped files are inherently dependent upon the underlying operating system and are therefore unspecified. The behavior of this method when the requested region is not completely contained within this channel's file is unspecified. Whether changes made to the content or size of the underlying file, by this program or another, are propagated to the buffer is unspecified. The rate at which changes to the buffer are propagated to the file is unspecified." />
       <item value="A mapping, once established, is not dependent upon the file channel that was used to create it. Closing the channel, in particular, has no effect upon the validity of the mapping." />
@@ -49,13 +51,11 @@
       <item value="Methods are guaranteed to be non-blocking. Not thread-safe except for request, which may be called from any thread.&#10;" />
       <item value="No generic method for determining message receipt or providing acknowledgement is provided. Applications are expected to utilize normal payload messages for such signals, as a response naturally acknowledges its request.&#10;" />
       <item value=", with the exception of " />
-      <item value="exception" />
-      <item value="start must be called prior to calling any other methods, with the exception of cancel. Whereas cancel must not be followed by any other methods, but can be called more than once, while only the first one has effect." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="60" />
-        <entry key="ENGLISH" value="61" />
+        <entry key="CHINESE" value="62" />
+        <entry key="ENGLISH" value="63" />
       </map>
     </option>
   </component>
