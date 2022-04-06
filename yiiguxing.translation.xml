@@ -1,6 +1,9 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Treated specially by GC" />
+      <item value="Treated" />
+      <item value="Abstract base class for reference objects. This class defines the operations common to all reference objects. Because reference objects are implemented in close cooperation with the garbage collector, this class may not be subclassed directly" />
       <item value="robust" />
       <item value="Cleaners are a lightweight and more robust alternative to finalization" />
       <item value="&#10;For most operating systems, mapping a file into memory is more expensive than reading or writing a few tens of kilobytes of data via the usual read and write methods. From the standpoint of performance it is generally only worth mapping relatively large files into memory." />
@@ -48,14 +51,11 @@
       <item value="The following snippet demonstrates a bi-directional streaming case, where the client sends requests produced by a fictional makeNextRequest() in a flow-control-compliant manner, and notifies gRPC library to receive additional response after one is consumed by a fictional processResponse()" />
       <item value="There is a race between cancel and the completionfailure of the RPC in other ways. If cancel won the race, Listener.onClose() is called with CANCELLED. Otherwise, Listener.onClose() is called with whatever status the RPC was finished. We ensure that at most one is called." />
       <item value=" it has no bearing on the permitted operations on ClientCall (but it may impact whether they do anything)" />
-      <item value="Methods are guaranteed to be non-blocking. Not thread-safe except for request, which may be called from any thread.&#10;" />
-      <item value="No generic method for determining message receipt or providing acknowledgement is provided. Applications are expected to utilize normal payload messages for such signals, as a response naturally acknowledges its request.&#10;" />
-      <item value=", with the exception of " />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="62" />
-        <entry key="ENGLISH" value="63" />
+        <entry key="CHINESE" value="65" />
+        <entry key="ENGLISH" value="66" />
       </map>
     </option>
   </component>
