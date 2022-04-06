@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Reference queues, to which registered reference objects are appended by the garbage collector after the appropriate reachability changes are detected." />
       <item value="Treated specially by GC" />
       <item value="Treated" />
       <item value="Abstract base class for reference objects. This class defines the operations common to all reference objects. Because reference objects are implemented in close cooperation with the garbage collector, this class may not be subclassed directly" />
@@ -50,12 +51,11 @@
       <item value=" thread-hostile" />
       <item value="The following snippet demonstrates a bi-directional streaming case, where the client sends requests produced by a fictional makeNextRequest() in a flow-control-compliant manner, and notifies gRPC library to receive additional response after one is consumed by a fictional processResponse()" />
       <item value="There is a race between cancel and the completionfailure of the RPC in other ways. If cancel won the race, Listener.onClose() is called with CANCELLED. Otherwise, Listener.onClose() is called with whatever status the RPC was finished. We ensure that at most one is called." />
-      <item value=" it has no bearing on the permitted operations on ClientCall (but it may impact whether they do anything)" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="65" />
-        <entry key="ENGLISH" value="66" />
+        <entry key="CHINESE" value="66" />
+        <entry key="ENGLISH" value="67" />
       </map>
     </option>
   </component>
