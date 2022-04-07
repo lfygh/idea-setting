@@ -1,6 +1,9 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Return true as a hint that there might be another Reference pending or false when there are no more pending References at the moment and the program can do some other useful work instead of looping." />
+      <item value="robust" />
+      <item value="General-purpose phantom-reference-based cleaners." />
       <item value="Tells whether or not this reference object has been enqueued, either by the program or by the garbage collector. If this reference object was not registered with a queue when it was created, then this method will always return false." />
       <item value="Subject" />
       <item value="really" />
@@ -8,7 +11,6 @@
       <item value="Treated specially by GC" />
       <item value="Treated" />
       <item value="Abstract base class for reference objects. This class defines the operations common to all reference objects. Because reference objects are implemented in close cooperation with the garbage collector, this class may not be subclassed directly" />
-      <item value="robust" />
       <item value="Cleaners are a lightweight and more robust alternative to finalization" />
       <item value="&#10;For most operating systems, mapping a file into memory is more expensive than reading or writing a few tens of kilobytes of data via the usual read and write methods. From the standpoint of performance it is generally only worth mapping relatively large files into memory." />
       <item value="Many of the details of memory-mapped files are inherently dependent upon the underlying operating system and are therefore unspecified. The behavior of this method when the requested region is not completely contained within this channel's file is unspecified. Whether changes made to the content or size of the underlying file, by this program or another, are propagated to the buffer is unspecified. The rate at which changes to the buffer are propagated to the file is unspecified." />
@@ -49,13 +51,11 @@
       <item value="This indicates that the ClientCall may now be capable of sending additional messages (via sendMessage) without requiring excessive buffering internally" />
       <item value="trailers" />
       <item value="The ClientCall has been closed. Any additional calls to the ClientCall will not be processed by the server. No further receiving will occur and no further notifications will be made." />
-      <item value="Since Metadata is not thread-safe, the caller must not access (read or write) headers after this point." />
-      <item value="Headers always precede messages." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="69" />
-        <entry key="ENGLISH" value="70" />
+        <entry key="CHINESE" value="72" />
+        <entry key="ENGLISH" value="73" />
       </map>
     </option>
   </component>
