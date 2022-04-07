@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Clears this reference object and adds it to the queue with which it is registered, if any.&#10;This method is invoked only by Java code; when the garbage collector enqueues references it does so directly, without invoking this method." />
       <item value="Return true as a hint that there might be another Reference pending or false when there are no more pending References at the moment and the program can do some other useful work instead of looping." />
       <item value="robust" />
       <item value="General-purpose phantom-reference-based cleaners." />
@@ -50,12 +51,11 @@
       <item value="excessive" />
       <item value="This indicates that the ClientCall may now be capable of sending additional messages (via sendMessage) without requiring excessive buffering internally" />
       <item value="trailers" />
-      <item value="The ClientCall has been closed. Any additional calls to the ClientCall will not be processed by the server. No further receiving will occur and no further notifications will be made." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="72" />
-        <entry key="ENGLISH" value="73" />
+        <entry key="CHINESE" value="73" />
+        <entry key="ENGLISH" value="74" />
       </map>
     </option>
   </component>
