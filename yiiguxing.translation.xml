@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Tells whether or not this reference object has been enqueued, either by the program or by the garbage collector. If this reference object was not registered with a queue when it was created, then this method will always return false." />
       <item value="Subject" />
       <item value="really" />
       <item value="Reference queues, to which registered reference objects are appended by the garbage collector after the appropriate reachability changes are detected." />
@@ -50,12 +51,11 @@
       <item value="The ClientCall has been closed. Any additional calls to the ClientCall will not be processed by the server. No further receiving will occur and no further notifications will be made." />
       <item value="Since Metadata is not thread-safe, the caller must not access (read or write) headers after this point." />
       <item value="Headers always precede messages." />
-      <item value=" thread-hostile" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="68" />
-        <entry key="ENGLISH" value="69" />
+        <entry key="CHINESE" value="69" />
+        <entry key="ENGLISH" value="70" />
       </map>
     </option>
   </component>
