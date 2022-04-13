@@ -1,6 +1,10 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="refinement" />
+      <item value="A refinement of StreamObserver provided by the GRPC runtime to the application (the client or the server) that allows for more complex interactions with call behavior." />
+      <item value="This API is asynchronous, so methods may return before the operation completes. The API provides no guarantees for how quickly an operation will complete, so utilizing flow control via ClientCallStreamObserver and ServerCallStreamObserver to avoid excessive buffering is recommended for streaming RPCs. gRPC's implementation of onError() on client-side causes the RPC to be cancelled and discards all messages, so completes quickly." />
+      <item value="Receives notifications from an observable stream of messages.&#10;" />
       <item value="Internal Instrumented" />
       <item value="as well as" />
       <item value="wait And Drain" />
@@ -47,15 +51,11 @@
       <item value="passage" />
       <item value="An absolute point in time, generally for tracking when a task should be completed. A deadline is immutable except for the passage of time causing it to expire." />
       <item value="Ticker" />
-      <item value="drained" />
-      <item value="Partial" />
-      <item value=" the number of messages able to delivered will be the sum of the calls" />
-      <item value="bypass" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="79" />
-        <entry key="ENGLISH" value="80" />
+        <entry key="CHINESE" value="83" />
+        <entry key="ENGLISH" value="84" />
       </map>
     </option>
   </component>
