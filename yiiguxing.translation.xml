@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Internal Instrumented" />
       <item value="as well as" />
       <item value="wait And Drain" />
       <item value="a theoretical TCP transport" />
@@ -50,12 +51,11 @@
       <item value="Partial" />
       <item value=" the number of messages able to delivered will be the sum of the calls" />
       <item value="bypass" />
-      <item value="f it is desired to bypass inbound flow control, a very large number of messages can be specified (e.g. Integer.MAX_VALUE)." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="78" />
-        <entry key="ENGLISH" value="79" />
+        <entry key="CHINESE" value="79" />
+        <entry key="ENGLISH" value="80" />
       </map>
     </option>
   </component>
