@@ -1,6 +1,11 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="as well as" />
+      <item value="wait And Drain" />
+      <item value="a theoretical TCP transport" />
+      <item value="A virtual connection to a conceptual endpoint, to perform RPCs. A channel is free to have zero or many actual connections to the endpoint based on configuration, load, etc. A channel is also free to determine which actual endpoints to use and may change it every RPC, permitting client-side load balancing. Applications are generally expected to use stubs instead of calling this class directly." />
+      <item value="conceptual" />
       <item value="Clears this reference object and adds it to the queue with which it is registered, if any.&#10;This method is invoked only by Java code; when the garbage collector enqueues references it does so directly, without invoking this method." />
       <item value="Return true as a hint that there might be another Reference pending or false when there are no more pending References at the moment and the program can do some other useful work instead of looping." />
       <item value="robust" />
@@ -46,21 +51,16 @@
       <item value=" the number of messages able to delivered will be the sum of the calls" />
       <item value="bypass" />
       <item value="f it is desired to bypass inbound flow control, a very large number of messages can be specified (e.g. Integer.MAX_VALUE)." />
-      <item value="inbound" />
-      <item value="spurious" />
-      <item value="excessive" />
-      <item value="This indicates that the ClientCall may now be capable of sending additional messages (via sendMessage) without requiring excessive buffering internally" />
-      <item value="trailers" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="73" />
-        <entry key="ENGLISH" value="74" />
+        <entry key="CHINESE" value="78" />
+        <entry key="ENGLISH" value="79" />
       </map>
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1649239617662" />
+    <option name="lastTrimTime" value="1649835192138" />
   </component>
   <component name="Settings">
     <option name="keepFormat" value="true" />
