@@ -1,6 +1,11 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="This class is intended primarily for use with key objects whose equals methods test for object identity using the == operator. Once such a key is discarded it can never be recreated, so it is impossible to do a lookup of that key in a WeakHashMap at some later time and be surprised that its entry has been removed. This class will work perfectly well with key objects whose equals methods are not based upon object identity, such as String instances. With such recreatable key objects, however, the automatic removal of WeakHashMap entries whose keys have been discarded may prove to be confusing.&#10;" />
+      <item value="Both null values and the null key are supported. This class has performance characteristics similar to those of the HashMap class, and has the same efficiency parameters of initial capacity and load factor.&#10;Like most collection classes, this class is not synchronized. A synchronized WeakHashMap may be constructed using the Collections.synchronizedMap method." />
+      <item value="Hash table based implementation of the Map interface, with weak keys. An entry in a WeakHashMap will automatically be removed when its key is no longer in ordinary use. More precisely, the presence of a mapping for a given key will not prevent the key from being discarded by the garbage collector, that is, made finalizable, finalized, and then reclaimed. When a key has been discarded its entry is effectively removed from the map, so this class behaves somewhat differently from other Map implementations." />
+      <item value="precisely" />
+      <item value="More precisely" />
       <item value="refinement" />
       <item value="A refinement of StreamObserver provided by the GRPC runtime to the application (the client or the server) that allows for more complex interactions with call behavior." />
       <item value="This API is asynchronous, so methods may return before the operation completes. The API provides no guarantees for how quickly an operation will complete, so utilizing flow control via ClientCallStreamObserver and ServerCallStreamObserver to avoid excessive buffering is recommended for streaming RPCs. gRPC's implementation of onError() on client-side causes the RPC to be cancelled and discards all messages, so completes quickly." />
@@ -46,16 +51,11 @@
       <item value="Initiates" />
       <item value="A context propagation mechanism which can carry scoped-values across API boundaries and between threads." />
       <item value="unambiguously" />
-      <item value=" being relative causes them to be poorly suited for managing higher-level tasks where there are many components and sub-operations that may not know the time of the initial &quot;start of the operation" />
-      <item value="Many systems use timeouts, which are relative to the start of the operatio" />
-      <item value="passage" />
-      <item value="An absolute point in time, generally for tracking when a task should be completed. A deadline is immutable except for the passage of time causing it to expire." />
-      <item value="Ticker" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="83" />
-        <entry key="ENGLISH" value="84" />
+        <entry key="CHINESE" value="88" />
+        <entry key="ENGLISH" value="89" />
       </map>
     </option>
   </component>
