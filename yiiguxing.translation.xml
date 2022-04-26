@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Inexact" />
       <item value="roughly" />
       <item value="ExecutionPlan can be displayed in an simplified form using the return value from displayable in addition to the (normally quite verbose) Debug output." />
       <item value="Each ExecutionPlan is Partition-aware and is responsible for creating the actual async SendableRecordBatchStreams of RecordBatch that incrementally compute the operator's output from its input partition.&#10;" />
@@ -50,12 +51,11 @@
       <item value="All or part of a mapped byte buffer may become inaccessible at any time," />
       <item value="Whether or not such changes occur, and when they occur, is operating-system dependent and therefore unspecified. " />
       <item value="A mapped byte buffer and the file mapping that it represents remain valid until the buffer itself is garbage-collected." />
-      <item value="This method is potentially much more efficient than a simple loop that reads from this channel and writes to the target channel. Many operating systems can transfer bytes directly from the filesystem cache to the target channel without actually copying them.&#10;Params:&#10;" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="100" />
-        <entry key="ENGLISH" value="101" />
+        <entry key="CHINESE" value="101" />
+        <entry key="ENGLISH" value="102" />
       </map>
     </option>
   </component>
