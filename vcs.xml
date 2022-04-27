@@ -94,6 +94,10 @@
           <option name="url" value="https://github.com/stateIs0/io.benchmark.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://code.betalpha.com/betalpha/saas-commons.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="$USER_HOME$/IdeaProjects" />
