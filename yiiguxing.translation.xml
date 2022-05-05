@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Partitioning schemes supported by operators." />
       <item value="Inexact" />
       <item value="roughly" />
       <item value="ExecutionPlan can be displayed in an simplified form using the return value from displayable in addition to the (normally quite verbose) Debug output." />
@@ -50,17 +51,16 @@
       <item value="An attempt to access an inaccessible region of a mapped byte buffer will not change the buffer's content and will cause an unspecified exception to be thrown either at the time of the access or at some later time" />
       <item value="All or part of a mapped byte buffer may become inaccessible at any time," />
       <item value="Whether or not such changes occur, and when they occur, is operating-system dependent and therefore unspecified. " />
-      <item value="A mapped byte buffer and the file mapping that it represents remain valid until the buffer itself is garbage-collected." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="101" />
-        <entry key="ENGLISH" value="102" />
+        <entry key="CHINESE" value="102" />
+        <entry key="ENGLISH" value="103" />
       </map>
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1650854396823" />
+    <option name="lastTrimTime" value="1651729578315" />
   </component>
   <component name="Settings">
     <option name="keepFormat" value="true" />
