@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="If not already completed, causes invocations of get() and related methods to throw the given exception." />
       <item value="Partitioning schemes supported by operators." />
       <item value="Inexact" />
       <item value="roughly" />
@@ -50,12 +51,11 @@
       <item value="It is therefore strongly recommended that appropriate precautions be taken to avoid the manipulation of a mapped file by this program, or by a concurrently running program, except to read or write the file's content" />
       <item value="An attempt to access an inaccessible region of a mapped byte buffer will not change the buffer's content and will cause an unspecified exception to be thrown either at the time of the access or at some later time" />
       <item value="All or part of a mapped byte buffer may become inaccessible at any time," />
-      <item value="Whether or not such changes occur, and when they occur, is operating-system dependent and therefore unspecified. " />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="102" />
-        <entry key="ENGLISH" value="103" />
+        <entry key="CHINESE" value="103" />
+        <entry key="ENGLISH" value="104" />
       </map>
     </option>
   </component>
