@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Create or append a descriptor with another stream." />
       <item value="turbofish" />
       <item value="&#10;Using the 'turbofish' instead of annotating doubled" />
       <item value="offer" />
@@ -50,17 +51,16 @@
       <item value="&#10;For most operating systems, mapping a file into memory is more expensive than reading or writing a few tens of kilobytes of data via the usual read and write methods. From the standpoint of performance it is generally only worth mapping relatively large files into memory." />
       <item value="The mapped byte buffer returned by this method will have a position of zero and a limit and capacity of size; its mark will be undefined. The buffer and the mapping that it represents will remain valid until the buffer itself is garbage-collected.&#10;" />
       <item value="&#10;Private: Changes made to the resulting buffer will not be propagated to the file and will not be visible to other programs that have mapped the same file; instead, they will cause private copies of the modified portions of the buffer to be created. (MapMode.PRIVATE)" />
-      <item value="Readwrite: Changes made to the resulting buffer will eventually be propagated to the file; they may or may not be made visible to other programs that have mapped the same file. (MapMode.READ_WRITE)" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="108" />
-        <entry key="ENGLISH" value="109" />
+        <entry key="CHINESE" value="109" />
+        <entry key="ENGLISH" value="110" />
       </map>
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1651729578315" />
+    <option name="lastTrimTime" value="1652940513778" />
   </component>
   <component name="Settings">
     <option name="keepFormat" value="true" />
