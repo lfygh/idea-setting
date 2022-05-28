@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="     The object in which this thread is blocked in an interruptible IO&#10;      operation, if any.  The blocker's interrupt method should be invoked&#10;      after setting this thread's interrupt status." />
+      <item value="passed up the call stack " />
       <item value="Code within a different context can subsequently call the checkPermission method on the previously-saved AccessControlContext object. A sample call is the following:" />
       <item value="More specifically, it encapsulates a context and has a single method, checkPermission, that is equivalent to the checkPermission method in the AccessController class, with one difference: The AccessControlContext checkPermission method makes access decisions based on the context it encapsulates, rather than that of the current execution thread." />
       <item value="More specifically" />
@@ -49,13 +51,11 @@
       <item value="really" />
       <item value="Reference queues, to which registered reference objects are appended by the garbage collector after the appropriate reachability changes are detected." />
       <item value="Treated specially by GC" />
-      <item value="Treated" />
-      <item value="Abstract base class for reference objects. This class defines the operations common to all reference objects. Because reference objects are implemented in close cooperation with the garbage collector, this class may not be subclassed directly" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="113" />
-        <entry key="ENGLISH" value="114" />
+        <entry key="CHINESE" value="115" />
+        <entry key="ENGLISH" value="116" />
       </map>
     </option>
   </component>
