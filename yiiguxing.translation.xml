@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="The awakened threads will not be able to proceed until the current thread relinquishes the lock on this object." />
       <item value="Note that only the locks on this object are relinquished; any other objects on which the current thread may be synchronized remain locked while the thread waits." />
       <item value="relinquish" />
       <item value="This method causes the current thread (referred to here as T) to place itself in the wait set for this object and then to relinquish any and all synchronization claims on this object." />
@@ -50,12 +51,11 @@
       <item value="This API is asynchronous, so methods may return before the operation completes. The API provides no guarantees for how quickly an operation will complete, so utilizing flow control via ClientCallStreamObserver and ServerCallStreamObserver to avoid excessive buffering is recommended for streaming RPCs. gRPC's implementation of onError() on client-side causes the RPC to be cancelled and discards all messages, so completes quickly." />
       <item value="Receives notifications from an observable stream of messages.&#10;" />
       <item value="Internal Instrumented" />
-      <item value="as well as" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="128" />
-        <entry key="ENGLISH" value="129" />
+        <entry key="CHINESE" value="129" />
+        <entry key="ENGLISH" value="130" />
       </map>
     </option>
   </component>
