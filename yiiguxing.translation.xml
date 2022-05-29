@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="The awakened thread will compete in the usual manner with any other threads that might be actively competing to synchronize on this object; for example, the awakened thread enjoys no reliable privilege or disadvantage in being the next thread to lock this object." />
+      <item value="The awakened thread will not be able to proceed until the current thread relinquishes the lock on this object." />
       <item value="Wakes up a single thread that is waiting on this object's monitor. If any threads are waiting on this object, one of them is chosen to be awakened. The choice is arbitrary and occurs at the discretion of the implementation." />
       <item value="If this thread is blocked in an invocation of the wait(), wait(long), or wait(long, int) methods of the Object class, or of the join(), join(long), join(long, int), sleep(long), or sleep(long, int), methods of this class, then its interrupt status will be cleared and it will receive an InterruptedException." />
       <item value="Thrown when a thread is waiting, sleeping, or otherwise occupied, and the thread is interrupted, either before or during the activity. Occasionally a method may wish to test whether the current thread has been interrupted, and if so, to immediately throw this exception." />
@@ -49,13 +51,11 @@
       <item value="a theoretical TCP transport" />
       <item value="A virtual connection to a conceptual endpoint, to perform RPCs. A channel is free to have zero or many actual connections to the endpoint based on configuration, load, etc. A channel is also free to determine which actual endpoints to use and may change it every RPC, permitting client-side load balancing. Applications are generally expected to use stubs instead of calling this class directly." />
       <item value="conceptual" />
-      <item value="Clears this reference object and adds it to the queue with which it is registered, if any.&#10;This method is invoked only by Java code; when the garbage collector enqueues references it does so directly, without invoking this method." />
-      <item value="Return true as a hint that there might be another Reference pending or false when there are no more pending References at the moment and the program can do some other useful work instead of looping." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="122" />
-        <entry key="ENGLISH" value="123" />
+        <entry key="CHINESE" value="124" />
+        <entry key="ENGLISH" value="125" />
       </map>
     </option>
   </component>
