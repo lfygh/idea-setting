@@ -1,6 +1,10 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Note that only the locks on this object are relinquished; any other objects on which the current thread may be synchronized remain locked while the thread waits." />
+      <item value="relinquish" />
+      <item value="This method causes the current thread (referred to here as T) to place itself in the wait set for this object and then to relinquish any and all synchronization claims on this object." />
+      <item value="The current thread must own this object's monitor lock. See the notify method for a description of the ways in which a thread can become the owner of a monitor lock." />
       <item value="The awakened thread will compete in the usual manner with any other threads that might be actively competing to synchronize on this object; for example, the awakened thread enjoys no reliable privilege or disadvantage in being the next thread to lock this object." />
       <item value="The awakened thread will not be able to proceed until the current thread relinquishes the lock on this object." />
       <item value="Wakes up a single thread that is waiting on this object's monitor. If any threads are waiting on this object, one of them is chosen to be awakened. The choice is arbitrary and occurs at the discretion of the implementation." />
@@ -47,15 +51,11 @@
       <item value="Receives notifications from an observable stream of messages.&#10;" />
       <item value="Internal Instrumented" />
       <item value="as well as" />
-      <item value="wait And Drain" />
-      <item value="a theoretical TCP transport" />
-      <item value="A virtual connection to a conceptual endpoint, to perform RPCs. A channel is free to have zero or many actual connections to the endpoint based on configuration, load, etc. A channel is also free to determine which actual endpoints to use and may change it every RPC, permitting client-side load balancing. Applications are generally expected to use stubs instead of calling this class directly." />
-      <item value="conceptual" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="124" />
-        <entry key="ENGLISH" value="125" />
+        <entry key="CHINESE" value="128" />
+        <entry key="ENGLISH" value="129" />
       </map>
     </option>
   </component>
