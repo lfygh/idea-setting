@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Flight services can support an arbitrary number of simple actions in&#10;       addition to the possible ListFlights, GetFlightInfo, DoGet, DoPut&#10;       operations that are potentially available. DoAction allows a flight client&#10;       to do a specific action against a flight service. An action includes&#10;       opaque request and response objects that are specific to the type action&#10;       being undertaken." />
       <item value="POJO representation of a RecordBatch IPC message (https:arrow.apache.orgdocsformatIPC.html)." />
       <item value="RPC-layer hints for this call." />
       <item value="The awakened threads will not be able to proceed until the current thread relinquishes the lock on this object." />
@@ -50,12 +51,11 @@
       <item value="More precisely" />
       <item value="refinement" />
       <item value="A refinement of StreamObserver provided by the GRPC runtime to the application (the client or the server) that allows for more complex interactions with call behavior." />
-      <item value="This API is asynchronous, so methods may return before the operation completes. The API provides no guarantees for how quickly an operation will complete, so utilizing flow control via ClientCallStreamObserver and ServerCallStreamObserver to avoid excessive buffering is recommended for streaming RPCs. gRPC's implementation of onError() on client-side causes the RPC to be cancelled and discards all messages, so completes quickly." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="131" />
-        <entry key="ENGLISH" value="132" />
+        <entry key="CHINESE" value="132" />
+        <entry key="ENGLISH" value="133" />
       </map>
     </option>
   </component>
