@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Retrieve a single stream associated with a particular descriptor&#10;       associated with the referenced ticket. A Flight can be composed of one or&#10;       more streams where each stream can be retrieved using a separate opaque&#10;       ticket that the flight service uses for managing a collection of streams." />
       <item value="Flight services can support an arbitrary number of simple actions in&#10;       addition to the possible ListFlights, GetFlightInfo, DoGet, DoPut&#10;       operations that are potentially available. DoAction allows a flight client&#10;       to do a specific action against a flight service. An action includes&#10;       opaque request and response objects that are specific to the type action&#10;       being undertaken." />
       <item value="POJO representation of a RecordBatch IPC message (https:arrow.apache.orgdocsformatIPC.html)." />
       <item value="RPC-layer hints for this call." />
@@ -50,12 +51,11 @@
       <item value="precisely" />
       <item value="More precisely" />
       <item value="refinement" />
-      <item value="A refinement of StreamObserver provided by the GRPC runtime to the application (the client or the server) that allows for more complex interactions with call behavior." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="132" />
-        <entry key="ENGLISH" value="133" />
+        <entry key="CHINESE" value="133" />
+        <entry key="ENGLISH" value="134" />
       </map>
     </option>
   </component>
