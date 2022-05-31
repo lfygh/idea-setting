@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="The current owner of exclusive mode synchronization." />
       <item value="Retrieve a single stream associated with a particular descriptor&#10;       associated with the referenced ticket. A Flight can be composed of one or&#10;       more streams where each stream can be retrieved using a separate opaque&#10;       ticket that the flight service uses for managing a collection of streams." />
       <item value="Flight services can support an arbitrary number of simple actions in&#10;       addition to the possible ListFlights, GetFlightInfo, DoGet, DoPut&#10;       operations that are potentially available. DoAction allows a flight client&#10;       to do a specific action against a flight service. An action includes&#10;       opaque request and response objects that are specific to the type action&#10;       being undertaken." />
       <item value="POJO representation of a RecordBatch IPC message (https:arrow.apache.orgdocsformatIPC.html)." />
@@ -50,12 +51,11 @@
       <item value="Hash table based implementation of the Map interface, with weak keys. An entry in a WeakHashMap will automatically be removed when its key is no longer in ordinary use. More precisely, the presence of a mapping for a given key will not prevent the key from being discarded by the garbage collector, that is, made finalizable, finalized, and then reclaimed. When a key has been discarded its entry is effectively removed from the map, so this class behaves somewhat differently from other Map implementations." />
       <item value="precisely" />
       <item value="More precisely" />
-      <item value="refinement" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="133" />
-        <entry key="ENGLISH" value="134" />
+        <entry key="CHINESE" value="134" />
+        <entry key="ENGLISH" value="135" />
       </map>
     </option>
   </component>
