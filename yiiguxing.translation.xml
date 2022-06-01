@@ -1,9 +1,9 @@
 <application>
   <component name="AppStorage">
     <histories>
-      <item value="detached" />
       <item value="Checks and updates status for a node that failed to acquire. Returns true if thread should block. This is the main signal control in all acquire loops. Requires that pred == node.prev." />
       <item value="Acquires in exclusive uninterruptible mode for thread already in queue. Used by condition wait methods as well as acquire." />
+      <item value="detached" />
       <item value="the acquire argument. This value is conveyed to tryAcquire but is otherwise uninterpreted and can represent anything you like." />
       <item value="Acquires in exclusive mode, ignoring interrupts. Implemented by invoking at least once tryAcquire, returning on success. Otherwise the thread is queued, possibly repeatedly blocking and unblocking, invoking tryAcquire until success. This method can be used to implement method Lock.lock." />
       <item value="The current owner of exclusive mode synchronization." />
@@ -54,8 +54,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="139" />
-        <entry key="ENGLISH" value="140" />
+        <entry key="CHINESE" value="141" />
+        <entry key="ENGLISH" value="142" />
       </map>
     </option>
   </component>
