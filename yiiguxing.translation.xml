@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="the acquire argument. This value is conveyed to tryAcquire but is otherwise uninterpreted and can represent anything you like." />
+      <item value="Acquires in exclusive mode, ignoring interrupts. Implemented by invoking at least once tryAcquire, returning on success. Otherwise the thread is queued, possibly repeatedly blocking and unblocking, invoking tryAcquire until success. This method can be used to implement method Lock.lock." />
       <item value="The current owner of exclusive mode synchronization." />
       <item value="Retrieve a single stream associated with a particular descriptor&#10;       associated with the referenced ticket. A Flight can be composed of one or&#10;       more streams where each stream can be retrieved using a separate opaque&#10;       ticket that the flight service uses for managing a collection of streams." />
       <item value="Flight services can support an arbitrary number of simple actions in&#10;       addition to the possible ListFlights, GetFlightInfo, DoGet, DoPut&#10;       operations that are potentially available. DoAction allows a flight client&#10;       to do a specific action against a flight service. An action includes&#10;       opaque request and response objects that are specific to the type action&#10;       being undertaken." />
@@ -49,13 +51,11 @@
       <item value="This class is intended primarily for use with key objects whose equals methods test for object identity using the == operator. Once such a key is discarded it can never be recreated, so it is impossible to do a lookup of that key in a WeakHashMap at some later time and be surprised that its entry has been removed. This class will work perfectly well with key objects whose equals methods are not based upon object identity, such as String instances. With such recreatable key objects, however, the automatic removal of WeakHashMap entries whose keys have been discarded may prove to be confusing.&#10;" />
       <item value="Both null values and the null key are supported. This class has performance characteristics similar to those of the HashMap class, and has the same efficiency parameters of initial capacity and load factor.&#10;Like most collection classes, this class is not synchronized. A synchronized WeakHashMap may be constructed using the Collections.synchronizedMap method." />
       <item value="Hash table based implementation of the Map interface, with weak keys. An entry in a WeakHashMap will automatically be removed when its key is no longer in ordinary use. More precisely, the presence of a mapping for a given key will not prevent the key from being discarded by the garbage collector, that is, made finalizable, finalized, and then reclaimed. When a key has been discarded its entry is effectively removed from the map, so this class behaves somewhat differently from other Map implementations." />
-      <item value="precisely" />
-      <item value="More precisely" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="134" />
-        <entry key="ENGLISH" value="135" />
+        <entry key="CHINESE" value="136" />
+        <entry key="ENGLISH" value="137" />
       </map>
     </option>
   </component>
