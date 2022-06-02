@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="configures the maximum number of substreams (keys) that are supported; if more distinct keys are encountered then the stream fails" />
       <item value="Checks and updates status for a node that failed to acquire. Returns true if thread should block. This is the main signal control in all acquire loops. Requires that pred == node.prev." />
       <item value="Acquires in exclusive uninterruptible mode for thread already in queue. Used by condition wait methods as well as acquire." />
       <item value="detached" />
@@ -50,12 +51,11 @@
       <item value="Maps a region of this channel's file directly into memory." />
       <item value="The mapped byte buffer returned by this method will have a position of zero and a limit and capacity of size; its mark will be undefined. The buffer and the mapping that it represents will remain valid until the buffer itself is garbage-collected." />
       <item value="The behavior of the WeakHashMap class depends in part upon the actions of the garbage collector, so several familiar (though not required) Map invariants do not hold for this class. Because the garbage collector may discard keys at any time, a WeakHashMap may behave as though an unknown thread is silently removing entries. In particular, even if you synchronize on a WeakHashMap instance and invoke none of its mutator methods, it is possible for the size method to return smaller values over time, for the isEmpty method to return false and then true, for the containsKey method to return true and later false for a given key, for the get method to return a value for a given key but later return null, for the put method to return null and the remove method to return false for a key that previously appeared to be in the map, and for successive examinations of the key set, the value collection, and the entry set to yield successively smaller numbers of elements." />
-      <item value="This class is intended primarily for use with key objects whose equals methods test for object identity using the == operator. Once such a key is discarded it can never be recreated, so it is impossible to do a lookup of that key in a WeakHashMap at some later time and be surprised that its entry has been removed. This class will work perfectly well with key objects whose equals methods are not based upon object identity, such as String instances. With such recreatable key objects, however, the automatic removal of WeakHashMap entries whose keys have been discarded may prove to be confusing." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="141" />
-        <entry key="ENGLISH" value="142" />
+        <entry key="CHINESE" value="142" />
+        <entry key="ENGLISH" value="143" />
       </map>
     </option>
   </component>
