@@ -114,6 +114,14 @@
           <option name="url" value="http://122.112.183.206:3001" />
           <option name="userName" value="yanguanghui@betalpha.com" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@github.com:lfygh/exlfyg.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/lfygh/exlfyg.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="$USER_HOME$/IdeaProjects" />
