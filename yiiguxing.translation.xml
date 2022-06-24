@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Observer" />
+      <item value="Shim" />
       <item value="foregoing" />
       <item value="inconsistent" />
       <item value="imposes" />
@@ -49,13 +51,11 @@
       <item value="Each ExecutionPlan is Partition-aware and is responsible for creating the actual async SendableRecordBatchStreams of RecordBatch that incrementally compute the operator's output from its input partition.&#10;" />
       <item value="Requests an element on the given port unless the port is already closed. Calling this method twice before an element arrived will fail. There can only be one outstanding request at any given time. The method () can be used query whether pull is allowed to be called or not." />
       <item value="For most operating systems, mapping a file into memory is more expensive than reading or writing a few tens of kilobytes of data via the usual read and write methods. From the standpoint of performance it is generally only worth mapping relatively large files into memory." />
-      <item value="Many of the details of memory-mapped files are inherently dependent upon the underlying operating system and are therefore unspecified. The behavior of this method when the requested region is not completely contained within this channel's file is unspecified. Whether changes made to the content or size of the underlying file, by this program or another, are propagated to the buffer is unspecified. The rate at which changes to the buffer are propagated to the file is unspecified." />
-      <item value="A mapping, once established, is not dependent upon the file channel that was used to create it. Closing the channel, in particular, has no effect upon the validity of the mapping." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="145" />
-        <entry key="ENGLISH" value="146" />
+        <entry key="CHINESE" value="147" />
+        <entry key="ENGLISH" value="148" />
       </map>
     </option>
   </component>
