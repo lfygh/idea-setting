@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Delayed" />
       <item value="&#10;Guava implementations of ListenableFuture promptly release references to listeners after executing them" />
       <item value="Memory consistency effects: Actions in a thread prior to adding a listener happen-before its execution begins, perhaps in another thread." />
       <item value="This is the most general listener interface. For common operations performed using listeners, see Futures. For a simplified but general listener interface, see addCallback()." />
@@ -50,12 +51,11 @@
       <item value="Interrupting a thread that is not alive need not have any effect." />
       <item value="If none of the previous conditions hold then this thread's interrupt status will be set." />
       <item value="     The object in which this thread is blocked in an interruptible IO&#10;      operation, if any.  The blocker's interrupt method should be invoked&#10;      after setting this thread's interrupt status." />
-      <item value="passed up the call stack " />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="172" />
-        <entry key="ENGLISH" value="173" />
+        <entry key="CHINESE" value="173" />
+        <entry key="ENGLISH" value="174" />
       </map>
     </option>
   </component>
