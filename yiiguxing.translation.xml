@@ -1,6 +1,10 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="There is a race between cancel and the completionfailure of the RPC in other ways. If cancel won the race, Listener.onClose() is called with CANCELLED. Otherwise, Listener.onClose() is called with whatever status the RPC was finished. We ensure that at most one is called." />
+      <item value="There is no interaction between the states on the Listener and ClientCall, i.e., if Listener.onClose() is called, it has no bearing on the permitted operations on ClientCall (but it may impact whether they do anything)." />
+      <item value="No generic method for determining message receipt or providing acknowledgement is provided. Applications are expected to utilize normal payload messages for such signals, as a response naturally acknowledges its request." />
+      <item value="More advanced usages may consume this interface directly as opposed to using a stub. " />
       <item value="If true, indicates that the observer is capable of sending additional messages without requiring excessive buffering internally. This value is just a suggestion and the application is free to ignore it, however doing so may result in excessive buffering within the observer." />
       <item value="This is implemented by the client application and passed into a service method on a stub object." />
       <item value="In any call there are logically four StreamObserver implementations:" />
@@ -47,20 +51,16 @@
       <item value="More specifically" />
       <item value="An AccessControlContext is used to make system resource access decisions based on the context it encapsulates." />
       <item value="Create or append a descriptor with another stream." />
-      <item value="turbofish" />
-      <item value="&#10;Using the 'turbofish' instead of annotating doubled" />
-      <item value="offer" />
-      <item value="&#10;Calling this method before start() or shutdown() is permitted and does not change its behavior." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="163" />
-        <entry key="ENGLISH" value="164" />
+        <entry key="CHINESE" value="167" />
+        <entry key="ENGLISH" value="168" />
       </map>
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1656569673726" />
+    <option name="lastTrimTime" value="1657014092699" />
   </component>
   <component name="Settings">
     <option name="keepFormat" value="true" />
