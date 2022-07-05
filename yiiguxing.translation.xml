@@ -1,6 +1,11 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="&#10;Guava implementations of ListenableFuture promptly release references to listeners after executing them" />
+      <item value="Memory consistency effects: Actions in a thread prior to adding a listener happen-before its execution begins, perhaps in another thread." />
+      <item value="This is the most general listener interface. For common operations performed using listeners, see Futures. For a simplified but general listener interface, see addCallback()." />
+      <item value="Note: If your listener is lightweight -- and will not cause stack overflow by completing more futures or adding more directExecutor() listeners inline -- consider MoreExecutors.directExecutor. Otherwise, avoid it: See the warnings on the docs for directExecutor." />
+      <item value="There is no guaranteed ordering of execution of listeners, but any listener added through this method is guaranteed to be called once the computation is complete." />
       <item value="There is a race between cancel and the completionfailure of the RPC in other ways. If cancel won the race, Listener.onClose() is called with CANCELLED. Otherwise, Listener.onClose() is called with whatever status the RPC was finished. We ensure that at most one is called." />
       <item value="There is no interaction between the states on the Listener and ClientCall, i.e., if Listener.onClose() is called, it has no bearing on the permitted operations on ClientCall (but it may impact whether they do anything)." />
       <item value="No generic method for determining message receipt or providing acknowledgement is provided. Applications are expected to utilize normal payload messages for such signals, as a response naturally acknowledges its request." />
@@ -46,16 +51,11 @@
       <item value="If none of the previous conditions hold then this thread's interrupt status will be set." />
       <item value="     The object in which this thread is blocked in an interruptible IO&#10;      operation, if any.  The blocker's interrupt method should be invoked&#10;      after setting this thread's interrupt status." />
       <item value="passed up the call stack " />
-      <item value="Code within a different context can subsequently call the checkPermission method on the previously-saved AccessControlContext object. A sample call is the following:" />
-      <item value="More specifically, it encapsulates a context and has a single method, checkPermission, that is equivalent to the checkPermission method in the AccessController class, with one difference: The AccessControlContext checkPermission method makes access decisions based on the context it encapsulates, rather than that of the current execution thread." />
-      <item value="More specifically" />
-      <item value="An AccessControlContext is used to make system resource access decisions based on the context it encapsulates." />
-      <item value="Create or append a descriptor with another stream." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="167" />
-        <entry key="ENGLISH" value="168" />
+        <entry key="CHINESE" value="172" />
+        <entry key="ENGLISH" value="173" />
       </map>
     </option>
   </component>
