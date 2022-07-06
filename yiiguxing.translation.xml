@@ -1,6 +1,10 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="It should be called from the Synchronization Context. Currently will log a warning if violated. It will become an exception eventually. See 5015  for the background." />
+      <item value="If there isn't an active transport yet, and an RPC is assigned to the Subchannel, it will create a new transport. It won't actively create transports otherwise. requestConnection() can be used to ask Subchannel to create a transport if there isn't any.&#10;" />
+      <item value="It maintains at most one physical connection (aka transport) for sending new RPCs, while also keeps track of previous transports that has been shut down but not terminated yet." />
+      <item value="A logical connection to a server, or a group of equivalent servers represented by an EquivalentAddressGrou" />
       <item value="This transport owns every stream that it has created until a real transport has been picked for that stream, at which point the ownership of the stream is transferred to the real transport, thus the delayed transport stops owning the stream" />
       <item value="When reprocess is called, this class applies the provided io.grpc.LoadBalancer.SubchannelPicker to pick a transport for each pending stream" />
       <item value="&#10;a Runnable that is executed after-the-fact by the original caller, typically after locks are released" />
@@ -47,15 +51,11 @@
       <item value="Retrieve a single stream associated with a particular descriptor&#10;       associated with the referenced ticket. A Flight can be composed of one or&#10;       more streams where each stream can be retrieved using a separate opaque&#10;       ticket that the flight service uses for managing a collection of streams." />
       <item value="Flight services can support an arbitrary number of simple actions in&#10;       addition to the possible ListFlights, GetFlightInfo, DoGet, DoPut&#10;       operations that are potentially available. DoAction allows a flight client&#10;       to do a specific action against a flight service. An action includes&#10;       opaque request and response objects that are specific to the type action&#10;       being undertaken." />
       <item value="POJO representation of a RecordBatch IPC message (https:arrow.apache.orgdocsformatIPC.html)." />
-      <item value="RPC-layer hints for this call." />
-      <item value="The awakened threads will not be able to proceed until the current thread relinquishes the lock on this object." />
-      <item value="Note that only the locks on this object are relinquished; any other objects on which the current thread may be synchronized remain locked while the thread waits." />
-      <item value="relinquish" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="186" />
-        <entry key="ENGLISH" value="187" />
+        <entry key="CHINESE" value="190" />
+        <entry key="ENGLISH" value="191" />
       </map>
     </option>
   </component>
