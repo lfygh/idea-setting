@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="An object that executes submitted Runnable tasks. This interface provides a way of decoupling task submission from the mechanics of how each task will be run, including details of thread use, scheduling, etc. An Executor is normally used instead of explicitly creating threads. For example, rather than invoking new Thread(new RunnableTask()).start() for each of a set of tasks" />
+      <item value="Internal Instrumented" />
       <item value="drain" />
       <item value="When a buffer is added to a composite, its life cycle is controlled by the composite. Once the composite has read past the end of a given buffer, that buffer is automatically closed and removed from the composite." />
       <item value="A ReadableBuffer that is composed of 0 or more ReadableBuffers." />
@@ -49,13 +51,11 @@
       <item value="The current thread must own this object's monitor lock. See the notify method for a description of the ways in which a thread can become the owner of a monitor lock." />
       <item value="The awakened thread will compete in the usual manner with any other threads that might be actively competing to synchronize on this object; for example, the awakened thread enjoys no reliable privilege or disadvantage in being the next thread to lock this object." />
       <item value="The awakened thread will not be able to proceed until the current thread relinquishes the lock on this object." />
-      <item value="Wakes up a single thread that is waiting on this object's monitor. If any threads are waiting on this object, one of them is chosen to be awakened. The choice is arbitrary and occurs at the discretion of the implementation." />
-      <item value="If this thread is blocked in an invocation of the wait(), wait(long), or wait(long, int) methods of the Object class, or of the join(), join(long), join(long, int), sleep(long), or sleep(long, int), methods of this class, then its interrupt status will be cleared and it will receive an InterruptedException." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="180" />
-        <entry key="ENGLISH" value="181" />
+        <entry key="CHINESE" value="182" />
+        <entry key="ENGLISH" value="183" />
       </map>
     </option>
   </component>
