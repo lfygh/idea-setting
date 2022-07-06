@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="This transport owns every stream that it has created until a real transport has been picked for that stream, at which point the ownership of the stream is transferred to the real transport, thus the delayed transport stops owning the stream" />
+      <item value="When reprocess is called, this class applies the provided io.grpc.LoadBalancer.SubchannelPicker to pick a transport for each pending stream" />
       <item value="&#10;a Runnable that is executed after-the-fact by the original caller, typically after locks are released" />
       <item value="Implementations must not call listener from within start; implementations are expected to notify listener on a separate thread or when the returned Runnable is run. This method and the returned Runnable should not throw any exceptions." />
       <item value="An object that executes submitted Runnable tasks. This interface provides a way of decoupling task submission from the mechanics of how each task will be run, including details of thread use, scheduling, etc. An Executor is normally used instead of explicitly creating threads. For example, rather than invoking new Thread(new RunnableTask()).start() for each of a set of tasks" />
@@ -49,13 +51,11 @@
       <item value="The awakened threads will not be able to proceed until the current thread relinquishes the lock on this object." />
       <item value="Note that only the locks on this object are relinquished; any other objects on which the current thread may be synchronized remain locked while the thread waits." />
       <item value="relinquish" />
-      <item value="This method causes the current thread (referred to here as T) to place itself in the wait set for this object and then to relinquish any and all synchronization claims on this object." />
-      <item value="The current thread must own this object's monitor lock. See the notify method for a description of the ways in which a thread can become the owner of a monitor lock." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="184" />
-        <entry key="ENGLISH" value="185" />
+        <entry key="CHINESE" value="186" />
+        <entry key="ENGLISH" value="187" />
       </map>
     </option>
   </component>
