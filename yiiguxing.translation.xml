@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Acquires the lock if it is not held by another thread and returns immediately, setting the lock hold count to one." />
       <item value="In addition to" />
       <item value="&#10;In addition to implementing the Lock interface, this class defines a number of public and protected methods for inspecting the state of the lock. Some of these methods are only useful for instrumentation and monitoring." />
       <item value="&#10;The constructor for this class accepts an optional fairness parameter. When set true, under contention, locks favor granting access to the longest-waiting thread." />
@@ -50,12 +51,11 @@
       <item value="Checks and updates status for a node that failed to acquire. Returns true if thread should block. This is the main signal control in all acquire loops. Requires that pred == node.prev." />
       <item value="Acquires in exclusive uninterruptible mode for thread already in queue. Used by condition wait methods as well as acquire." />
       <item value="detached" />
-      <item value="the acquire argument. This value is conveyed to tryAcquire but is otherwise uninterpreted and can represent anything you like." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="195" />
-        <entry key="ENGLISH" value="196" />
+        <entry key="CHINESE" value="196" />
+        <entry key="ENGLISH" value="197" />
       </map>
     </option>
   </component>
