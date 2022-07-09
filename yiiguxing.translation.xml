@@ -1,6 +1,12 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="precisely" />
+      <item value="Accessed via a benign data race; relies on the memory model's out-of-thin-air guarantees for references.&#10;This allows tracking of read holds for uncontended read locks to be very cheap." />
+      <item value="relinquishing" />
+      <item value="Cannot cause garbage retention unless the thread terminated without relinquishing its read locks, since tryReleaseShared sets it to null." />
+      <item value="&#10;More precisely, firstReader is the unique thread that last changed the shared count from 0 to 1, and has not released the read lock since then; null if there is no such thread." />
+      <item value="More precisely" />
       <item value="Acquires only if reentrant or queue is empty." />
       <item value="A synchronizer that may be exclusively owned by a thread. This class provides a basis for creating locks and related synchronizers that may entail a notion of ownership. The AbstractOwnableSynchronizer class itself does not manage or use this information. However, subclasses and tools may use appropriately maintained values to help control and monitor access and provide diagnostics." />
       <item value="true if synchronization is held exclusively;" />
@@ -45,17 +51,11 @@
       <item value="refinement " />
       <item value="refinement" />
       <item value="A refinement of StreamObserver provided by the GRPC runtime to the application (the client or the server) that allows for more complex interactions with call behavior.&#10;" />
-      <item value="gRPC guarantees it does not block on IO in its implementation, but applications are allowed to perform blocking operations in their implementations. However, doing so will delay other callbacks because the methods cannot be called concurrently." />
-      <item value="This API is asynchronous, so methods may return before the operation completes. The API provides no guarantees for how quickly an operation will complete, so utilizing flow control via ClientCallStreamObserver and ServerCallStreamObserver to avoid excessive buffering is recommended for streaming RPCs. gRPC's implementation of onError() on client-side causes the RPC to be cancelled and discards all messages, so completes quickly." />
-      <item value="Observer" />
-      <item value="Shim" />
-      <item value="foregoing" />
-      <item value="inconsistent" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="201" />
-        <entry key="ENGLISH" value="202" />
+        <entry key="CHINESE" value="208" />
+        <entry key="ENGLISH" value="209" />
       </map>
     </option>
   </component>
