@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="eligible" />
       <item value="precisely" />
       <item value="Accessed via a benign data race; relies on the memory model's out-of-thin-air guarantees for references.&#10;This allows tracking of read holds for uncontended read locks to be very cheap." />
       <item value="relinquishing" />
@@ -50,12 +51,11 @@
       <item value="A refinement of StreamObserver provided by the GRPC runtime to the application (the client or the server) that allows for more complex interactions with call behavior." />
       <item value="refinement " />
       <item value="refinement" />
-      <item value="A refinement of StreamObserver provided by the GRPC runtime to the application (the client or the server) that allows for more complex interactions with call behavior.&#10;" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="208" />
-        <entry key="ENGLISH" value="209" />
+        <entry key="CHINESE" value="209" />
+        <entry key="ENGLISH" value="210" />
       </map>
     </option>
   </component>
