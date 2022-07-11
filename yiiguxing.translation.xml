@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="A template trait for collections which can be traversed either once only or one or more times.&#10;" />
       <item value="eligible" />
       <item value="precisely" />
       <item value="Accessed via a benign data race; relies on the memory model's out-of-thin-air guarantees for references.&#10;This allows tracking of read holds for uncontended read locks to be very cheap." />
@@ -50,12 +51,11 @@
       <item value="In any call there are logically four StreamObserver implementations:" />
       <item value="A refinement of StreamObserver provided by the GRPC runtime to the application (the client or the server) that allows for more complex interactions with call behavior." />
       <item value="refinement " />
-      <item value="refinement" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="209" />
-        <entry key="ENGLISH" value="210" />
+        <entry key="CHINESE" value="210" />
+        <entry key="ENGLISH" value="211" />
       </map>
     </option>
   </component>
