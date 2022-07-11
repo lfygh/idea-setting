@@ -1,6 +1,16 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="As a heuristic to avoid indefinite writer starvation" />
+      <item value="barge" />
+      <item value="Attempts to set the state to reflect a release in shared mode." />
+      <item value="true if this release of shared mode may permit a waiting acquire (shared or exclusive) to succeed; and false otherwise" />
+      <item value=" Decrement count; signal when transition to zero" />
+      <item value="lies dormant " />
+      <item value="dormant" />
+      <item value="A useful property of a CountDownLatch is that it doesn't require that threads calling countDown wait for the count to reach zero before proceeding, it simply prevents any thread from proceeding past an await until all threads could pass." />
+      <item value="versatile" />
+      <item value=" This is a one-shot phenomenon -- the count cannot be reset. If you need a version that resets the count, consider using a CyclicBarrier" />
       <item value="A CountDownLatch is initialized with a given count. The await methods block until the current count reaches zero due to invocations of the countDown method" />
       <item value="A template trait for collections which can be traversed either once only or one or more times.&#10;" />
       <item value="eligible" />
@@ -41,21 +51,11 @@
       <item value="&#10;Guava implementations of ListenableFuture promptly release references to listeners after executing them" />
       <item value="Memory consistency effects: Actions in a thread prior to adding a listener happen-before its execution begins, perhaps in another thread." />
       <item value="This is the most general listener interface. For common operations performed using listeners, see Futures. For a simplified but general listener interface, see addCallback()." />
-      <item value="Note: If your listener is lightweight -- and will not cause stack overflow by completing more futures or adding more directExecutor() listeners inline -- consider MoreExecutors.directExecutor. Otherwise, avoid it: See the warnings on the docs for directExecutor." />
-      <item value="There is no guaranteed ordering of execution of listeners, but any listener added through this method is guaranteed to be called once the computation is complete." />
-      <item value="There is a race between cancel and the completionfailure of the RPC in other ways. If cancel won the race, Listener.onClose() is called with CANCELLED. Otherwise, Listener.onClose() is called with whatever status the RPC was finished. We ensure that at most one is called." />
-      <item value="There is no interaction between the states on the Listener and ClientCall, i.e., if Listener.onClose() is called, it has no bearing on the permitted operations on ClientCall (but it may impact whether they do anything)." />
-      <item value="No generic method for determining message receipt or providing acknowledgement is provided. Applications are expected to utilize normal payload messages for such signals, as a response naturally acknowledges its request." />
-      <item value="More advanced usages may consume this interface directly as opposed to using a stub. " />
-      <item value="If true, indicates that the observer is capable of sending additional messages without requiring excessive buffering internally. This value is just a suggestion and the application is free to ignore it, however doing so may result in excessive buffering within the observer." />
-      <item value="This is implemented by the client application and passed into a service method on a stub object." />
-      <item value="In any call there are logically four StreamObserver implementations:" />
-      <item value="A refinement of StreamObserver provided by the GRPC runtime to the application (the client or the server) that allows for more complex interactions with call behavior." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="211" />
-        <entry key="ENGLISH" value="212" />
+        <entry key="CHINESE" value="221" />
+        <entry key="ENGLISH" value="222" />
       </map>
     </option>
   </component>
