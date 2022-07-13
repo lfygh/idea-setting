@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="The queue used for holding tasks and handing off to worker threads. We do not require that workQueue.poll() returning null necessarily means that workQueue.isEmpty(), so rely solely on isEmpty to see if the queue is empty (which we must do for example when deciding whether to transition from SHUTDOWN to TIDYING). This accommodates special-purpose queues such as DelayQueues for which poll() is allowed to return null even if it may later return non-null when delays expire." />
+      <item value="The queue used for holding tasks and handing off to worker threads. We do not require that workQueue.poll() returning null necessarily means that workQueue.isEmpty()," />
       <item value="relinquishes" />
       <item value="Sets head of queue, and checks if successor may be waiting in shared mode, if so propagating if either propagate &gt; 0 or PROPAGATE status was set." />
       <item value=" Otherwise the thread is queued, possibly repeatedly blocking and unblocking, invoking tryAcquireShared until success" />
@@ -49,13 +51,11 @@
       <item value="When a buffer is added to a composite, its life cycle is controlled by the composite. Once the composite has read past the end of a given buffer, that buffer is automatically closed and removed from the composite." />
       <item value="A ReadableBuffer that is composed of 0 or more ReadableBuffers." />
       <item value="Deframer for GRPC frames." />
-      <item value="frames" />
-      <item value="Deframer" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="226" />
-        <entry key="ENGLISH" value="227" />
+        <entry key="CHINESE" value="228" />
+        <entry key="ENGLISH" value="229" />
       </map>
     </option>
   </component>
