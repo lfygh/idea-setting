@@ -1,6 +1,13 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="the task the new thread should run first (or null if none). Workers are created with an initial first task (in method execute()) to bypass queuing when there are fewer than corePoolSize threads (in which case we always start one), or when the queue is full (in which case we must bypass queue). Initially idle threads are usually created via prestartCoreThread or to replace other dying workers." />
+      <item value="eligible to shut down" />
+      <item value="eligible" />
+      <item value="accordingly" />
+      <item value="If so, the worker count is adjusted accordingly," />
+      <item value="with respect to" />
+      <item value="Checks if a new worker can be added with respect to current pool state and the given bound (either core or maximum)." />
       <item value="inhibit interrupts until runWorker" />
       <item value=" This protects against interrupts that are intended to wake up a worker thread waiting for a task from instead interrupting a task being run" />
       <item value="opportunistically" />
@@ -28,7 +35,6 @@
       <item value=" This is a one-shot phenomenon -- the count cannot be reset. If you need a version that resets the count, consider using a CyclicBarrier" />
       <item value="A CountDownLatch is initialized with a given count. The await methods block until the current count reaches zero due to invocations of the countDown method" />
       <item value="A template trait for collections which can be traversed either once only or one or more times.&#10;" />
-      <item value="eligible" />
       <item value="precisely" />
       <item value="Accessed via a benign data race; relies on the memory model's out-of-thin-air guarantees for references.&#10;This allows tracking of read holds for uncontended read locks to be very cheap." />
       <item value="relinquishing" />
@@ -45,17 +51,11 @@
       <item value="&#10;In addition to implementing the Lock interface, this class defines a number of public and protected methods for inspecting the state of the lock. Some of these methods are only useful for instrumentation and monitoring." />
       <item value="&#10;The constructor for this class accepts an optional fairness parameter. When set true, under contention, locks favor granting access to the longest-waiting thread." />
       <item value="A reentrant mutual exclusion Lock with the same basic behavior and semantics as the implicit monitor lock accessed using synchronized methods and statements, but with extended capabilities." />
-      <item value="This class does not impose a reader or writer preference ordering for lock access. However, it does support an optional fairness policy." />
-      <item value="It should be called from the Synchronization Context. Currently will log a warning if violated. It will become an exception eventually. See 5015  for the background." />
-      <item value="If there isn't an active transport yet, and an RPC is assigned to the Subchannel, it will create a new transport. It won't actively create transports otherwise. requestConnection() can be used to ask Subchannel to create a transport if there isn't any.&#10;" />
-      <item value="It maintains at most one physical connection (aka transport) for sending new RPCs, while also keeps track of previous transports that has been shut down but not terminated yet." />
-      <item value="A logical connection to a server, or a group of equivalent servers represented by an EquivalentAddressGrou" />
-      <item value="This transport owns every stream that it has created until a real transport has been picked for that stream, at which point the ownership of the stream is transferred to the real transport, thus the delayed transport stops owning the stream" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="238" />
-        <entry key="ENGLISH" value="239" />
+        <entry key="CHINESE" value="247" />
+        <entry key="ENGLISH" value="248" />
       </map>
     </option>
   </component>
