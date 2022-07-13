@@ -1,6 +1,15 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="inhibit interrupts until runWorker" />
+      <item value=" This protects against interrupts that are intended to wake up a worker thread waiting for a task from instead interrupting a task being run" />
+      <item value="opportunistically" />
+      <item value="This class opportunistically extends AbstractQueuedSynchronizer to simplify acquiring and releasing a lock surrounding each task execution." />
+      <item value="bookkeeping" />
+      <item value="Class Worker mainly maintains interrupt control state for threads running tasks, along with other minor bookkeeping. " />
+      <item value="Class Worker mainly maintains interrupt control state for threads running tasks, along with other minor bookkeeping. T" />
+      <item value="along with other minor bookkeeping." />
+      <item value="Class Worker mainly maintains interrupt control state for threads running tasks" />
       <item value="The queue used for holding tasks and handing off to worker threads. We do not require that workQueue.poll() returning null necessarily means that workQueue.isEmpty(), so rely solely on isEmpty to see if the queue is empty (which we must do for example when deciding whether to transition from SHUTDOWN to TIDYING). This accommodates special-purpose queues such as DelayQueues for which poll() is allowed to return null even if it may later return non-null when delays expire." />
       <item value="The queue used for holding tasks and handing off to worker threads. We do not require that workQueue.poll() returning null necessarily means that workQueue.isEmpty()," />
       <item value="relinquishes" />
@@ -42,20 +51,11 @@
       <item value="It maintains at most one physical connection (aka transport) for sending new RPCs, while also keeps track of previous transports that has been shut down but not terminated yet." />
       <item value="A logical connection to a server, or a group of equivalent servers represented by an EquivalentAddressGrou" />
       <item value="This transport owns every stream that it has created until a real transport has been picked for that stream, at which point the ownership of the stream is transferred to the real transport, thus the delayed transport stops owning the stream" />
-      <item value="When reprocess is called, this class applies the provided io.grpc.LoadBalancer.SubchannelPicker to pick a transport for each pending stream" />
-      <item value="&#10;a Runnable that is executed after-the-fact by the original caller, typically after locks are released" />
-      <item value="Implementations must not call listener from within start; implementations are expected to notify listener on a separate thread or when the returned Runnable is run. This method and the returned Runnable should not throw any exceptions." />
-      <item value="An object that executes submitted Runnable tasks. This interface provides a way of decoupling task submission from the mechanics of how each task will be run, including details of thread use, scheduling, etc. An Executor is normally used instead of explicitly creating threads. For example, rather than invoking new Thread(new RunnableTask()).start() for each of a set of tasks" />
-      <item value="Internal Instrumented" />
-      <item value="drain" />
-      <item value="When a buffer is added to a composite, its life cycle is controlled by the composite. Once the composite has read past the end of a given buffer, that buffer is automatically closed and removed from the composite." />
-      <item value="A ReadableBuffer that is composed of 0 or more ReadableBuffers." />
-      <item value="Deframer for GRPC frames." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="228" />
-        <entry key="ENGLISH" value="229" />
+        <entry key="CHINESE" value="238" />
+        <entry key="ENGLISH" value="239" />
       </map>
     </option>
   </component>
