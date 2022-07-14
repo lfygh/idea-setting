@@ -1,6 +1,17 @@
 <application>
   <component name="AppStorage">
+    <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="A thread interruption ignored because a thread was not alive at the time of the interrupt will be reflected by this method returning false." />
+      <item value="After task.run completes, we call afterExecute, which may also throw an exception, which will also cause thread to die. According to JLS Sec 14.20, this exception is the one that will be in effect even if task.run throws. The net effect of the exception mechanics is that afterExecute and the thread's UncaughtExceptionHandler have as accurate information as we can provide about any problems encountered by user code." />
+      <item value=" Assuming beforeExecute completes normally, we run the task, gathering any of its thrown exceptions to send to afterExecute. We separately handle RuntimeException, Error (both of which the specs guarantee that we trap) and arbitrary Throwables. Because we cannot rethrow Throwables within Runnable.run, we wrap them within Errors on the way out (to the thread's UncaughtExceptionHandler). Any thrown exception also conservatively causes thread to die." />
+      <item value="Each task run is preceded by a call to beforeExecute, which might throw an exception, in which case we cause thread to die (breaking loop with completedAbruptly true) without processing the task." />
+      <item value="preceded" />
+      <item value=" Each task run is preceded by a call to beforeExecute, which might throw an exception, in which case we cause thread to die (breaking loop with completedAbruptly true) without processing the task." />
+      <item value=" Before running any task, the lock is acquired to prevent other pool interrupts while the task is executing, and then we ensure that unless pool is stopping, this thread does not have its interrupt set." />
+      <item value="We may start out with an initial task, in which case we don't need to get the first one. Otherwise, as long as pool is running, we get tasks from getTask. If it returns null then the worker exits due to changed pool state or configuration parameters. Other exits result from exception throws in external code, in which case completedAbruptly holds, which usually leads processWorkerExit to replace this thread. " />
+      <item value="If it returns null then the worker exits due to changed pool state or configuration parameters." />
+      <item value="while coping with a number of issues" />
       <item value="This worker timed out waiting for a task, and timed-out workers are subject to termination" />
       <item value="the task the new thread should run first (or null if none). Workers are created with an initial first task (in method execute()) to bypass queuing when there are fewer than corePoolSize threads (in which case we always start one), or when the queue is full (in which case we must bypass queue). Initially idle threads are usually created via prestartCoreThread or to replace other dying workers." />
       <item value="eligible to shut down" />
@@ -41,21 +52,11 @@
       <item value="relinquishing" />
       <item value="Cannot cause garbage retention unless the thread terminated without relinquishing its read locks, since tryReleaseShared sets it to null." />
       <item value="&#10;More precisely, firstReader is the unique thread that last changed the shared count from 0 to 1, and has not released the read lock since then; null if there is no such thread." />
-      <item value="More precisely" />
-      <item value="Acquires only if reentrant or queue is empty." />
-      <item value="A synchronizer that may be exclusively owned by a thread. This class provides a basis for creating locks and related synchronizers that may entail a notion of ownership. The AbstractOwnableSynchronizer class itself does not manage or use this information. However, subclasses and tools may use appropriately maintained values to help control and monitor access and provide diagnostics." />
-      <item value="true if synchronization is held exclusively;" />
-      <item value="Returns true if synchronization is held exclusively with respect to the current (calling) thread. This method is invoked upon each call to a AbstractQueuedSynchronizer.ConditionObject method." />
-      <item value="If the lock is not available then the current thread becomes disabled for thread scheduling purposes and lies dormant until one of two things happens" />
-      <item value="Acquires the lock if it is not held by another thread and returns immediately, setting the lock hold count to one." />
-      <item value="In addition to" />
-      <item value="&#10;In addition to implementing the Lock interface, this class defines a number of public and protected methods for inspecting the state of the lock. Some of these methods are only useful for instrumentation and monitoring." />
-      <item value="&#10;The constructor for this class accepts an optional fairness parameter. When set true, under contention, locks favor granting access to the longest-waiting thread." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="248" />
-        <entry key="ENGLISH" value="249" />
+        <entry key="CHINESE" value="258" />
+        <entry key="ENGLISH" value="259" />
       </map>
     </option>
   </component>
