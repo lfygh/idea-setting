@@ -2,6 +2,12 @@
   <component name="AppStorage">
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="Performs cleanup and bookkeeping for a dying worker. Called only from worker threads. Unless completedAbruptly is set, assumes that workerCount has already been adjusted to account for exit. This method removes thread from worker set, and possibly terminates the pool or replaces the worker if either it exited due to user task exception or if fewer than corePoolSize workers are running or queue is non-empty but there are no workers." />
+      <item value="completed Abruptly" />
+      <item value="dying" />
+      <item value="Performs cleanup and bookkeeping for a dying worker." />
+      <item value="If abrupt, then workerCount wasn't adjusted" />
+      <item value="Method invoked prior to executing the given Runnable in the given thread. This method is invoked by thread t that will execute task r, and may be used to re-initialize ThreadLocals, or to perform logging.&#10;This implementation does nothing, but may be customized in subclasses. Note: To properly nest multiple overridings, subclasses should generally invoke super.beforeExecute at the end of this method." />
       <item value="A thread interruption ignored because a thread was not alive at the time of the interrupt will be reflected by this method returning false." />
       <item value="After task.run completes, we call afterExecute, which may also throw an exception, which will also cause thread to die. According to JLS Sec 14.20, this exception is the one that will be in effect even if task.run throws. The net effect of the exception mechanics is that afterExecute and the thread's UncaughtExceptionHandler have as accurate information as we can provide about any problems encountered by user code." />
       <item value=" Assuming beforeExecute completes normally, we run the task, gathering any of its thrown exceptions to send to afterExecute. We separately handle RuntimeException, Error (both of which the specs guarantee that we trap) and arbitrary Throwables. Because we cannot rethrow Throwables within Runnable.run, we wrap them within Errors on the way out (to the thread's UncaughtExceptionHandler). Any thrown exception also conservatively causes thread to die." />
@@ -46,17 +52,11 @@
       <item value="versatile" />
       <item value=" This is a one-shot phenomenon -- the count cannot be reset. If you need a version that resets the count, consider using a CyclicBarrier" />
       <item value="A CountDownLatch is initialized with a given count. The await methods block until the current count reaches zero due to invocations of the countDown method" />
-      <item value="A template trait for collections which can be traversed either once only or one or more times.&#10;" />
-      <item value="precisely" />
-      <item value="Accessed via a benign data race; relies on the memory model's out-of-thin-air guarantees for references.&#10;This allows tracking of read holds for uncontended read locks to be very cheap." />
-      <item value="relinquishing" />
-      <item value="Cannot cause garbage retention unless the thread terminated without relinquishing its read locks, since tryReleaseShared sets it to null." />
-      <item value="&#10;More precisely, firstReader is the unique thread that last changed the shared count from 0 to 1, and has not released the read lock since then; null if there is no such thread." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="258" />
-        <entry key="ENGLISH" value="259" />
+        <entry key="CHINESE" value="265" />
+        <entry key="ENGLISH" value="266" />
       </map>
     </option>
   </component>
