@@ -2,6 +2,7 @@
   <component name="AppStorage">
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="inhibit interrupts until runWorker" />
       <item value="Transitions to TERMINATED state if either (SHUTDOWN and pool and queue empty) or (STOP and pool empty). If otherwise eligible to terminate but workerCount is nonzero, interrupts an idle worker to ensure that shutdown signals propagate. This method must be called following any action that might make termination possible -- reducing worker count or removing tasks from the queue during shutdown. The method is non-private to allow access from ScheduledThreadPoolExecutor." />
       <item value="Transitions to TERMINATED state if either (SHUTDOWN and pool and queue empty) or (STOP and pool empty)." />
       <item value="This method may be useful as one part of a cancellation scheme. It may fail to remove tasks that have been converted into other forms before being placed on the internal queue. For example, a task entered using submit might be converted into a form that maintains Future status. However, in such cases, method purge may be used to remove those Futures that have been cancelled." />
@@ -38,7 +39,6 @@
       <item value="If so, the worker count is adjusted accordingly," />
       <item value="with respect to" />
       <item value="Checks if a new worker can be added with respect to current pool state and the given bound (either core or maximum)." />
-      <item value="inhibit interrupts until runWorker" />
       <item value=" This protects against interrupts that are intended to wake up a worker thread waiting for a task from instead interrupting a task being run" />
       <item value="opportunistically" />
       <item value="This class opportunistically extends AbstractQueuedSynchronizer to simplify acquiring and releasing a lock surrounding each task execution." />
@@ -55,8 +55,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="277" />
-        <entry key="ENGLISH" value="278" />
+        <entry key="CHINESE" value="278" />
+        <entry key="ENGLISH" value="279" />
       </map>
     </option>
   </component>
