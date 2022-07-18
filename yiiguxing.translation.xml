@@ -2,6 +2,12 @@
   <component name="AppStorage">
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="Transitions to TERMINATED state if either (SHUTDOWN and pool and queue empty) or (STOP and pool empty). If otherwise eligible to terminate but workerCount is nonzero, interrupts an idle worker to ensure that shutdown signals propagate. This method must be called following any action that might make termination possible -- reducing worker count or removing tasks from the queue during shutdown. The method is non-private to allow access from ScheduledThreadPoolExecutor." />
+      <item value="Transitions to TERMINATED state if either (SHUTDOWN and pool and queue empty) or (STOP and pool empty)." />
+      <item value="This method may be useful as one part of a cancellation scheme. It may fail to remove tasks that have been converted into other forms before being placed on the internal queue. For example, a task entered using submit might be converted into a form that maintains Future status. However, in such cases, method purge may be used to remove those Futures that have been cancelled." />
+      <item value="Removes this task from the executor's internal queue if it is present, thus causing it not to be run if it has not already started.&#10;This method may be useful as one part of a cancellation scheme. It may fail to remove tasks that have been converted into other forms before being placed on the internal queue. For example, a task entered using submit might be converted into a form that maintains Future status. However, in such cases, method purge may be used to remove those Futures that have been cancelled." />
+      <item value="Removes this task from the executor's internal queue if it is present, thus causing it not to be run if it has not already started." />
+      <item value="          2. If a task can be successfully queued, then we still need&#10;          to double-check whether we should have added a thread&#10;          (because existing ones died since last checking) or that&#10;          the pool shut down since entry into this method. So we&#10;          recheck state and if necessary roll back the enqueuing if&#10;          stopped, or start a new thread if there are none." />
       <item value="this method is generally preferable to add," />
       <item value="Inserts the specified element into this queue if it is possible to do so immediately without violating capacity restrictions, returning true upon success and false if no space is currently available. When using a capacity-restricted queue, this method is generally preferable to add, which can fail to insert an element only by throwing an exception." />
       <item value=" violating" />
@@ -46,17 +52,11 @@
       <item value="relinquishes" />
       <item value="Sets head of queue, and checks if successor may be waiting in shared mode, if so propagating if either propagate &gt; 0 or PROPAGATE status was set." />
       <item value=" Otherwise the thread is queued, possibly repeatedly blocking and unblocking, invoking tryAcquireShared until success" />
-      <item value="Acquires in shared mode, ignoring interrupts. Implemented by first invoking at least once tryAcquireShared, returning on success." />
-      <item value="As a heuristic to avoid indefinite writer starvation" />
-      <item value="barge" />
-      <item value="Attempts to set the state to reflect a release in shared mode." />
-      <item value="true if this release of shared mode may permit a waiting acquire (shared or exclusive) to succeed; and false otherwise" />
-      <item value=" Decrement count; signal when transition to zero" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="271" />
-        <entry key="ENGLISH" value="272" />
+        <entry key="CHINESE" value="277" />
+        <entry key="ENGLISH" value="278" />
       </map>
     </option>
   </component>
