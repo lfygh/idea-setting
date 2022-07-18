@@ -2,6 +2,11 @@
   <component name="AppStorage">
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="this method is generally preferable to add," />
+      <item value="Inserts the specified element into this queue if it is possible to do so immediately without violating capacity restrictions, returning true upon success and false if no space is currently available. When using a capacity-restricted queue, this method is generally preferable to add, which can fail to insert an element only by throwing an exception." />
+      <item value=" violating" />
+      <item value="Inserts the specified element into this queue if it is possible to do so immediately without violating capacity restrictions, returning true upon success and false if no space is currently available. " />
+      <item value="&#10;poll" />
       <item value="BlockingQueue methods come in four forms, with different ways of handling operations that cannot be satisfied immediately, but may be satisfied at some point in the future" />
       <item value="Performs cleanup and bookkeeping for a dying worker. Called only from worker threads. Unless completedAbruptly is set, assumes that workerCount has already been adjusted to account for exit. This method removes thread from worker set, and possibly terminates the pool or replaces the worker if either it exited due to user task exception or if fewer than corePoolSize workers are running or queue is non-empty but there are no workers." />
       <item value="completed Abruptly" />
@@ -47,16 +52,11 @@
       <item value="Attempts to set the state to reflect a release in shared mode." />
       <item value="true if this release of shared mode may permit a waiting acquire (shared or exclusive) to succeed; and false otherwise" />
       <item value=" Decrement count; signal when transition to zero" />
-      <item value="lies dormant " />
-      <item value="dormant" />
-      <item value="A useful property of a CountDownLatch is that it doesn't require that threads calling countDown wait for the count to reach zero before proceeding, it simply prevents any thread from proceeding past an await until all threads could pass." />
-      <item value="versatile" />
-      <item value=" This is a one-shot phenomenon -- the count cannot be reset. If you need a version that resets the count, consider using a CyclicBarrier" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="266" />
-        <entry key="ENGLISH" value="267" />
+        <entry key="CHINESE" value="271" />
+        <entry key="ENGLISH" value="272" />
       </map>
     </option>
   </component>
