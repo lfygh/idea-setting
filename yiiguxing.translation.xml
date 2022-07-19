@@ -2,6 +2,10 @@
   <component name="AppStorage">
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="Any thrown exception also&#10;      conservatively causes thread to die." />
+      <item value="conservatively" />
+      <item value="We separately handle RuntimeException, Error (both of which the&#10;      specs guarantee that we trap) and arbitrary Throwables." />
+      <item value="a call to beforeExecute" />
       <item value="Each task run is preceded by a call to beforeExecute," />
       <item value="preceded" />
       <item value="Each task run is preceded by a call to beforeExecute" />
@@ -48,15 +52,11 @@
       <item value="If so, the worker count is adjusted accordingly," />
       <item value="with respect to" />
       <item value="Checks if a new worker can be added with respect to current pool state and the given bound (either core or maximum)." />
-      <item value=" This protects against interrupts that are intended to wake up a worker thread waiting for a task from instead interrupting a task being run" />
-      <item value="opportunistically" />
-      <item value="This class opportunistically extends AbstractQueuedSynchronizer to simplify acquiring and releasing a lock surrounding each task execution." />
-      <item value="bookkeeping" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="290" />
-        <entry key="ENGLISH" value="291" />
+        <entry key="CHINESE" value="294" />
+        <entry key="ENGLISH" value="295" />
       </map>
     </option>
   </component>
