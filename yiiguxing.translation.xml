@@ -2,6 +2,9 @@
   <component name="AppStorage">
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="&#10;Here is a class with a method that sets up a ScheduledExecutorService to beep every ten seconds for an hour" />
+      <item value="the remaining delay; zero or negative values indicate that the delay has already elapsed" />
+      <item value="A mix-in style interface for marking objects that should be acted upon after a given delay." />
       <item value="A follower replicator may not be started when this node become leader, so we must check it." />
       <item value="Attempts to stop all actively executing tasks, halts the processing of waiting tasks, and returns a list of the tasks that were awaiting execution.&#10;" />
       <item value="      5. After task.run completes, we call afterExecute, which may&#10;      also throw an exception, which will also cause thread to&#10;      die. According to JLS Sec 14.20, this exception is the one that&#10;      will be in effect even if task.run throws." />
@@ -49,14 +52,11 @@
       <item value="We may start out with an initial task, in which case we don't need to get the first one. Otherwise, as long as pool is running, we get tasks from getTask. If it returns null then the worker exits due to changed pool state or configuration parameters. Other exits result from exception throws in external code, in which case completedAbruptly holds, which usually leads processWorkerExit to replace this thread. " />
       <item value="If it returns null then the worker exits due to changed pool state or configuration parameters." />
       <item value="This worker timed out waiting for a task, and timed-out workers are subject to termination" />
-      <item value="the task the new thread should run first (or null if none). Workers are created with an initial first task (in method execute()) to bypass queuing when there are fewer than corePoolSize threads (in which case we always start one), or when the queue is full (in which case we must bypass queue). Initially idle threads are usually created via prestartCoreThread or to replace other dying workers." />
-      <item value="eligible to shut down" />
-      <item value="eligible" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="298" />
-        <entry key="ENGLISH" value="299" />
+        <entry key="CHINESE" value="301" />
+        <entry key="ENGLISH" value="302" />
       </map>
     </option>
   </component>
