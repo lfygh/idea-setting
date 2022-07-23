@@ -2,6 +2,8 @@
   <component name="AppStorage">
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="The class Exception and any subclasses that are not also subclasses of RuntimeException are checked exceptions. " />
+      <item value="The class Exception and its subclasses are a form of Throwable that indicates conditions that a reasonable application might want to catch." />
       <item value="that&#10;          the pool shut down since entry into this method" />
       <item value="          1. If fewer than corePoolSize threads are running, try to&#10;          start a new thread with the given command as its first&#10;          task.  The call to addWorker atomically checks runState and&#10;          workerCount, and so prevents false alarms that would add&#10;          threads when it shouldn't, by returning false." />
       <item value="implies" />
@@ -50,13 +52,11 @@
       <item value="After task.run completes, we call afterExecute, which may also throw an exception, which will also cause thread to die. According to JLS Sec 14.20, this exception is the one that will be in effect even if task.run throws. The net effect of the exception mechanics is that afterExecute and the thread's UncaughtExceptionHandler have as accurate information as we can provide about any problems encountered by user code." />
       <item value=" Assuming beforeExecute completes normally, we run the task, gathering any of its thrown exceptions to send to afterExecute. We separately handle RuntimeException, Error (both of which the specs guarantee that we trap) and arbitrary Throwables. Because we cannot rethrow Throwables within Runnable.run, we wrap them within Errors on the way out (to the thread's UncaughtExceptionHandler). Any thrown exception also conservatively causes thread to die." />
       <item value="Each task run is preceded by a call to beforeExecute, which might throw an exception, in which case we cause thread to die (breaking loop with completedAbruptly true) without processing the task." />
-      <item value=" Each task run is preceded by a call to beforeExecute, which might throw an exception, in which case we cause thread to die (breaking loop with completedAbruptly true) without processing the task." />
-      <item value=" Before running any task, the lock is acquired to prevent other pool interrupts while the task is executing, and then we ensure that unless pool is stopping, this thread does not have its interrupt set." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="304" />
-        <entry key="ENGLISH" value="305" />
+        <entry key="CHINESE" value="306" />
+        <entry key="ENGLISH" value="307" />
       </map>
     </option>
   </component>
