@@ -2,6 +2,9 @@
   <component name="AppStorage">
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="In order to be used with a selector, an instance of this class must first be registered via the register method. This method returns a new SelectionKey object that represents the channel's registration with the selector." />
+      <item value="A channel that can be multiplexed via a Selector." />
+      <item value=" It is not possible to create a channel for an arbitrary, pre-existing ServerSocket. " />
       <item value="The class Exception and any subclasses that are not also subclasses of RuntimeException are checked exceptions. " />
       <item value="The class Exception and its subclasses are a form of Throwable that indicates conditions that a reasonable application might want to catch." />
       <item value="that&#10;          the pool shut down since entry into this method" />
@@ -49,14 +52,11 @@
       <item value="If abrupt, then workerCount wasn't adjusted" />
       <item value="Method invoked prior to executing the given Runnable in the given thread. This method is invoked by thread t that will execute task r, and may be used to re-initialize ThreadLocals, or to perform logging.&#10;This implementation does nothing, but may be customized in subclasses. Note: To properly nest multiple overridings, subclasses should generally invoke super.beforeExecute at the end of this method." />
       <item value="A thread interruption ignored because a thread was not alive at the time of the interrupt will be reflected by this method returning false." />
-      <item value="After task.run completes, we call afterExecute, which may also throw an exception, which will also cause thread to die. According to JLS Sec 14.20, this exception is the one that will be in effect even if task.run throws. The net effect of the exception mechanics is that afterExecute and the thread's UncaughtExceptionHandler have as accurate information as we can provide about any problems encountered by user code." />
-      <item value=" Assuming beforeExecute completes normally, we run the task, gathering any of its thrown exceptions to send to afterExecute. We separately handle RuntimeException, Error (both of which the specs guarantee that we trap) and arbitrary Throwables. Because we cannot rethrow Throwables within Runnable.run, we wrap them within Errors on the way out (to the thread's UncaughtExceptionHandler). Any thrown exception also conservatively causes thread to die." />
-      <item value="Each task run is preceded by a call to beforeExecute, which might throw an exception, in which case we cause thread to die (breaking loop with completedAbruptly true) without processing the task." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="306" />
-        <entry key="ENGLISH" value="307" />
+        <entry key="CHINESE" value="309" />
+        <entry key="ENGLISH" value="310" />
       </map>
     </option>
   </component>
