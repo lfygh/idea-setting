@@ -2,6 +2,9 @@
   <component name="AppStorage">
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="The first byte read is stored into element b[off], the next one into b[off+1], and so on. The number of bytes read is, at most, equal to len. Let k be the number of bytes actually read; these bytes will be stored in elements b[off] through b[off+k-1], leaving elements b[off+k] through b[off+len-1] unaffected.&#10;In every case, elements b[0] through b[off] and elements b[off+len] through b[b.length-1] are unaffected." />
+      <item value="&#10;The first byte read is stored into element b[off], the next one into b[off+1]" />
+      <item value="Reads up to len bytes of data from the input stream into an array of bytes. An attempt is made to read as many as len bytes, but a smaller number may be read. The number of bytes actually read is returned as an integer." />
       <item value="Whether or not a channel is registered with one or more selectors may be determined by invoking the isRegistered method." />
       <item value="A channel may be registered at most once with any particular selector." />
       <item value="A channel cannot be deregistered directly; instead, the key representing its registration must be cancelled. Cancelling a key requests that the channel be deregistered during the selector's next selection operation. A key may be cancelled explicitly by invoking its cancel method. All of a channel's keys are cancelled implicitly when the channel is closed, whether by invoking its close method or by interrupting a thread blocked in an IO operation upon the channel." />
@@ -49,14 +52,11 @@
       <item value="Inserts the specified element into this queue if it is possible to do so immediately without violating capacity restrictions, returning true upon success and false if no space is currently available. When using a capacity-restricted queue, this method is generally preferable to add, which can fail to insert an element only by throwing an exception." />
       <item value=" violating" />
       <item value="Inserts the specified element into this queue if it is possible to do so immediately without violating capacity restrictions, returning true upon success and false if no space is currently available. " />
-      <item value="&#10;poll" />
-      <item value="BlockingQueue methods come in four forms, with different ways of handling operations that cannot be satisfied immediately, but may be satisfied at some point in the future" />
-      <item value="Performs cleanup and bookkeeping for a dying worker. Called only from worker threads. Unless completedAbruptly is set, assumes that workerCount has already been adjusted to account for exit. This method removes thread from worker set, and possibly terminates the pool or replaces the worker if either it exited due to user task exception or if fewer than corePoolSize workers are running or queue is non-empty but there are no workers." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="315" />
-        <entry key="ENGLISH" value="316" />
+        <entry key="CHINESE" value="318" />
+        <entry key="ENGLISH" value="319" />
       </map>
     </option>
   </component>
