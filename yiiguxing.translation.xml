@@ -2,6 +2,7 @@
   <component name="AppStorage">
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="vice versa; " />
       <item value="&#10;This class defines methods for reading and writing values of all other primitive types, except boolean. Primitive values are translated to (or from) sequences of bytes according to the buffer's current byte order, which may be retrieved and modified via the order methods. Specific byte orders are represented by instances of the ByteOrder class. The initial order of a byte buffer is always BIG_ENDIAN." />
       <item value="&#10;Whether a byte buffer is direct or non-direct may be determined by invoking its isDirect method. This method is provided so that explicit buffer management can be done in performance-critical code. " />
       <item value="A direct byte buffer may also be created by mapping a region of a file directly into memory. An implementation of the Java platform may optionally support the creation of direct byte buffers from native code via JNI. If an instance of one of these kinds of buffers refers to an inaccessible region of memory then an attempt to access that region will not change the buffer's content and will cause an unspecified exception to be thrown either at the time of the access or at some later time." />
@@ -51,7 +52,6 @@
       <item value="Transitions to TERMINATED state if either (SHUTDOWN and pool and queue empty) or (STOP and pool empty)." />
       <item value="This method may be useful as one part of a cancellation scheme. It may fail to remove tasks that have been converted into other forms before being placed on the internal queue. For example, a task entered using submit might be converted into a form that maintains Future status. However, in such cases, method purge may be used to remove those Futures that have been cancelled." />
       <item value="Removes this task from the executor's internal queue if it is present, thus causing it not to be run if it has not already started.&#10;This method may be useful as one part of a cancellation scheme. It may fail to remove tasks that have been converted into other forms before being placed on the internal queue. For example, a task entered using submit might be converted into a form that maintains Future status. However, in such cases, method purge may be used to remove those Futures that have been cancelled." />
-      <item value="Removes this task from the executor's internal queue if it is present, thus causing it not to be run if it has not already started." />
     </histories>
     <option name="languageScores">
       <map>
