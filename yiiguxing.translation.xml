@@ -2,6 +2,7 @@
   <component name="AppStorage">
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="Only one write operation upon a writable channel may be in progress at any given time. If one thread initiates a write operation upon a channel then any other thread that attempts to initiate another write operation will block until the first operation is complete. Whether or not other kinds of IO operations may proceed concurrently with a write operation depends upon the type of the channel." />
       <item value="         If a buffer of this size is too large for the cache, there&#10;         should not be a buffer in the cache that is at least as&#10;         large. So we'll just create a new one. Also, we don't have&#10;         to remove the buffer from the cache (as this method does&#10;         below) given that we won't put the new buffer in the cache." />
       <item value="vice versa; " />
       <item value="&#10;This class defines methods for reading and writing values of all other primitive types, except boolean. Primitive values are translated to (or from) sequences of bytes according to the buffer's current byte order, which may be retrieved and modified via the order methods. Specific byte orders are represented by instances of the ByteOrder class. The initial order of a byte buffer is always BIG_ENDIAN." />
@@ -51,12 +52,11 @@
       <item value="inhibit interrupts until runWorker" />
       <item value="Transitions to TERMINATED state if either (SHUTDOWN and pool and queue empty) or (STOP and pool empty). If otherwise eligible to terminate but workerCount is nonzero, interrupts an idle worker to ensure that shutdown signals propagate. This method must be called following any action that might make termination possible -- reducing worker count or removing tasks from the queue during shutdown. The method is non-private to allow access from ScheduledThreadPoolExecutor." />
       <item value="Transitions to TERMINATED state if either (SHUTDOWN and pool and queue empty) or (STOP and pool empty)." />
-      <item value="This method may be useful as one part of a cancellation scheme. It may fail to remove tasks that have been converted into other forms before being placed on the internal queue. For example, a task entered using submit might be converted into a form that maintains Future status. However, in such cases, method purge may be used to remove those Futures that have been cancelled." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="324" />
-        <entry key="ENGLISH" value="325" />
+        <entry key="CHINESE" value="325" />
+        <entry key="ENGLISH" value="326" />
       </map>
     </option>
   </component>
