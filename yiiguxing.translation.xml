@@ -2,6 +2,7 @@
   <component name="AppStorage">
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="Reads up to len bytes of data" />
       <item value="Only one write operation upon a writable channel may be in progress at any given time. If one thread initiates a write operation upon a channel then any other thread that attempts to initiate another write operation will block until the first operation is complete. Whether or not other kinds of IO operations may proceed concurrently with a write operation depends upon the type of the channel." />
       <item value="         If a buffer of this size is too large for the cache, there&#10;         should not be a buffer in the cache that is at least as&#10;         large. So we'll just create a new one. Also, we don't have&#10;         to remove the buffer from the cache (as this method does&#10;         below) given that we won't put the new buffer in the cache." />
       <item value="vice versa; " />
@@ -51,12 +52,11 @@
       <item value="Transitions runState to given target, or leaves it alone if already at least the given target." />
       <item value="inhibit interrupts until runWorker" />
       <item value="Transitions to TERMINATED state if either (SHUTDOWN and pool and queue empty) or (STOP and pool empty). If otherwise eligible to terminate but workerCount is nonzero, interrupts an idle worker to ensure that shutdown signals propagate. This method must be called following any action that might make termination possible -- reducing worker count or removing tasks from the queue during shutdown. The method is non-private to allow access from ScheduledThreadPoolExecutor." />
-      <item value="Transitions to TERMINATED state if either (SHUTDOWN and pool and queue empty) or (STOP and pool empty)." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="325" />
-        <entry key="ENGLISH" value="326" />
+        <entry key="CHINESE" value="326" />
+        <entry key="ENGLISH" value="327" />
       </map>
     </option>
   </component>
