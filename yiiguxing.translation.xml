@@ -2,6 +2,10 @@
   <component name="AppStorage">
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="Lists incomplete object upload information of a bucket." />
+      <item value="Sets default object retention in a bucket." />
+      <item value="Gets presigned URL of an object for HTTP method, expiry time and custom request parameters." />
+      <item value="Presigned" />
       <item value="Creates an object by combining data from different source objects using server-side copy." />
       <item value="Reads up to len bytes of data" />
       <item value="Only one write operation upon a writable channel may be in progress at any given time. If one thread initiates a write operation upon a channel then any other thread that attempts to initiate another write operation will block until the first operation is complete. Whether or not other kinds of IO operations may proceed concurrently with a write operation depends upon the type of the channel." />
@@ -48,15 +52,11 @@
       <item value="coping with a number of issues" />
       <item value="while coping with a number of issues" />
       <item value="Main worker run loop.  Repeatedly gets tasks from queue and&#10;      executes them, while coping with a number of issues" />
-      <item value="Internal errors. Means some invariants expected by underlying system has been broken. If you see one of these errors, something is very broken." />
-      <item value="interest" />
-      <item value="Transitions runState to given target, or leaves it alone if already at least the given target." />
-      <item value="inhibit interrupts until runWorker" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="327" />
-        <entry key="ENGLISH" value="328" />
+        <entry key="CHINESE" value="331" />
+        <entry key="ENGLISH" value="332" />
       </map>
     </option>
   </component>
