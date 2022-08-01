@@ -2,6 +2,7 @@
   <component name="AppStorage">
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value=" Most configurations do not need to be configured separately for each raft-group," />
       <item value="Lists incomplete object upload information of a bucket." />
       <item value="Sets default object retention in a bucket." />
       <item value="Gets presigned URL of an object for HTTP method, expiry time and custom request parameters." />
@@ -51,12 +52,11 @@
       <item value="If it returns null then the&#10;      worker exits due to changed pool state or configuration&#10;      parameters." />
       <item value="coping with a number of issues" />
       <item value="while coping with a number of issues" />
-      <item value="Main worker run loop.  Repeatedly gets tasks from queue and&#10;      executes them, while coping with a number of issues" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="331" />
-        <entry key="ENGLISH" value="332" />
+        <entry key="CHINESE" value="332" />
+        <entry key="ENGLISH" value="333" />
       </map>
     </option>
   </component>
