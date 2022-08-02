@@ -2,6 +2,7 @@
   <component name="AppStorage">
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value=" if have log using conf in log, else using conf in options" />
       <item value="Judge whether to launch a election." />
       <item value="for the performance consideration, we will take away the&#10;                    content. If you want keep the content, copy it before call&#10;                    this function" />
       <item value=" Most configurations do not need to be configured separately for each raft-group," />
@@ -51,12 +52,11 @@
       <item value="preceded" />
       <item value="Each task run is preceded by a call to beforeExecute" />
       <item value="Before running any task, the lock is acquired to prevent&#10;      other pool interrupts while the task is executing, and then we&#10;      ensure that unless pool is stopping, this thread does not have&#10;      its interrupt set." />
-      <item value="If it returns null then the&#10;      worker exits due to changed pool state or configuration&#10;      parameters." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="334" />
-        <entry key="ENGLISH" value="335" />
+        <entry key="CHINESE" value="335" />
+        <entry key="ENGLISH" value="336" />
       </map>
     </option>
   </component>
