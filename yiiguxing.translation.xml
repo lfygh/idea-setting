@@ -2,6 +2,7 @@
   <component name="AppStorage">
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="Reject this task if expectedTerm doesn't match the current term of this Node if the value is not -1, default is -1" />
       <item value="Start follower's replicators" />
       <item value="signal fsm leader stop immediately" />
       <item value="EHIGHERTERMRESPONSE" />
@@ -51,12 +52,11 @@
       <item value="      5. After task.run completes, we call afterExecute, which may&#10;      also throw an exception, which will also cause thread to&#10;      die. According to JLS Sec 14.20, this exception is the one that&#10;      will be in effect even if task.run throws." />
       <item value="      The net effect of the exception mechanics is that afterExecute&#10;      and the thread's UncaughtExceptionHandler have as accurate&#10;      information as we can provide about any problems encountered by&#10;      user code." />
       <item value="Any thrown exception also&#10;      conservatively causes thread to die." />
-      <item value="conservatively" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="341" />
-        <entry key="ENGLISH" value="342" />
+        <entry key="CHINESE" value="342" />
+        <entry key="ENGLISH" value="343" />
         <entry key="NORWEGIAN" value="1" />
       </map>
     </option>
