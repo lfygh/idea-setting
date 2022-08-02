@@ -2,6 +2,7 @@
   <component name="AppStorage">
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="Start follower's replicators" />
       <item value="signal fsm leader stop immediately" />
       <item value="EHIGHERTERMRESPONSE" />
       <item value="noinspection ConstantConditions" />
@@ -51,18 +52,17 @@
       <item value="      The net effect of the exception mechanics is that afterExecute&#10;      and the thread's UncaughtExceptionHandler have as accurate&#10;      information as we can provide about any problems encountered by&#10;      user code." />
       <item value="Any thrown exception also&#10;      conservatively causes thread to die." />
       <item value="conservatively" />
-      <item value="We separately handle RuntimeException, Error (both of which the&#10;      specs guarantee that we trap) and arbitrary Throwables." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="340" />
-        <entry key="ENGLISH" value="341" />
+        <entry key="CHINESE" value="341" />
+        <entry key="ENGLISH" value="342" />
         <entry key="NORWEGIAN" value="1" />
       </map>
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1658995552180" />
+    <option name="lastTrimTime" value="1659428443914" />
   </component>
   <component name="Settings">
     <option name="keepFormat" value="true" />
