@@ -2,6 +2,10 @@
   <component name="AppStorage">
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="signal fsm leader stop immediately" />
+      <item value="EHIGHERTERMRESPONSE" />
+      <item value="noinspection ConstantConditions" />
+      <item value="A follower replicator may not be started when this node become leader, so we must check it." />
       <item value=" Node is currently the leader and |entries| are from the user who&#10;             don't know the correct indexes the logs should assign to. So we have&#10;             to assign indexes to the appending entries" />
       <item value="  Appending entries overlap the local ones. We should find if there&#10;                 is a conflicting index from which we should truncate the local&#10;                 ones." />
       <item value=" if have log using conf in log, else using conf in options" />
@@ -42,21 +46,18 @@
       <item value="&#10;Here is a class with a method that sets up a ScheduledExecutorService to beep every ten seconds for an hour" />
       <item value="the remaining delay; zero or negative values indicate that the delay has already elapsed" />
       <item value="A mix-in style interface for marking objects that should be acted upon after a given delay." />
-      <item value="A follower replicator may not be started when this node become leader, so we must check it." />
       <item value="Attempts to stop all actively executing tasks, halts the processing of waiting tasks, and returns a list of the tasks that were awaiting execution.&#10;" />
       <item value="      5. After task.run completes, we call afterExecute, which may&#10;      also throw an exception, which will also cause thread to&#10;      die. According to JLS Sec 14.20, this exception is the one that&#10;      will be in effect even if task.run throws." />
       <item value="      The net effect of the exception mechanics is that afterExecute&#10;      and the thread's UncaughtExceptionHandler have as accurate&#10;      information as we can provide about any problems encountered by&#10;      user code." />
       <item value="Any thrown exception also&#10;      conservatively causes thread to die." />
       <item value="conservatively" />
       <item value="We separately handle RuntimeException, Error (both of which the&#10;      specs guarantee that we trap) and arbitrary Throwables." />
-      <item value="a call to beforeExecute" />
-      <item value="Each task run is preceded by a call to beforeExecute," />
-      <item value="preceded" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="337" />
-        <entry key="ENGLISH" value="338" />
+        <entry key="CHINESE" value="340" />
+        <entry key="ENGLISH" value="341" />
+        <entry key="NORWEGIAN" value="1" />
       </map>
     </option>
   </component>
