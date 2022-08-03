@@ -2,6 +2,7 @@
   <component name="AppStorage">
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="                     The change of term indicates that leader has been changed during&#10;                     appending entries, so we can't respond ok to the old leader&#10;                     because we are not sure if the appended logs would be truncated&#10;                     by the new leader:&#10;                      - If they won't be truncated and we respond failure to the old&#10;                        leader, the new leader would know that they are stored in this&#10;                        peer and they will be eventually committed when the new leader&#10;                        found that quorum of the cluster have stored.&#10;                      - If they will be truncated and we responded success to the old&#10;                        leader, the old leader would possibly regard those entries as&#10;                        committed (very likely in a 3-nodes cluster) and respond&#10;                        success to the clients, which would break the rule that&#10;                        committed entries would never be truncated.&#10;                     So we have to respond failure to the old leader and set the new&#10;                     term to make it stepped down if it didn't." />
       <item value="&#10;                 The log at prev_log_index has been compacted, which indicates&#10;                 we is or is going to install snapshot to the follower. So we let&#10;                 both prev_log_index and prev_log_term be 0 in the heartbeat&#10;                 request so that follower would do nothing besides updating its&#10;                 leader timestamp." />
       <item value="ELEADERCONFLICT" />
       <item value="set task entry info before adding to list" />
@@ -51,12 +52,11 @@
       <item value="&#10;Here is a class with a method that sets up a ScheduledExecutorService to beep every ten seconds for an hour" />
       <item value="the remaining delay; zero or negative values indicate that the delay has already elapsed" />
       <item value="A mix-in style interface for marking objects that should be acted upon after a given delay." />
-      <item value="Attempts to stop all actively executing tasks, halts the processing of waiting tasks, and returns a list of the tasks that were awaiting execution.&#10;" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="345" />
-        <entry key="ENGLISH" value="346" />
+        <entry key="CHINESE" value="346" />
+        <entry key="ENGLISH" value="347" />
         <entry key="NORWEGIAN" value="1" />
       </map>
     </option>
