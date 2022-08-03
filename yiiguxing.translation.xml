@@ -2,6 +2,7 @@
   <component name="AppStorage">
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="&#10;                 The log at prev_log_index has been compacted, which indicates&#10;                 we is or is going to install snapshot to the follower. So we let&#10;                 both prev_log_index and prev_log_term be 0 in the heartbeat&#10;                 request so that follower would do nothing besides updating its&#10;                 leader timestamp." />
       <item value="ELEADERCONFLICT" />
       <item value="set task entry info before adding to list" />
       <item value="Reject this task if expectedTerm doesn't match the current term of this Node if the value is not -1, default is -1" />
@@ -51,12 +52,11 @@
       <item value="the remaining delay; zero or negative values indicate that the delay has already elapsed" />
       <item value="A mix-in style interface for marking objects that should be acted upon after a given delay." />
       <item value="Attempts to stop all actively executing tasks, halts the processing of waiting tasks, and returns a list of the tasks that were awaiting execution.&#10;" />
-      <item value="      5. After task.run completes, we call afterExecute, which may&#10;      also throw an exception, which will also cause thread to&#10;      die. According to JLS Sec 14.20, this exception is the one that&#10;      will be in effect even if task.run throws." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="344" />
-        <entry key="ENGLISH" value="345" />
+        <entry key="CHINESE" value="345" />
+        <entry key="ENGLISH" value="346" />
         <entry key="NORWEGIAN" value="1" />
       </map>
     </option>
