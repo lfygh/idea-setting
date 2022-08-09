@@ -2,6 +2,9 @@
   <component name="AppStorage">
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="It doesn't own any thread. Tasks are run from caller's or caller-provided threads.&#10;Conceptually, it is fairly accurate to think of SynchronizationContext like a cheaper Executors.newSingleThreadExecutor() when used for synchronization (not long-running tasks). Both use a queue for tasks that are run in order and neither guarantee that tasks have completed before returning from execute(). However, the behavior does diverge if locks are held when calling the context. So it is encouraged to avoid mixing locks and synchronization context except via executeLater." />
+      <item value="Non-reentrancy. If a task running in a synchronization context executes or schedules another task in the same synchronization context, the latter task will never run inline. It will instead be queued and run only after the current task has returned." />
+      <item value="Ordering. Tasks are run in the same order as they are submitted via execute and executeLater.&#10;Serialization. Tasks are run in sequence and establish a happens-before relationship between them." />
       <item value="&#10;Providing authentication credentials is better served by CallCredentials. But a ClientInterceptor could set the CallCredentials within the CallOptions." />
       <item value="Interface for intercepting outgoing calls before they are dispatched by a Channel." />
       <item value="Spying" />
@@ -49,14 +52,11 @@
       <item value="&#10;In order to be used with a selector, an instance of this class must first be registered via the register method. This method returns a new SelectionKey object that represents the channel's registration with the selector." />
       <item value="In order to be used with a selector, an instance of this class must first be registered via the register method. This method returns a new SelectionKey object that represents the channel's registration with the selector." />
       <item value="A channel that can be multiplexed via a Selector." />
-      <item value=" It is not possible to create a channel for an arbitrary, pre-existing ServerSocket. " />
-      <item value="The class Exception and any subclasses that are not also subclasses of RuntimeException are checked exceptions. " />
-      <item value="The class Exception and its subclasses are a form of Throwable that indicates conditions that a reasonable application might want to catch." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="353" />
-        <entry key="ENGLISH" value="354" />
+        <entry key="CHINESE" value="356" />
+        <entry key="ENGLISH" value="357" />
         <entry key="NORWEGIAN" value="1" />
       </map>
     </option>
