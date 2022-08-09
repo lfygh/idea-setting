@@ -2,6 +2,7 @@
   <component name="AppStorage">
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="&#10;A NameResolver does not need to automatically re-resolve on failure. Instead, the NameResolver.Listener is responsible for eventually (after an appropriate backoff period) invoking refresh()." />
       <item value="hedging" />
       <item value="update configuration after _log_manager updated its memory status" />
       <item value="                     The change of term indicates that leader has been changed during&#10;                     appending entries, so we can't respond ok to the old leader&#10;                     because we are not sure if the appended logs would be truncated&#10;                     by the new leader:&#10;                      - If they won't be truncated and we respond failure to the old&#10;                        leader, the new leader would know that they are stored in this&#10;                        peer and they will be eventually committed when the new leader&#10;                        found that quorum of the cluster have stored.&#10;                      - If they will be truncated and we responded success to the old&#10;                        leader, the old leader would possibly regard those entries as&#10;                        committed (very likely in a 3-nodes cluster) and respond&#10;                        success to the clients, which would break the rule that&#10;                        committed entries would never be truncated.&#10;                     So we have to respond failure to the old leader and set the new&#10;                     term to make it stepped down if it didn't." />
@@ -51,12 +52,11 @@
       <item value="that&#10;          the pool shut down since entry into this method" />
       <item value="          1. If fewer than corePoolSize threads are running, try to&#10;          start a new thread with the given command as its first&#10;          task.  The call to addWorker atomically checks runState and&#10;          workerCount, and so prevents false alarms that would add&#10;          threads when it shouldn't, by returning false." />
       <item value="implies" />
-      <item value="&#10;Here is a class with a method that sets up a ScheduledExecutorService to beep every ten seconds for an hour" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="348" />
-        <entry key="ENGLISH" value="349" />
+        <entry key="CHINESE" value="349" />
+        <entry key="ENGLISH" value="350" />
         <entry key="NORWEGIAN" value="1" />
       </map>
     </option>
