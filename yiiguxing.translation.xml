@@ -2,6 +2,8 @@
   <component name="AppStorage">
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="&#10;Providing authentication credentials is better served by CallCredentials. But a ClientInterceptor could set the CallCredentials within the CallOptions." />
+      <item value="Interface for intercepting outgoing calls before they are dispatched by a Channel." />
       <item value="Spying" />
       <item value="&#10;A NameResolver does not need to automatically re-resolve on failure. Instead, the NameResolver.Listener is responsible for eventually (after an appropriate backoff period) invoking refresh()." />
       <item value="hedging" />
@@ -50,13 +52,11 @@
       <item value=" It is not possible to create a channel for an arbitrary, pre-existing ServerSocket. " />
       <item value="The class Exception and any subclasses that are not also subclasses of RuntimeException are checked exceptions. " />
       <item value="The class Exception and its subclasses are a form of Throwable that indicates conditions that a reasonable application might want to catch." />
-      <item value="that&#10;          the pool shut down since entry into this method" />
-      <item value="          1. If fewer than corePoolSize threads are running, try to&#10;          start a new thread with the given command as its first&#10;          task.  The call to addWorker atomically checks runState and&#10;          workerCount, and so prevents false alarms that would add&#10;          threads when it shouldn't, by returning false." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="351" />
-        <entry key="ENGLISH" value="352" />
+        <entry key="CHINESE" value="353" />
+        <entry key="ENGLISH" value="354" />
         <entry key="NORWEGIAN" value="1" />
       </map>
     </option>
