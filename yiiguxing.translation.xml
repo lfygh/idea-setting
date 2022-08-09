@@ -2,6 +2,7 @@
   <component name="AppStorage">
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="Spying" />
       <item value="&#10;A NameResolver does not need to automatically re-resolve on failure. Instead, the NameResolver.Listener is responsible for eventually (after an appropriate backoff period) invoking refresh()." />
       <item value="hedging" />
       <item value="update configuration after _log_manager updated its memory status" />
@@ -51,12 +52,11 @@
       <item value="The class Exception and its subclasses are a form of Throwable that indicates conditions that a reasonable application might want to catch." />
       <item value="that&#10;          the pool shut down since entry into this method" />
       <item value="          1. If fewer than corePoolSize threads are running, try to&#10;          start a new thread with the given command as its first&#10;          task.  The call to addWorker atomically checks runState and&#10;          workerCount, and so prevents false alarms that would add&#10;          threads when it shouldn't, by returning false." />
-      <item value="implies" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="350" />
-        <entry key="ENGLISH" value="351" />
+        <entry key="CHINESE" value="351" />
+        <entry key="ENGLISH" value="352" />
         <entry key="NORWEGIAN" value="1" />
       </map>
     </option>
