@@ -2,6 +2,7 @@
   <component name="AppStorage">
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value=").&#10;Implementations don't need to be thread-safe. All methods are guaranteed to be called sequentially. Additionally, all methods that have side-effects, i.e., start(NameResolver.Listener2), shutdown and refresh are called from the same SynchronizationContext as returned by NameResolver.Args.getSynchronizationContext. Do not block within the synchronization context; blocking IO and time-consuming tasks should be offloaded to a separate thread, generally NameResolver.Args.getOffloadExecutor." />
       <item value="  exitIdleMode() may be called outside of inUseStateAggregator.handleNotInUse() while&#10;       isInUse() == false, in which case we still need to schedule the timer." />
       <item value="It doesn't own any thread. Tasks are run from caller's or caller-provided threads.&#10;Conceptually, it is fairly accurate to think of SynchronizationContext like a cheaper Executors.newSingleThreadExecutor() when used for synchronization (not long-running tasks). Both use a queue for tasks that are run in order and neither guarantee that tasks have completed before returning from execute(). However, the behavior does diverge if locks are held when calling the context. So it is encouraged to avoid mixing locks and synchronization context except via executeLater." />
       <item value="Non-reentrancy. If a task running in a synchronization context executes or schedules another task in the same synchronization context, the latter task will never run inline. It will instead be queued and run only after the current task has returned." />
@@ -51,12 +52,11 @@
       <item value="A channel cannot be deregistered directly; instead, the key representing its registration must be cancelled." />
       <item value="Once registered with a selector, a channel remains registered until it is deregistered. This involves deallocating whatever resources were allocated to the channel by the selector.&#10;" />
       <item value="&#10;In order to be used with a selector, an instance of this class must first be registered via the register method. This method returns a new SelectionKey object that represents the channel's registration with the selector." />
-      <item value="In order to be used with a selector, an instance of this class must first be registered via the register method. This method returns a new SelectionKey object that represents the channel's registration with the selector." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="357" />
-        <entry key="ENGLISH" value="358" />
+        <entry key="CHINESE" value="358" />
+        <entry key="ENGLISH" value="359" />
         <entry key="NORWEGIAN" value="1" />
       </map>
     </option>
