@@ -2,7 +2,7 @@
   <component name="ScalaSettings">
     <option name="COMPILE_SERVER_PORT" value="51866" />
     <option name="COMPILE_SERVER_ID" value="7ef04f0e-edd9-4015-82db-792978ca3331" />
-    <option name="COMPILE_SERVER_SDK" value="1.8" />
+    <option name="COMPILE_SERVER_SDK" value="azul-17" />
     <option name="COMPILE_SERVER_JVM_PARAMETERS" value="-server -Xss10m -XX:+UseParallelGC -XX:MaxInlineLevel=20" />
   </component>
 </application>
