@@ -2,6 +2,7 @@
   <component name="AppStorage">
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="Given the name of a host, returns an array of its IP addresses, based on the configured name service on the system.&#10;The host name can either be a machine name, such as &quot;www.example.com&quot;, or a textual representation of its IP address. If a literal IP address is supplied, only the validity of the address format is checked.&#10;" />
       <item value="An implementation must generate it without blocking, typically in line, and must keep it unchanged. NameResolvers created from the same factory with the same argument must return the same authority." />
       <item value="Returns the authority used to authenticate connections to servers. It must be from a trusted source, because if the authority is tampered with, RPCs may be sent to the attackers which may leak sensitive user data." />
       <item value="Returns the authority used to authenticate connections to servers" />
@@ -51,12 +52,11 @@
       <item value="A direct byte buffer may also be created by mapping a region of a file directly into memory. An implementation of the Java platform may optionally support the creation of direct byte buffers from native code via JNI. If an instance of one of these kinds of buffers refers to an inaccessible region of memory then an attempt to access that region will not change the buffer's content and will cause an unspecified exception to be thrown either at the time of the access or at some later time." />
       <item value="A direct byte buffer may be created by invoking the allocateDirect factory method of this class. The buffers returned by this method typically have somewhat higher allocation and deallocation costs than non-direct buffers. The contents of direct buffers may reside outside of the normal garbage-collected heap, and so their impact upon the memory footprint of an application might not be obvious. It is therefore recommended that direct buffers be allocated primarily for large, long-lived buffers that are subject to the underlying system's native IO operations. In general it is best to allocate direct buffers only when they yield a measureable gain in program performance." />
       <item value="A byte buffer is either direct or non-direct. Given a direct byte buffer, the Java virtual machine will make a best effort to perform native IO operations directly upon it. That is, it will attempt to avoid copying the buffer's content to (or from) an intermediate buffer before (or after) each invocation of one of the underlying operating system's native IO operations." />
-      <item value="The first byte read is stored into element b[off], the next one into b[off+1], and so on. The number of bytes read is, at most, equal to len. Let k be the number of bytes actually read; these bytes will be stored in elements b[off] through b[off+k-1], leaving elements b[off+k] through b[off+len-1] unaffected.&#10;In every case, elements b[0] through b[off] and elements b[off+len] through b[b.length-1] are unaffected." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="366" />
-        <entry key="ENGLISH" value="367" />
+        <entry key="CHINESE" value="367" />
+        <entry key="ENGLISH" value="368" />
         <entry key="NORWEGIAN" value="1" />
       </map>
     </option>
