@@ -2,6 +2,7 @@
   <component name="AppStorage">
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="Iterator over a batch of committed tasks." />
       <item value="     The raft log used fsync by default, and the correctness of&#10;     state-machine data with rheakv depends on the raft log + snapshot,&#10;     so we do not need to fsync." />
       <item value="If the key definitely does not exist in the database, then this method returns false" />
       <item value="That is to say that this method is probabilistic and may return false positives, but never a false negative." />
@@ -51,12 +52,11 @@
       <item value="Creates an object by combining data from different source objects using server-side copy." />
       <item value="Reads up to len bytes of data" />
       <item value="Only one write operation upon a writable channel may be in progress at any given time. If one thread initiates a write operation upon a channel then any other thread that attempts to initiate another write operation will block until the first operation is complete. Whether or not other kinds of IO operations may proceed concurrently with a write operation depends upon the type of the channel." />
-      <item value="         If a buffer of this size is too large for the cache, there&#10;         should not be a buffer in the cache that is at least as&#10;         large. So we'll just create a new one. Also, we don't have&#10;         to remove the buffer from the cache (as this method does&#10;         below) given that we won't put the new buffer in the cache." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="374" />
-        <entry key="ENGLISH" value="375" />
+        <entry key="CHINESE" value="375" />
+        <entry key="ENGLISH" value="376" />
         <entry key="NORWEGIAN" value="1" />
       </map>
     </option>
