@@ -2,6 +2,7 @@
   <component name="AppStorage">
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="monotonic Ms" />
       <item value="Runtime only dependencies for source set 'main'" />
       <item value="Iterator over a batch of committed tasks." />
       <item value="     The raft log used fsync by default, and the correctness of&#10;     state-machine data with rheakv depends on the raft log + snapshot,&#10;     so we do not need to fsync." />
@@ -51,12 +52,11 @@
       <item value="Gets presigned URL of an object for HTTP method, expiry time and custom request parameters." />
       <item value="Presigned" />
       <item value="Creates an object by combining data from different source objects using server-side copy." />
-      <item value="Reads up to len bytes of data" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="376" />
-        <entry key="ENGLISH" value="377" />
+        <entry key="CHINESE" value="377" />
+        <entry key="ENGLISH" value="378" />
         <entry key="NORWEGIAN" value="1" />
       </map>
     </option>
