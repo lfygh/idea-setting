@@ -4,6 +4,9 @@
     <keyboard-shortcut first-keystroke="meta back_quote" />
   </action>
   <action id="NextWindow" />
+  <action id="Scala.ShowImplicitConversions">
+    <keyboard-shortcut first-keystroke="shift ctrl i" />
+  </action>
   <action id="Scala.ShowImplicits">
     <keyboard-shortcut first-keystroke="shift ctrl alt equals" />
     <keyboard-shortcut first-keystroke="shift ctrl alt add" />
