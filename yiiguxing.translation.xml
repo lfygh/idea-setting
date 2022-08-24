@@ -2,6 +2,7 @@
   <component name="AppStorage">
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="Specifies the maximum number of entries the cache may contain" />
       <item value="poll" />
       <item value="Memory consistency effects: Actions in a thread prior to submitting a task to a CompletionService happen-before actions taken by that task, which in turn happen-before actions following a successful return from the corresponding take()." />
       <item value="A CompletionService can for example be used to manage asynchronous IO, in which tasks that perform reads are submitted in one part of a program or system, and then acted upon in a different part of the program when the reads complete, possibly in a different order than they were requested.&#10;" />
@@ -51,12 +52,11 @@
       <item value="Judge whether to launch a election." />
       <item value="for the performance consideration, we will take away the&#10;                    content. If you want keep the content, copy it before call&#10;                    this function" />
       <item value=" Most configurations do not need to be configured separately for each raft-group," />
-      <item value="Lists incomplete object upload information of a bucket." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="381" />
-        <entry key="ENGLISH" value="382" />
+        <entry key="CHINESE" value="382" />
+        <entry key="ENGLISH" value="383" />
         <entry key="NORWEGIAN" value="1" />
       </map>
     </option>
