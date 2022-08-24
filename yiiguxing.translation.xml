@@ -2,6 +2,10 @@
   <component name="AppStorage">
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="Specifies the maximum weight of entries the cache may contain." />
+      <item value=" As eviction is scheduled on the configured executor, tests may instead prefer to configure the cache to execute tasks directly on the same thread.&#10;" />
+      <item value=" For example, the cache may evict an entry because it hasn't been used recently or very often." />
+      <item value="Specifies the maximum number of entries the cache may contain. Note that the cache may evict an entry before this limit is exceeded or temporarily exceed the threshold while evicting." />
       <item value="Specifies the maximum number of entries the cache may contain" />
       <item value="poll" />
       <item value="Memory consistency effects: Actions in a thread prior to submitting a task to a CompletionService happen-before actions taken by that task, which in turn happen-before actions following a successful return from the corresponding take()." />
@@ -48,15 +52,11 @@
       <item value="A follower replicator may not be started when this node become leader, so we must check it." />
       <item value=" Node is currently the leader and |entries| are from the user who&#10;             don't know the correct indexes the logs should assign to. So we have&#10;             to assign indexes to the appending entries" />
       <item value="  Appending entries overlap the local ones. We should find if there&#10;                 is a conflicting index from which we should truncate the local&#10;                 ones." />
-      <item value=" if have log using conf in log, else using conf in options" />
-      <item value="Judge whether to launch a election." />
-      <item value="for the performance consideration, we will take away the&#10;                    content. If you want keep the content, copy it before call&#10;                    this function" />
-      <item value=" Most configurations do not need to be configured separately for each raft-group," />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="382" />
-        <entry key="ENGLISH" value="383" />
+        <entry key="CHINESE" value="386" />
+        <entry key="ENGLISH" value="387" />
         <entry key="NORWEGIAN" value="1" />
       </map>
     </option>
