@@ -2,6 +2,14 @@
   <component name="AppStorage">
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="&#10;This technique is particularly useful if a module takes a map on input, copies it, and later returns results whose order is determined by that of the copy. (Clients generally appreciate having things returned in the same order they were presented.)" />
+      <item value="incurring" />
+      <item value=" without incurring the increased cost associated with TreeMap" />
+      <item value="This implementation spares its clients from the unspecified, generally chaotic ordering provided by HashMap (and Hashtable), without incurring the increased cost associated with TreeMap. It can be used to produce a copy of a map that has the same order as the original, regardless of the original map's implementation" />
+      <item value="This implementation spares its clients from the unspecified" />
+      <item value=" Note that insertion order is not affected if a key is re-inserted into the map. (A key k is reinserted into a map m if m.put(k, v) is invoked when m.containsKey(k) would return true immediately prior to the invocation.)" />
+      <item value=" This linked list defines the iteration ordering, which is normally the order in which keys were inserted into the map (insertion-order). " />
+      <item value="Hash table and linked list implementation of the Map interface, with predictable iteration order." />
       <item value="Specifies the maximum weight of entries the cache may contain." />
       <item value=" As eviction is scheduled on the configured executor, tests may instead prefer to configure the cache to execute tasks directly on the same thread.&#10;" />
       <item value=" For example, the cache may evict an entry because it hasn't been used recently or very often." />
@@ -44,19 +52,11 @@
       <item value="&#10;                 The log at prev_log_index has been compacted, which indicates&#10;                 we is or is going to install snapshot to the follower. So we let&#10;                 both prev_log_index and prev_log_term be 0 in the heartbeat&#10;                 request so that follower would do nothing besides updating its&#10;                 leader timestamp." />
       <item value="ELEADERCONFLICT" />
       <item value="set task entry info before adding to list" />
-      <item value="Reject this task if expectedTerm doesn't match the current term of this Node if the value is not -1, default is -1" />
-      <item value="Start follower's replicators" />
-      <item value="signal fsm leader stop immediately" />
-      <item value="EHIGHERTERMRESPONSE" />
-      <item value="noinspection ConstantConditions" />
-      <item value="A follower replicator may not be started when this node become leader, so we must check it." />
-      <item value=" Node is currently the leader and |entries| are from the user who&#10;             don't know the correct indexes the logs should assign to. So we have&#10;             to assign indexes to the appending entries" />
-      <item value="  Appending entries overlap the local ones. We should find if there&#10;                 is a conflicting index from which we should truncate the local&#10;                 ones." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="386" />
-        <entry key="ENGLISH" value="387" />
+        <entry key="CHINESE" value="396" />
+        <entry key="ENGLISH" value="397" />
         <entry key="NORWEGIAN" value="1" />
       </map>
     </option>
