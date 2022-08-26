@@ -2,6 +2,7 @@
   <component name="AppStorage">
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="Reads a file's attributes as a bulk operation.&#10;" />
       <item value=" if a directory could not otherwise be created because a file of that name already exists (optional specific exception)" />
       <item value="&#10;This technique is particularly useful if a module takes a map on input, copies it, and later returns results whose order is determined by that of the copy. (Clients generally appreciate having things returned in the same order they were presented.)" />
       <item value="incurring" />
@@ -51,12 +52,11 @@
       <item value="update configuration after _log_manager updated its memory status" />
       <item value="                     The change of term indicates that leader has been changed during&#10;                     appending entries, so we can't respond ok to the old leader&#10;                     because we are not sure if the appended logs would be truncated&#10;                     by the new leader:&#10;                      - If they won't be truncated and we respond failure to the old&#10;                        leader, the new leader would know that they are stored in this&#10;                        peer and they will be eventually committed when the new leader&#10;                        found that quorum of the cluster have stored.&#10;                      - If they will be truncated and we responded success to the old&#10;                        leader, the old leader would possibly regard those entries as&#10;                        committed (very likely in a 3-nodes cluster) and respond&#10;                        success to the clients, which would break the rule that&#10;                        committed entries would never be truncated.&#10;                     So we have to respond failure to the old leader and set the new&#10;                     term to make it stepped down if it didn't." />
       <item value="&#10;                 The log at prev_log_index has been compacted, which indicates&#10;                 we is or is going to install snapshot to the follower. So we let&#10;                 both prev_log_index and prev_log_term be 0 in the heartbeat&#10;                 request so that follower would do nothing besides updating its&#10;                 leader timestamp." />
-      <item value="ELEADERCONFLICT" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="397" />
-        <entry key="ENGLISH" value="398" />
+        <entry key="CHINESE" value="398" />
+        <entry key="ENGLISH" value="399" />
         <entry key="NORWEGIAN" value="1" />
       </map>
     </option>
