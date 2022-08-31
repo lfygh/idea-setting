@@ -2,6 +2,7 @@
   <component name="AppStorage">
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="Range split operation" />
       <item value="Property that defines whether type identifier value will be passed as part of JSON stream to deserializer (true), or handled and removed by TypeDeserializer (false). Property has no effect on serialization.&#10;Default value is false, meaning that Jackson handles and removes the type identifier from JSON content that is passed to JsonDeserializer." />
       <item value="Definition of standard type inclusion mechanisms for type metadata. Used for standard metadata types, except for JsonTypeInfo.Id.NONE. May or may not be used for custom types (JsonTypeInfo.Id.CUSTOM)." />
       <item value="Means that typing mechanism uses customized handling, with possibly custom configuration. This means that semantics of other properties is not defined by Jackson package, but by the custom implementation." />
@@ -51,12 +52,11 @@
       <item value="Ordering. Tasks are run in the same order as they are submitted via execute and executeLater.&#10;Serialization. Tasks are run in sequence and establish a happens-before relationship between them." />
       <item value="&#10;Providing authentication credentials is better served by CallCredentials. But a ClientInterceptor could set the CallCredentials within the CallOptions." />
       <item value="Interface for intercepting outgoing calls before they are dispatched by a Channel." />
-      <item value="Spying" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="403" />
-        <entry key="ENGLISH" value="404" />
+        <entry key="CHINESE" value="404" />
+        <entry key="ENGLISH" value="405" />
         <entry key="NORWEGIAN" value="1" />
       </map>
     </option>
