@@ -3,6 +3,7 @@
     <option name="UI_FLATTEN_PACKAGES" value="false" />
   </component>
   <component name="UISettings">
+    <option name="MERGE_EQUAL_STACKTRACES" value="false" />
     <option name="PRESENTATION_MODE_FONT_SIZE" value="26" />
   </component>
 </application>
