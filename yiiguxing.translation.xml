@@ -2,6 +2,22 @@
   <component name="AppStorage">
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="Set a new state with a new picker to the channel." />
+      <item value="Out-of-band" />
+      <item value="whenever" />
+      <item value="Always create a new picker and call Helper.updateBalancingState() whenever handleSubchannelState() is called, unless the new state is SHUTDOWN. See handleSubchannelState's javadoc for more details." />
+      <item value="The picker should only pick Subchannels that are known as READY or IDLE. Whether to pick IDLE Subchannels depends on whether you want Subchannels to connect on-demand or actively" />
+      <item value="respectively" />
+      <item value="the rules of thumb" />
+      <item value="the rules of thumb are" />
+      <item value="thumb" />
+      <item value="&#10;This can also happen if you don't create a new picker at key state changes of Subchannels. Take the above round-robin example again. Suppose you do pick only READY and IDLE Subchannels, and initially both Subchannels are READY. Now one becomes IDLE, then CONNECTING and stays CONNECTING for a long time. If you don't create a new picker in response to the CONNECTING state to exclude that Subchannel, 50% of RPCs will hit it and be buffered even though the other Subchannel is READY." />
+      <item value="This can happen if you return Subchannels with states other than READY and IDLE. For example, suppose you round-robin on 2 Subchannels, in READY and CONNECTING states respectively. If the picker ignores the state and pick them equally, 50% of RPCs will be stuck in buffered state until both Subchannels are READY." />
+      <item value="You will want to avoid running into a situation where there are READY Subchannels out there but some RPCs are still buffered for longer than a brief time." />
+      <item value="&#10;Note that Subchannel's state may change at the same time the picker is making the decision, which means the decision may be made with (to-be) outdated information. For example, a picker may return a Subchannel known to be READY, but it has become IDLE when is about to be used by the RPC, which makes the RPC to be buffered. The LoadBalancer will soon learn about the Subchannels' transition from READY to IDLE, create a new picker and allow the RPC to use another READY transport if there is any." />
+      <item value="Note that Subchannel's state may change at the same time the picker is making the decision, which means the decision may be made with (to-be) outdated information. " />
+      <item value="When the RPC tries to use the return Subchannel, which is briefly after this method returns, the state of the Subchannel will decide where the RPC would go:" />
+      <item value="The Subchannel should either be an original Subchannel returned by Helper.createSubchannel(), or a wrapper of it preferably based on ForwardingSubchannel. At the very least its getInternalSubchannel() must return the same object as the one returned by the original. Otherwise the Channel cannot use it for the RPC.&#10;" />
       <item value="proceed" />
       <item value="A decision to proceed the RPC on a Subchannel." />
       <item value="     An error to be propagated to the application if subchannel == null&#10;     Or OK if there is no error.&#10;     subchannel being null and error being OK means RPC needs to wait" />
@@ -36,27 +52,11 @@
       <item value="Means that logical type name is used as type information; name will then need to be separately resolved to actual concrete type (Class)." />
       <item value="Reads a file's attributes as a bulk operation.&#10;" />
       <item value=" if a directory could not otherwise be created because a file of that name already exists (optional specific exception)" />
-      <item value="&#10;This technique is particularly useful if a module takes a map on input, copies it, and later returns results whose order is determined by that of the copy. (Clients generally appreciate having things returned in the same order they were presented.)" />
-      <item value="incurring" />
-      <item value=" without incurring the increased cost associated with TreeMap" />
-      <item value="This implementation spares its clients from the unspecified, generally chaotic ordering provided by HashMap (and Hashtable), without incurring the increased cost associated with TreeMap. It can be used to produce a copy of a map that has the same order as the original, regardless of the original map's implementation" />
-      <item value="This implementation spares its clients from the unspecified" />
-      <item value=" Note that insertion order is not affected if a key is re-inserted into the map. (A key k is reinserted into a map m if m.put(k, v) is invoked when m.containsKey(k) would return true immediately prior to the invocation.)" />
-      <item value=" This linked list defines the iteration ordering, which is normally the order in which keys were inserted into the map (insertion-order). " />
-      <item value="Hash table and linked list implementation of the Map interface, with predictable iteration order." />
-      <item value="Specifies the maximum weight of entries the cache may contain." />
-      <item value=" As eviction is scheduled on the configured executor, tests may instead prefer to configure the cache to execute tasks directly on the same thread.&#10;" />
-      <item value=" For example, the cache may evict an entry because it hasn't been used recently or very often." />
-      <item value="Specifies the maximum number of entries the cache may contain. Note that the cache may evict an entry before this limit is exceeded or temporarily exceed the threshold while evicting." />
-      <item value="Specifies the maximum number of entries the cache may contain" />
-      <item value="poll" />
-      <item value="Memory consistency effects: Actions in a thread prior to submitting a task to a CompletionService happen-before actions taken by that task, which in turn happen-before actions following a successful return from the corresponding take()." />
-      <item value="A CompletionService can for example be used to manage asynchronous IO, in which tasks that perform reads are submitted in one part of a program or system, and then acted upon in a different part of the program when the reads complete, possibly in a different order than they were requested.&#10;" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="430" />
-        <entry key="ENGLISH" value="431" />
+        <entry key="CHINESE" value="447" />
+        <entry key="ENGLISH" value="448" />
         <entry key="NORWEGIAN" value="1" />
       </map>
     </option>
