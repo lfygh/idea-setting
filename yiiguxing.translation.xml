@@ -2,6 +2,13 @@
   <component name="AppStorage">
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="proceed" />
+      <item value="A decision to proceed the RPC on a Subchannel." />
+      <item value="     An error to be propagated to the application if subchannel == null&#10;     Or OK if there is no error.&#10;     subchannel being null and error being OK means RPC needs to wait" />
+      <item value="Buffer: in all other cases, the RPC will be buffered in the Channel, until the next picker is provided via Helper.updateBalancingState(), when the RPC will go through the same picking process again." />
+      <item value="Proceed: if a Subchannel is provided via withSubchannel(), and is in READY state when the RPC tries to start on it, the RPC will proceed on that Subchannel." />
+      <item value="If the new state is not SHUTDOWN, this method should create a new picker and call Helper.updateBalancingState(). Failing to do so may result in unnecessary delays of RPCs. Please refer to PickResult.withSubchannel()'s javadoc for more information." />
+      <item value="You won't get a notification for the initial IDLE state" />
       <item value="No synchronization should be necessary between LoadBalancer and its pickers if you follow the pattern above. It may be possible to implement in a different way, but that would usually result in more complicated threading." />
       <item value="A typical SubchannelPicker holds a snapshot of these states. It may have its own states, e.g., a picker from a round-robin load-balancer may keep a pointer to the next Subchannel, which are typically mutated by multiple threads. The picker should only mutate its own state, and should not mutate or re-acquire the states of the LoadBalancer. This way the picker only needs to synchronize its own states, which is typically trivial to implement." />
       <item value="&#10;A LoadBalancer keeps states like the latest addresses from NameResolver, the Subchannel(s) and their latest connectivity states. These states are mutated within the Synchronization Context," />
@@ -45,18 +52,11 @@
       <item value="poll" />
       <item value="Memory consistency effects: Actions in a thread prior to submitting a task to a CompletionService happen-before actions taken by that task, which in turn happen-before actions following a successful return from the corresponding take()." />
       <item value="A CompletionService can for example be used to manage asynchronous IO, in which tasks that perform reads are submitted in one part of a program or system, and then acted upon in a different part of the program when the reads complete, possibly in a different order than they were requested.&#10;" />
-      <item value="A service that decouples the production of new asynchronous tasks from the consumption of the results of completed tasks. " />
-      <item value="monotonic Ms" />
-      <item value="Runtime only dependencies for source set 'main'" />
-      <item value="Iterator over a batch of committed tasks." />
-      <item value="     The raft log used fsync by default, and the correctness of&#10;     state-machine data with rheakv depends on the raft log + snapshot,&#10;     so we do not need to fsync." />
-      <item value="If the key definitely does not exist in the database, then this method returns false" />
-      <item value="That is to say that this method is probabilistic and may return false positives, but never a false negative." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="423" />
-        <entry key="ENGLISH" value="424" />
+        <entry key="CHINESE" value="430" />
+        <entry key="ENGLISH" value="431" />
         <entry key="NORWEGIAN" value="1" />
       </map>
     </option>
