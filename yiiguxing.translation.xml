@@ -2,6 +2,13 @@
   <component name="AppStorage">
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="No synchronization should be necessary between LoadBalancer and its pickers if you follow the pattern above. It may be possible to implement in a different way, but that would usually result in more complicated threading." />
+      <item value="A typical SubchannelPicker holds a snapshot of these states. It may have its own states, e.g., a picker from a round-robin load-balancer may keep a pointer to the next Subchannel, which are typically mutated by multiple threads. The picker should only mutate its own state, and should not mutate or re-acquire the states of the LoadBalancer. This way the picker only needs to synchronize its own states, which is typically trivial to implement." />
+      <item value="&#10;A LoadBalancer keeps states like the latest addresses from NameResolver, the Subchannel(s) and their latest connectivity states. These states are mutated within the Synchronization Context," />
+      <item value="mutated" />
+      <item value="The canonical implementation pattern" />
+      <item value="Examples or work that must be avoided: CPU-intensive calculation, waiting on synchronization primitives, blocking IO, blocking RPCs, etc." />
+      <item value="Helper is implemented by gRPC library and provided to Factory. It provides functionalities that a LoadBalancer implementation would typically need." />
       <item value="LoadBalancer is the main interface. All methods on it are invoked sequentially in the same synchronization context (see next section) as returned by io.grpc.LoadBalancer.Helper.getSynchronizationContext. It receives the results from the NameResolver, updates of subchannels' connectivity states, and the channel's request for the LoadBalancer to shutdown." />
       <item value="A LoadBalancer typically implements three interfaces" />
       <item value="Call LB only if it's not shutdown.  If LB is shutdown, lbHelper won't match." />
@@ -45,18 +52,11 @@
       <item value="     The raft log used fsync by default, and the correctness of&#10;     state-machine data with rheakv depends on the raft log + snapshot,&#10;     so we do not need to fsync." />
       <item value="If the key definitely does not exist in the database, then this method returns false" />
       <item value="That is to say that this method is probabilistic and may return false positives, but never a false negative." />
-      <item value="Schedules the specified TimerTask for one-time execution after the specified delay" />
-      <item value="The main balancing logic. It must be thread-safe. Typically it should only synchronize on its own state, and avoid synchronizing with the LoadBalancer's state." />
-      <item value="&#10;       The channel state does not get updated when doing name resolving today, so for the moment&#10;       let LB report CONNECTION and call subchannel.requestConnection() immediately." />
-      <item value="Given the name of a host, returns an array of its IP addresses, based on the configured name service on the system.&#10;The host name can either be a machine name, such as &quot;www.example.com&quot;, or a textual representation of its IP address. If a literal IP address is supplied, only the validity of the address format is checked.&#10;" />
-      <item value="An implementation must generate it without blocking, typically in line, and must keep it unchanged. NameResolvers created from the same factory with the same argument must return the same authority." />
-      <item value="Returns the authority used to authenticate connections to servers. It must be from a trusted source, because if the authority is tampered with, RPCs may be sent to the attackers which may leak sensitive user data." />
-      <item value="Returns the authority used to authenticate connections to servers" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="416" />
-        <entry key="ENGLISH" value="417" />
+        <entry key="CHINESE" value="423" />
+        <entry key="ENGLISH" value="424" />
         <entry key="NORWEGIAN" value="1" />
       </map>
     </option>
