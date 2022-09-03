@@ -2,6 +2,12 @@
   <component name="AppStorage">
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="Failing" />
+      <item value="Failing to do so may result in unnecessary delays of RPCs." />
+      <item value="You won't get a notification for the initial IDLE state" />
+      <item value="overlap" />
+      <item value="If there isn't an active transport yet, and an RPC is assigned to the Subchannel, it will create a new transport. It won't actively create transports otherwise. requestConnection() can be used to ask Subchannel to create a transport if there isn't any." />
+      <item value="It maintains at most one physical connection (aka transport) for sending new RPCs, while also keeps track of previous transports that has been shut down but not terminated yet." />
       <item value="Set a new state with a new picker to the channel." />
       <item value="Out-of-band" />
       <item value="whenever" />
@@ -24,7 +30,6 @@
       <item value="Buffer: in all other cases, the RPC will be buffered in the Channel, until the next picker is provided via Helper.updateBalancingState(), when the RPC will go through the same picking process again." />
       <item value="Proceed: if a Subchannel is provided via withSubchannel(), and is in READY state when the RPC tries to start on it, the RPC will proceed on that Subchannel." />
       <item value="If the new state is not SHUTDOWN, this method should create a new picker and call Helper.updateBalancingState(). Failing to do so may result in unnecessary delays of RPCs. Please refer to PickResult.withSubchannel()'s javadoc for more information." />
-      <item value="You won't get a notification for the initial IDLE state" />
       <item value="No synchronization should be necessary between LoadBalancer and its pickers if you follow the pattern above. It may be possible to implement in a different way, but that would usually result in more complicated threading." />
       <item value="A typical SubchannelPicker holds a snapshot of these states. It may have its own states, e.g., a picker from a round-robin load-balancer may keep a pointer to the next Subchannel, which are typically mutated by multiple threads. The picker should only mutate its own state, and should not mutate or re-acquire the states of the LoadBalancer. This way the picker only needs to synchronize its own states, which is typically trivial to implement." />
       <item value="&#10;A LoadBalancer keeps states like the latest addresses from NameResolver, the Subchannel(s) and their latest connectivity states. These states are mutated within the Synchronization Context," />
@@ -47,16 +52,11 @@
       <item value="Range split operation" />
       <item value="Property that defines whether type identifier value will be passed as part of JSON stream to deserializer (true), or handled and removed by TypeDeserializer (false). Property has no effect on serialization.&#10;Default value is false, meaning that Jackson handles and removes the type identifier from JSON content that is passed to JsonDeserializer." />
       <item value="Definition of standard type inclusion mechanisms for type metadata. Used for standard metadata types, except for JsonTypeInfo.Id.NONE. May or may not be used for custom types (JsonTypeInfo.Id.CUSTOM)." />
-      <item value="Means that typing mechanism uses customized handling, with possibly custom configuration. This means that semantics of other properties is not defined by Jackson package, but by the custom implementation." />
-      <item value="Means that no serialized typing-property is used. Types are deduced based on the fields available. Deduction is limited to the names of fields (not their values or, consequently, any nested descendants). Exceptions will be thrown if not enough unique information is present to select a single subtype. If deduction is being used annotation properties visible, property and include are ignored." />
-      <item value="Means that logical type name is used as type information; name will then need to be separately resolved to actual concrete type (Class)." />
-      <item value="Reads a file's attributes as a bulk operation.&#10;" />
-      <item value=" if a directory could not otherwise be created because a file of that name already exists (optional specific exception)" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="447" />
-        <entry key="ENGLISH" value="448" />
+        <entry key="CHINESE" value="453" />
+        <entry key="ENGLISH" value="454" />
         <entry key="NORWEGIAN" value="1" />
       </map>
     </option>
