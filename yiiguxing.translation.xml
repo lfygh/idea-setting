@@ -2,6 +2,7 @@
   <component name="AppStorage">
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="conceptual" />
       <item value="validate() emit a load-fence, but no store-fence." />
       <item value="Region" />
       <item value="Canonical" />
@@ -51,12 +52,11 @@
       <item value="A NameResolver does not need to automatically re-resolve on failure. Instead, the NameResolver.Listener is responsible for eventually (after an appropriate backoff period) invoking refresh()." />
       <item value="A NameResolver uses the URI's scheme to determine whether it can resolve it, and uses the components after the scheme for actual resolution." />
       <item value="The channel state does not get updated when doing name resolving today, so for the moment&#10;       let LB report CONNECTION and call subchannel.requestConnection() immediately." />
-      <item value="Conceptually, it is fairly accurate to think of SynchronizationContext like a cheaper Executors.newSingleThreadExecutor() when used for synchronization (not long-running tasks). Both use a queue for tasks that are run in order and neither guarantee that tasks have completed before returning from execute(). However, the behavior does diverge if locks are held when calling the context. So it is encouraged to avoid mixing locks and synchronization context except via executeLater.&#10;" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="411" />
-        <entry key="ENGLISH" value="412" />
+        <entry key="CHINESE" value="412" />
+        <entry key="ENGLISH" value="413" />
         <entry key="NORWEGIAN" value="1" />
       </map>
     </option>
