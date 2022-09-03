@@ -2,6 +2,8 @@
   <component name="AppStorage">
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="       The channel state does not get updated when doing name resolving today, so for the moment&#10;       let LB report CONNECTION and call subchannel.requestConnection() immediately." />
+      <item value="         It's safe to use RequestConnectionPicker here, so when coming from IDLE we could leave&#10;         the current picker in-place. But ignoring the potential optimization is simpler." />
       <item value="Failing" />
       <item value="Failing to do so may result in unnecessary delays of RPCs." />
       <item value="You won't get a notification for the initial IDLE state" />
@@ -50,13 +52,11 @@
       <item value="Case insensitive keyvalue for replica constraints." />
       <item value="Placement driver client" />
       <item value="Range split operation" />
-      <item value="Property that defines whether type identifier value will be passed as part of JSON stream to deserializer (true), or handled and removed by TypeDeserializer (false). Property has no effect on serialization.&#10;Default value is false, meaning that Jackson handles and removes the type identifier from JSON content that is passed to JsonDeserializer." />
-      <item value="Definition of standard type inclusion mechanisms for type metadata. Used for standard metadata types, except for JsonTypeInfo.Id.NONE. May or may not be used for custom types (JsonTypeInfo.Id.CUSTOM)." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="453" />
-        <entry key="ENGLISH" value="454" />
+        <entry key="CHINESE" value="455" />
+        <entry key="ENGLISH" value="456" />
         <entry key="NORWEGIAN" value="1" />
       </map>
     </option>
