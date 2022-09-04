@@ -2,6 +2,9 @@
   <component name="AppStorage">
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="strip" />
+      <item value="strip Attrs" />
+      <item value="mutated" />
       <item value="         Since there were pendingCalls, we need to process them. To maintain ordering we can't set&#10;         passThrough=true until we run all pendingCalls, but new Runnables may be added after we&#10;         drop the lock. So we will have to re-check pendingCalls." />
       <item value="If realStream != null, then either setStream() or cancel() has been called." />
       <item value=" No need to synchronize; start() synchronization provides a happens-before" />
@@ -38,7 +41,6 @@
       <item value="No synchronization should be necessary between LoadBalancer and its pickers if you follow the pattern above. It may be possible to implement in a different way, but that would usually result in more complicated threading." />
       <item value="A typical SubchannelPicker holds a snapshot of these states. It may have its own states, e.g., a picker from a round-robin load-balancer may keep a pointer to the next Subchannel, which are typically mutated by multiple threads. The picker should only mutate its own state, and should not mutate or re-acquire the states of the LoadBalancer. This way the picker only needs to synchronize its own states, which is typically trivial to implement." />
       <item value="&#10;A LoadBalancer keeps states like the latest addresses from NameResolver, the Subchannel(s) and their latest connectivity states. These states are mutated within the Synchronization Context," />
-      <item value="mutated" />
       <item value="The canonical implementation pattern" />
       <item value="Examples or work that must be avoided: CPU-intensive calculation, waiting on synchronization primitives, blocking IO, blocking RPCs, etc." />
       <item value="Helper is implemented by gRPC library and provided to Factory. It provides functionalities that a LoadBalancer implementation would typically need." />
@@ -50,13 +52,11 @@
       <item value="validate() emit a load-fence, but no store-fence." />
       <item value="Region" />
       <item value="Canonical" />
-      <item value="get Local Canonical Host Name" />
-      <item value="Region is the most basic kv data unit.  Each region has a left-closed&#10;  right-open interval range. " />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="458" />
-        <entry key="ENGLISH" value="459" />
+        <entry key="CHINESE" value="461" />
+        <entry key="ENGLISH" value="462" />
         <entry key="NORWEGIAN" value="1" />
       </map>
     </option>
