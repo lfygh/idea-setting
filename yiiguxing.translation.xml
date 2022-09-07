@@ -2,6 +2,7 @@
   <component name="AppStorage">
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="PlacementDriverServer is a role responsible for overall global control." />
       <item value="A capability-based lock with three modes for controlling readwrite access" />
       <item value="strip" />
       <item value="strip Attrs" />
@@ -51,18 +52,17 @@
       <item value="The addresses and attributes of a target may be changed over time, thus the caller registers a NameResolver.Listener to receive continuous updates." />
       <item value="conceptual" />
       <item value="validate() emit a load-fence, but no store-fence." />
-      <item value="Region" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="462" />
-        <entry key="ENGLISH" value="463" />
+        <entry key="CHINESE" value="463" />
+        <entry key="ENGLISH" value="464" />
         <entry key="NORWEGIAN" value="1" />
       </map>
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1662038916988" />
+    <option name="lastTrimTime" value="1662531421212" />
   </component>
   <component name="Settings">
     <option name="keepFormat" value="true" />
