@@ -2,6 +2,7 @@
   <component name="AppStorage">
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="return the greatest key less than or equal to the given key" />
       <item value="PlacementDriverServer is a role responsible for overall global control." />
       <item value="A capability-based lock with three modes for controlling readwrite access" />
       <item value="strip" />
@@ -51,12 +52,11 @@
       <item value="Call LB only if it's not shutdown.  If LB is shutdown, lbHelper won't match." />
       <item value="The addresses and attributes of a target may be changed over time, thus the caller registers a NameResolver.Listener to receive continuous updates." />
       <item value="conceptual" />
-      <item value="validate() emit a load-fence, but no store-fence." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="463" />
-        <entry key="ENGLISH" value="464" />
+        <entry key="CHINESE" value="464" />
+        <entry key="ENGLISH" value="465" />
         <entry key="NORWEGIAN" value="1" />
       </map>
     </option>
