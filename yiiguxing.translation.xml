@@ -2,6 +2,7 @@
   <component name="AppStorage">
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="                 The peer contains logs from old term which should be truncated,&#10;                 decrease _last_log_at_peer by one to test the right index to keep" />
       <item value="   The accuracy is 100, don't ask more" />
       <item value="damn" />
       <item value="This is a sad code, the performance is too damn bad" />
@@ -51,12 +52,11 @@
       <item value="The canonical implementation pattern" />
       <item value="Examples or work that must be avoided: CPU-intensive calculation, waiting on synchronization primitives, blocking IO, blocking RPCs, etc." />
       <item value="Helper is implemented by gRPC library and provided to Factory. It provides functionalities that a LoadBalancer implementation would typically need." />
-      <item value="LoadBalancer is the main interface. All methods on it are invoked sequentially in the same synchronization context (see next section) as returned by io.grpc.LoadBalancer.Helper.getSynchronizationContext. It receives the results from the NameResolver, updates of subchannels' connectivity states, and the channel's request for the LoadBalancer to shutdown." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="468" />
-        <entry key="ENGLISH" value="469" />
+        <entry key="CHINESE" value="469" />
+        <entry key="ENGLISH" value="470" />
         <entry key="NORWEGIAN" value="1" />
       </map>
     </option>
