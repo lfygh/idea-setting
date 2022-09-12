@@ -2,6 +2,7 @@
   <component name="AppStorage">
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="             transfer only max. 100000 timeouts per tick to prevent a thread to stale the workerThread when it just&#10;             adds new timeouts in a loop." />
       <item value="VIRGIN" />
       <item value="obsolete" />
       <item value="Implementation note: This class scales to large numbers of concurrently scheduled tasks (thousands should present no problem). Internally, it uses a binary heap to represent its task queue, so the cost to schedule a task is O(log n), where n is the number of concurrently scheduled tasks." />
@@ -51,19 +52,18 @@
       <item value="Note that Subchannel's state may change at the same time the picker is making the decision, which means the decision may be made with (to-be) outdated information. " />
       <item value="When the RPC tries to use the return Subchannel, which is briefly after this method returns, the state of the Subchannel will decide where the RPC would go:" />
       <item value="The Subchannel should either be an original Subchannel returned by Helper.createSubchannel(), or a wrapper of it preferably based on ForwardingSubchannel. At the very least its getInternalSubchannel() must return the same object as the one returned by the original. Otherwise the Channel cannot use it for the RPC.&#10;" />
-      <item value="proceed" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="479" />
-        <entry key="ENGLISH" value="480" />
+        <entry key="CHINESE" value="480" />
+        <entry key="ENGLISH" value="481" />
         <entry key="DANISH" value="1" />
         <entry key="NORWEGIAN" value="1" />
       </map>
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1662531421212" />
+    <option name="lastTrimTime" value="1662969784323" />
   </component>
   <component name="Settings">
     <option name="keepFormat" value="true" />
