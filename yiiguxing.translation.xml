@@ -2,6 +2,8 @@
   <component name="AppStorage">
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="&#10;The first byte read is stored into element b[0], the next one into b[1], and so on. The number of bytes read is, at most, equal to the length of b. Let k be the number of bytes actually read; these bytes will be stored in elements b[0] through b[k-1], leaving elements b[k] through b[b.length-1] unaffected." />
+      <item value="Reads some number of bytes from the input stream and stores them into the buffer array b. The number of bytes actually read is returned as an integer. This method blocks until input data is available, end of file is detected, or an exception is thrown.&#10;" />
       <item value="branch free" />
       <item value="         Add the timeout to the timeout queue which will be processed on the next tick.&#10;         During processing all the queued HashedWheelTimeouts will be added to the correct HashedWheelBucket." />
       <item value="Returns the current value of the running Java Virtual Machine's high-resolution time source" />
@@ -50,13 +52,11 @@
       <item value="the rules of thumb are" />
       <item value="thumb" />
       <item value="&#10;This can also happen if you don't create a new picker at key state changes of Subchannels. Take the above round-robin example again. Suppose you do pick only READY and IDLE Subchannels, and initially both Subchannels are READY. Now one becomes IDLE, then CONNECTING and stays CONNECTING for a long time. If you don't create a new picker in response to the CONNECTING state to exclude that Subchannel, 50% of RPCs will hit it and be buffered even though the other Subchannel is READY." />
-      <item value="This can happen if you return Subchannels with states other than READY and IDLE. For example, suppose you round-robin on 2 Subchannels, in READY and CONNECTING states respectively. If the picker ignores the state and pick them equally, 50% of RPCs will be stuck in buffered state until both Subchannels are READY." />
-      <item value="You will want to avoid running into a situation where there are READY Subchannels out there but some RPCs are still buffered for longer than a brief time." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="484" />
-        <entry key="ENGLISH" value="485" />
+        <entry key="CHINESE" value="486" />
+        <entry key="ENGLISH" value="487" />
         <entry key="DANISH" value="1" />
         <entry key="NORWEGIAN" value="1" />
       </map>
