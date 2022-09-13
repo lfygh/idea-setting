@@ -2,6 +2,7 @@
   <component name="AppStorage">
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="branch free" />
       <item value="         Add the timeout to the timeout queue which will be processed on the next tick.&#10;         During processing all the queued HashedWheelTimeouts will be added to the correct HashedWheelBucket." />
       <item value="Returns the current value of the running Java Virtual Machine's high-resolution time source" />
       <item value="We use 0 as an indicator for the uninitialized value here, so make sure it's not 0 when initialized." />
@@ -51,12 +52,11 @@
       <item value="&#10;This can also happen if you don't create a new picker at key state changes of Subchannels. Take the above round-robin example again. Suppose you do pick only READY and IDLE Subchannels, and initially both Subchannels are READY. Now one becomes IDLE, then CONNECTING and stays CONNECTING for a long time. If you don't create a new picker in response to the CONNECTING state to exclude that Subchannel, 50% of RPCs will hit it and be buffered even though the other Subchannel is READY." />
       <item value="This can happen if you return Subchannels with states other than READY and IDLE. For example, suppose you round-robin on 2 Subchannels, in READY and CONNECTING states respectively. If the picker ignores the state and pick them equally, 50% of RPCs will be stuck in buffered state until both Subchannels are READY." />
       <item value="You will want to avoid running into a situation where there are READY Subchannels out there but some RPCs are still buffered for longer than a brief time." />
-      <item value="&#10;Note that Subchannel's state may change at the same time the picker is making the decision, which means the decision may be made with (to-be) outdated information. For example, a picker may return a Subchannel known to be READY, but it has become IDLE when is about to be used by the RPC, which makes the RPC to be buffered. The LoadBalancer will soon learn about the Subchannels' transition from READY to IDLE, create a new picker and allow the RPC to use another READY transport if there is any." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="483" />
-        <entry key="ENGLISH" value="484" />
+        <entry key="CHINESE" value="484" />
+        <entry key="ENGLISH" value="485" />
         <entry key="DANISH" value="1" />
         <entry key="NORWEGIAN" value="1" />
       </map>
