@@ -2,6 +2,7 @@
   <component name="AppStorage">
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="propagate" />
       <item value="COMPLIANCE" />
       <item value="GOVERNANCE" />
       <item value="Retention" />
@@ -51,12 +52,11 @@
       <item value="whenever" />
       <item value="Always create a new picker and call Helper.updateBalancingState() whenever handleSubchannelState() is called, unless the new state is SHUTDOWN. See handleSubchannelState's javadoc for more details." />
       <item value="The picker should only pick Subchannels that are known as READY or IDLE. Whether to pick IDLE Subchannels depends on whether you want Subchannels to connect on-demand or actively" />
-      <item value="respectively" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="490" />
-        <entry key="ENGLISH" value="491" />
+        <entry key="CHINESE" value="491" />
+        <entry key="ENGLISH" value="492" />
         <entry key="DANISH" value="1" />
         <entry key="NORWEGIAN" value="1" />
       </map>
