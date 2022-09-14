@@ -2,6 +2,9 @@
   <component name="AppStorage">
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="COMPLIANCE" />
+      <item value="GOVERNANCE" />
+      <item value="Retention" />
       <item value="bypass Governance Mode" />
       <item value="&#10;The first byte read is stored into element b[0], the next one into b[1], and so on. The number of bytes read is, at most, equal to the length of b. Let k be the number of bytes actually read; these bytes will be stored in elements b[0] through b[k-1], leaving elements b[k] through b[b.length-1] unaffected." />
       <item value="Reads some number of bytes from the input stream and stores them into the buffer array b. The number of bytes actually read is returned as an integer. This method blocks until input data is available, end of file is detected, or an exception is thrown.&#10;" />
@@ -49,14 +52,11 @@
       <item value="Always create a new picker and call Helper.updateBalancingState() whenever handleSubchannelState() is called, unless the new state is SHUTDOWN. See handleSubchannelState's javadoc for more details." />
       <item value="The picker should only pick Subchannels that are known as READY or IDLE. Whether to pick IDLE Subchannels depends on whether you want Subchannels to connect on-demand or actively" />
       <item value="respectively" />
-      <item value="the rules of thumb" />
-      <item value="the rules of thumb are" />
-      <item value="thumb" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="487" />
-        <entry key="ENGLISH" value="488" />
+        <entry key="CHINESE" value="490" />
+        <entry key="ENGLISH" value="491" />
         <entry key="DANISH" value="1" />
         <entry key="NORWEGIAN" value="1" />
       </map>
