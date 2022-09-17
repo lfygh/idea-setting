@@ -2,6 +2,13 @@
   <component name="AppStorage">
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="he behavior of this method when the requested region is not completely contained within this channel's file is unspecified. Whether changes made to the content or size of the underlying file, by this program or another, are propagated to the buffer is unspecified. The rate at which changes to the buffer are propagated to the file is unspecified." />
+      <item value="Many of the details of memory-mapped files are inherently dependent upon the underlying operating system and are therefore unspecified. " />
+      <item value="A mapping, once established, is not dependent upon the file channel that was used to create it. Closing the channel, in particular, has no effect upon the validity of the mapping." />
+      <item value="The mapped byte buffer returned by this method will have a position of zero and a limit and capacity of size; its mark will be undefined. The buffer and the mapping that it represents will remain valid until the buffer itself is garbage-collected." />
+      <item value=" The buffer and the mapping that it represents will remain valid until the buffer itself is garbage-collected." />
+      <item value="Changes made to the resulting buffer will not be propagated to the file and will not be visible to other programs that have mapped the same file; instead, they will cause private copies of the modified portions of the buffer to be created. (MapMode.PRIVATE)" />
+      <item value="Maps a region of this channel's file directly into memory." />
       <item value="propagate" />
       <item value="COMPLIANCE" />
       <item value="GOVERNANCE" />
@@ -45,18 +52,11 @@
       <item value="Failing to do so may result in unnecessary delays of RPCs." />
       <item value="You won't get a notification for the initial IDLE state" />
       <item value="overlap" />
-      <item value="If there isn't an active transport yet, and an RPC is assigned to the Subchannel, it will create a new transport. It won't actively create transports otherwise. requestConnection() can be used to ask Subchannel to create a transport if there isn't any." />
-      <item value="It maintains at most one physical connection (aka transport) for sending new RPCs, while also keeps track of previous transports that has been shut down but not terminated yet." />
-      <item value="Set a new state with a new picker to the channel." />
-      <item value="Out-of-band" />
-      <item value="whenever" />
-      <item value="Always create a new picker and call Helper.updateBalancingState() whenever handleSubchannelState() is called, unless the new state is SHUTDOWN. See handleSubchannelState's javadoc for more details." />
-      <item value="The picker should only pick Subchannels that are known as READY or IDLE. Whether to pick IDLE Subchannels depends on whether you want Subchannels to connect on-demand or actively" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="491" />
-        <entry key="ENGLISH" value="492" />
+        <entry key="CHINESE" value="498" />
+        <entry key="ENGLISH" value="499" />
         <entry key="DANISH" value="1" />
         <entry key="NORWEGIAN" value="1" />
       </map>
