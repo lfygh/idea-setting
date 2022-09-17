@@ -2,6 +2,7 @@
   <component name="AppStorage">
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="General-purpose phantom-reference-based cleaners." />
       <item value="A given arbitrary object may also be attached to the buffer." />
       <item value="allocation Granularity" />
       <item value="For most operating systems, mapping a file into memory is more expensive than reading or writing a few tens of kilobytes of data via the usual read and write methods. From the standpoint of performance it is generally only worth mapping relatively large files into memory." />
@@ -51,12 +52,11 @@
       <item value="If realStream != null, then either setStream() or cancel() has been called." />
       <item value=" No need to synchronize; start() synchronization provides a happens-before" />
       <item value="       The channel state does not get updated when doing name resolving today, so for the moment&#10;       let LB report CONNECTION and call subchannel.requestConnection() immediately." />
-      <item value="         It's safe to use RequestConnectionPicker here, so when coming from IDLE we could leave&#10;         the current picker in-place. But ignoring the potential optimization is simpler." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="502" />
-        <entry key="ENGLISH" value="503" />
+        <entry key="CHINESE" value="503" />
+        <entry key="ENGLISH" value="504" />
         <entry key="DANISH" value="1" />
         <entry key="NORWEGIAN" value="1" />
       </map>
