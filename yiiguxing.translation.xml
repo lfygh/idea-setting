@@ -2,6 +2,8 @@
   <component name="AppStorage">
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="robust" />
+      <item value="Cleaners are a lightweight and more robust alternative to finalization." />
       <item value="General-purpose phantom-reference-based cleaners." />
       <item value="A given arbitrary object may also be attached to the buffer." />
       <item value="allocation Granularity" />
@@ -50,13 +52,11 @@
       <item value="mutated" />
       <item value="         Since there were pendingCalls, we need to process them. To maintain ordering we can't set&#10;         passThrough=true until we run all pendingCalls, but new Runnables may be added after we&#10;         drop the lock. So we will have to re-check pendingCalls." />
       <item value="If realStream != null, then either setStream() or cancel() has been called." />
-      <item value=" No need to synchronize; start() synchronization provides a happens-before" />
-      <item value="       The channel state does not get updated when doing name resolving today, so for the moment&#10;       let LB report CONNECTION and call subchannel.requestConnection() immediately." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="503" />
-        <entry key="ENGLISH" value="504" />
+        <entry key="CHINESE" value="506" />
+        <entry key="ENGLISH" value="507" />
         <entry key="DANISH" value="1" />
         <entry key="NORWEGIAN" value="1" />
       </map>
