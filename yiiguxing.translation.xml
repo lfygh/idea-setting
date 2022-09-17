@@ -2,6 +2,8 @@
   <component name="AppStorage">
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="For most operating systems, mapping a file into memory is more expensive than reading or writing a few tens of kilobytes of data via the usual read and write methods. From the standpoint of performance it is generally only worth mapping relatively large files into memory." />
+      <item value=" One of the constants READ_ONLY, READ_WRITE, or PRIVATE defined in the FileChannel.MapMode class, according to whether the file is to be mapped read-only, readwrite, or privately (copy-on-write), respectively, or an implementation specific map mode" />
       <item value="he behavior of this method when the requested region is not completely contained within this channel's file is unspecified. Whether changes made to the content or size of the underlying file, by this program or another, are propagated to the buffer is unspecified. The rate at which changes to the buffer are propagated to the file is unspecified." />
       <item value="Many of the details of memory-mapped files are inherently dependent upon the underlying operating system and are therefore unspecified. " />
       <item value="A mapping, once established, is not dependent upon the file channel that was used to create it. Closing the channel, in particular, has no effect upon the validity of the mapping." />
@@ -50,13 +52,11 @@
       <item value="         It's safe to use RequestConnectionPicker here, so when coming from IDLE we could leave&#10;         the current picker in-place. But ignoring the potential optimization is simpler." />
       <item value="Failing" />
       <item value="Failing to do so may result in unnecessary delays of RPCs." />
-      <item value="You won't get a notification for the initial IDLE state" />
-      <item value="overlap" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="498" />
-        <entry key="ENGLISH" value="499" />
+        <entry key="CHINESE" value="500" />
+        <entry key="ENGLISH" value="501" />
         <entry key="DANISH" value="1" />
         <entry key="NORWEGIAN" value="1" />
       </map>
