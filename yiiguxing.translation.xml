@@ -2,6 +2,7 @@
   <component name="AppStorage">
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="Buffer Underflow Exception" />
       <item value="Conceptually" />
       <item value="the cache evicts entries that are less likely to be used again. For example, the cache may evict an entry because it hasn't been used recently or very often." />
       <item value="     Dummy reference queue, needed because the PhantomReference constructor&#10;     insists that we pass a queue.  Nothing will ever be placed on this queue&#10;     since the reference handler invokes cleaners explicitly." />
@@ -51,12 +52,11 @@
       <item value="   The accuracy is 100, don't ask more" />
       <item value="damn" />
       <item value="This is a sad code, the performance is too damn bad" />
-      <item value="the minimum number of keys required to split, less than this value will refuse to split" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="515" />
-        <entry key="ENGLISH" value="516" />
+        <entry key="CHINESE" value="516" />
+        <entry key="ENGLISH" value="517" />
         <entry key="DANISH" value="1" />
         <entry key="NORWEGIAN" value="1" />
       </map>
