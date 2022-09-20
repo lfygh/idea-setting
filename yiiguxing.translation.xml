@@ -2,6 +2,10 @@
   <component name="AppStorage">
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="Set the maximum amount of direct memory.  This value is controlled&#10;         by the vm option -XX:MaxDirectMemorySize=&lt;size&gt;.&#10;         The maximum amount of allocatable direct buffer memory (in bytes)&#10;         from the system property sun.nio.MaxDirectMemorySize set by the VM.&#10;         The system property will be removed." />
+      <item value="&#10;     Save a private copy of the system properties and remove&#10;     the system properties that are not intended for public access.&#10;    &#10;     This method can only be invoked during system initialization." />
+      <item value="save And Remove Properties" />
+      <item value="     A user-settable upper limit on the maximum amount of allocatable direct&#10;     buffer memory.  This value may be changed during VM initialization if&#10;     &quot;java&quot; is launched with &quot;-XX:MaxDirectMemorySize=&lt;size&gt;&quot;.&#10;    &#10;     The initial value of this field is arbitrary; during JRE initialization&#10;     it will be reset to the value specified on the command line, if any,&#10;     otherwise to Runtime.getRuntime().maxMemory()." />
       <item value="Buffer Underflow Exception" />
       <item value="Conceptually" />
       <item value="the cache evicts entries that are less likely to be used again. For example, the cache may evict an entry because it hasn't been used recently or very often." />
@@ -48,15 +52,11 @@
       <item value="Alt Result" />
       <item value="To better conform with the use of common functional forms" />
       <item value="the use of common functional forms," />
-      <item value="                 The peer contains logs from old term which should be truncated,&#10;                 decrease _last_log_at_peer by one to test the right index to keep" />
-      <item value="   The accuracy is 100, don't ask more" />
-      <item value="damn" />
-      <item value="This is a sad code, the performance is too damn bad" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="516" />
-        <entry key="ENGLISH" value="517" />
+        <entry key="CHINESE" value="520" />
+        <entry key="ENGLISH" value="521" />
         <entry key="DANISH" value="1" />
         <entry key="NORWEGIAN" value="1" />
       </map>
