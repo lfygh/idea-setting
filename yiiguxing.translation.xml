@@ -2,6 +2,7 @@
   <component name="AppStorage">
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="Boundary Event" />
       <item value="    There are two main functions of a Cell: message queueing and child lookup.&#10;    When switching out the UnstartedCell for its real replacement, the former&#10;    must be switched after all messages have been drained from the temporary&#10;    queue into the real mailbox, while the latter must be switched before&#10;    processing the very first message (i.e. before Cell.start()). Hence there&#10;    are two refs here, one for each function, and they are switched just so." />
       <item value="consecutive Error Times" />
       <item value="                 It's very messy to deal with the case when the |peer| received&#10;                 TimeoutNowRequest and increase the term while somehow another leader&#10;                 which was not replicated with the newest configuration has been&#10;                 elected. If no add_peer with this very |peer| is to be invoked ever&#10;                 after nor this peer is to be killed, this peer will spin in the voting&#10;                 procedure and make the each new leader stepped down when the peer&#10;                 reached vote timeout and it starts to vote (because it will increase&#10;                 the term of the group)&#10;                 To make things simple, refuse the operation and force users to&#10;                 invoke transfer_leadership_to after configuration changing is&#10;                 completed so that the peer's configuration is up-to-date when it&#10;                 receives the TimeOutNowRequest." />
@@ -51,7 +52,6 @@
       <item value="However, this can take arbitrarily long to occur. By default, the task execution thread does not run as a daemon thread, so it is capable of keeping an application from terminating. If a caller wants to terminate a timer's task execution thread rapidly, the caller should invoke the timer's cancel method." />
       <item value="&#10;After the last live reference to a Timer object goes away and all outstanding tasks have completed execution, the timer's task execution thread terminates gracefully (and becomes subject to garbage collection). " />
       <item value="it &quot;hogs&quot; the timer's task execution thread. This can, in turn, delay the execution of subsequent tasks, which may &quot;bunch up&quot; and execute in rapid succession when (and if) the offending task finally completes." />
-      <item value="Corresponding to each Timer object is a single background thread that is used to execute all of the timer's tasks," />
     </histories>
     <option name="languageScores">
       <map>
