@@ -2,6 +2,7 @@
   <component name="AppStorage">
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="replete" />
       <item value="Boundary Event" />
       <item value="    There are two main functions of a Cell: message queueing and child lookup.&#10;    When switching out the UnstartedCell for its real replacement, the former&#10;    must be switched after all messages have been drained from the temporary&#10;    queue into the real mailbox, while the latter must be switched before&#10;    processing the very first message (i.e. before Cell.start()). Hence there&#10;    are two refs here, one for each function, and they are switched just so." />
       <item value="consecutive Error Times" />
@@ -51,7 +52,6 @@
       <item value="&#10;Java 5.0 introduced the java.util.concurrent package and one of the concurrency utilities therein is the ScheduledThreadPoolExecutor which is a thread pool for repeatedly executing tasks at a given rate or delay. It is effectively a more versatile replacement for the TimerTimerTask combination, as it allows multiple service threads, accepts various time units, and doesn't require subclassing TimerTask (just implement Runnable). Configuring ScheduledThreadPoolExecutor with one thread makes it equivalent to Timer." />
       <item value="However, this can take arbitrarily long to occur. By default, the task execution thread does not run as a daemon thread, so it is capable of keeping an application from terminating. If a caller wants to terminate a timer's task execution thread rapidly, the caller should invoke the timer's cancel method." />
       <item value="&#10;After the last live reference to a Timer object goes away and all outstanding tasks have completed execution, the timer's task execution thread terminates gracefully (and becomes subject to garbage collection). " />
-      <item value="it &quot;hogs&quot; the timer's task execution thread. This can, in turn, delay the execution of subsequent tasks, which may &quot;bunch up&quot; and execute in rapid succession when (and if) the offending task finally completes." />
     </histories>
     <option name="languageScores">
       <map>
