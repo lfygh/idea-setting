@@ -2,13 +2,13 @@
   <component name="AppStorage">
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="consecutive Error Times" />
       <item value="Durations" />
       <item value="true if and only if the file or directory denoted by this abstract pathname exists;" />
       <item value="If 'read index' read fails, try to applying to the state machine at the leader node" />
       <item value="replete" />
       <item value="Boundary Event" />
       <item value="    There are two main functions of a Cell: message queueing and child lookup.&#10;    When switching out the UnstartedCell for its real replacement, the former&#10;    must be switched after all messages have been drained from the temporary&#10;    queue into the real mailbox, while the latter must be switched before&#10;    processing the very first message (i.e. before Cell.start()). Hence there&#10;    are two refs here, one for each function, and they are switched just so." />
-      <item value="consecutive Error Times" />
       <item value="                 It's very messy to deal with the case when the |peer| received&#10;                 TimeoutNowRequest and increase the term while somehow another leader&#10;                 which was not replicated with the newest configuration has been&#10;                 elected. If no add_peer with this very |peer| is to be invoked ever&#10;                 after nor this peer is to be killed, this peer will spin in the voting&#10;                 procedure and make the each new leader stepped down when the peer&#10;                 reached vote timeout and it starts to vote (because it will increase&#10;                 the term of the group)&#10;                 To make things simple, refuse the operation and force users to&#10;                 invoke transfer_leadership_to after configuration changing is&#10;                 completed so that the peer's configuration is up-to-date when it&#10;                 receives the TimeOutNowRequest." />
       <item value="Set the maximum amount of direct memory.  This value is controlled&#10;         by the vm option -XX:MaxDirectMemorySize=&lt;size&gt;.&#10;         The maximum amount of allocatable direct buffer memory (in bytes)&#10;         from the system property sun.nio.MaxDirectMemorySize set by the VM.&#10;         The system property will be removed." />
       <item value="&#10;     Save a private copy of the system properties and remove&#10;     the system properties that are not intended for public access.&#10;    &#10;     This method can only be invoked during system initialization." />
