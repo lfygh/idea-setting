@@ -2,6 +2,7 @@
   <component name="AppStorage">
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="on Spin Wait" />
       <item value="consecutive Error Times" />
       <item value="Durations" />
       <item value="true if and only if the file or directory denoted by this abstract pathname exists;" />
@@ -51,7 +52,6 @@
       <item value="             transfer only max. 100000 timeouts per tick to prevent a thread to stale the workerThread when it just&#10;             adds new timeouts in a loop." />
       <item value="VIRGIN" />
       <item value="obsolete" />
-      <item value="Implementation note: This class scales to large numbers of concurrently scheduled tasks (thousands should present no problem). Internally, it uses a binary heap to represent its task queue, so the cost to schedule a task is O(log n), where n is the number of concurrently scheduled tasks." />
     </histories>
     <option name="languageScores">
       <map>
