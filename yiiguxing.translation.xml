@@ -2,6 +2,8 @@
   <component name="AppStorage">
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="SERIAL" />
+      <item value="Cypher" />
       <item value="on Spin Wait" />
       <item value="consecutive Error Times" />
       <item value="Durations" />
@@ -50,8 +52,6 @@
       <item value="Returns the current value of the running Java Virtual Machine's high-resolution time source" />
       <item value="We use 0 as an indicator for the uninitialized value here, so make sure it's not 0 when initialized." />
       <item value="             transfer only max. 100000 timeouts per tick to prevent a thread to stale the workerThread when it just&#10;             adds new timeouts in a loop." />
-      <item value="VIRGIN" />
-      <item value="obsolete" />
     </histories>
     <option name="languageScores">
       <map>
