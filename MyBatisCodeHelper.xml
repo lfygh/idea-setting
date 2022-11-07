@@ -2,7 +2,8 @@
   <component name="MyBatisCodeHelper">
     <option name="profile">
       <Profile>
-        <option name="useD1" value="1667468502616" />
+        <option name="expireNotifyDate" value="1667804034061" />
+        <option name="useD1" value="1667804034061" />
         <option name="valid" value="true" />
       </Profile>
     </option>
