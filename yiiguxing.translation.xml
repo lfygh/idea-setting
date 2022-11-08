@@ -2,6 +2,8 @@
   <component name="AppStorage">
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="Treiber stack of waiting threads" />
+      <item value="A Future that is Runnable. Successful execution of the run method causes completion of the Future and allows access to its results." />
       <item value="SERIAL" />
       <item value="Cypher" />
       <item value="on Spin Wait" />
@@ -50,8 +52,6 @@
       <item value="branch free" />
       <item value="         Add the timeout to the timeout queue which will be processed on the next tick.&#10;         During processing all the queued HashedWheelTimeouts will be added to the correct HashedWheelBucket." />
       <item value="Returns the current value of the running Java Virtual Machine's high-resolution time source" />
-      <item value="We use 0 as an indicator for the uninitialized value here, so make sure it's not 0 when initialized." />
-      <item value="             transfer only max. 100000 timeouts per tick to prevent a thread to stale the workerThread when it just&#10;             adds new timeouts in a loop." />
     </histories>
     <option name="languageScores">
       <map>
