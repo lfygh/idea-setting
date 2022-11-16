@@ -2,6 +2,8 @@
   <component name="AppStorage">
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="Finds the resource with the given name. A resource is some data (images, audio, text, etc) that can be accessed by class code in a way that is independent of the location of the code.&#10;" />
+      <item value="Finds the resource with the given name. A resource is some data (images, audio, text, etc) that can be accessed by class code in a way that is independent of the location of the code." />
       <item value="Captures the state of the database in the latest backup" />
       <item value=" execute periodically." />
       <item value="Treiber stack of waiting threads" />
@@ -50,8 +52,6 @@
       <item value="Retention" />
       <item value="bypass Governance Mode" />
       <item value="&#10;The first byte read is stored into element b[0], the next one into b[1], and so on. The number of bytes read is, at most, equal to the length of b. Let k be the number of bytes actually read; these bytes will be stored in elements b[0] through b[k-1], leaving elements b[k] through b[b.length-1] unaffected." />
-      <item value="Reads some number of bytes from the input stream and stores them into the buffer array b. The number of bytes actually read is returned as an integer. This method blocks until input data is available, end of file is detected, or an exception is thrown.&#10;" />
-      <item value="branch free" />
     </histories>
     <option name="languageScores">
       <map>
@@ -67,5 +67,8 @@
   </component>
   <component name="Settings">
     <option name="keepFormat" value="true" />
+    <option name="phoneticFontFamily" value=".SFNS-Regular" />
+    <option name="primaryFontFamily" value=".SFNS-Regular" />
+    <option name="targetLanguageSelection" value="PRIMARY_LANGUAGE" />
   </component>
 </application>
