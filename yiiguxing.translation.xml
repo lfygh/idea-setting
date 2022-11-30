@@ -71,4 +71,12 @@
     <option name="primaryFontFamily" value=".SFNS-Regular" />
     <option name="targetLanguageSelection" value="PRIMARY_LANGUAGE" />
   </component>
+  <component name="Translation.Cache">
+    <option name="lastTrimTime" value="1669772376289" />
+  </component>
+  <component name="Translation.States">
+    <histories>
+      <item value="Connect this Flow to a Sink, concatenating the processing steps of both." />
+    </histories>
+  </component>
 </application>
