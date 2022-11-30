@@ -76,6 +76,7 @@
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="Concatenates this Flow with the given Source so the first element emitted by that source is emitted after the last element of this flow." />
       <item value="Connect this Flow to a Sink, concatenating the processing steps of both." />
     </histories>
   </component>
