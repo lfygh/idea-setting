@@ -72,13 +72,20 @@
     <option name="targetLanguageSelection" value="PRIMARY_LANGUAGE" />
   </component>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1669772376289" />
+    <option name="lastTrimTime" value="1670393526435" />
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="Ledger" />
       <item value="Put an asynchronous boundary around this Flow. If this is a SubFlow (created e.g. by groupBy), this creates an asynchronous boundary around each materialized sub-flow, not the super-flow. That way, the super-flow will communicate with sub-flows asynchronously." />
       <item value="Concatenates this Flow with the given Source so the first element emitted by that source is emitted after the last element of this flow." />
       <item value="Connect this Flow to a Sink, concatenating the processing steps of both." />
     </histories>
+    <option name="languageScores">
+      <map>
+        <entry key="CHINESE" value="1" />
+        <entry key="ENGLISH" value="1" />
+      </map>
+    </option>
   </component>
 </application>
