@@ -17,6 +17,7 @@
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
       <removed_mapping ext="pro" approved="true" type="Shrinker Config File" />
       <removed_mapping ext="psd" approved="true" type="Image" />
+      <removed_mapping ext="rs" approved="true" type="Android RenderScript" />
       <removed_mapping ext="txt" approved="true" type="PLAIN_TEXT" />
       <mapping ext="plantuml" type="PlantUML file" />
     </extensionMap>
