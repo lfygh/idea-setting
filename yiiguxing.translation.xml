@@ -76,6 +76,8 @@
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="Dehydrates a rich java object into a Parquet row." />
+      <item value="Dehydrator" />
       <item value="if either the libname argument contains a file path, the native library is not statically linked with the VM, or the library cannot be mapped to a native library image by the host system." />
       <item value="If a native library called libname is statically linked with the VM, then the JNI_OnLoad_libname function exported by the library is invoked. See the JNI Specification for more details. Otherwise, the libname argument is loaded from a system library location and mapped to a native library image in an implementation- dependent manner." />
       <item value="Hyper List" />
@@ -86,8 +88,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="3" />
-        <entry key="ENGLISH" value="4" />
+        <entry key="CHINESE" value="5" />
+        <entry key="ENGLISH" value="6" />
       </map>
     </option>
   </component>
