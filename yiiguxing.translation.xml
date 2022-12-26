@@ -72,10 +72,12 @@
     <option name="targetLanguageSelection" value="PRIMARY_LANGUAGE" />
   </component>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1671432838056" />
+    <option name="lastTrimTime" value="1672020480587" />
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="Since both FnMut and FnOnce are supertraits of Fn, any instance of Fn can be used as a parameter where a FnMut or FnOnce is expected." />
+      <item value="This trait (Fn) is not to be confused with function pointers (fn)." />
       <item value="Hydrates" />
       <item value="Dehydrates a rich java object into a Parquet row." />
       <item value="Dehydrator" />
@@ -89,8 +91,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="6" />
-        <entry key="ENGLISH" value="7" />
+        <entry key="CHINESE" value="8" />
+        <entry key="ENGLISH" value="9" />
       </map>
     </option>
   </component>
